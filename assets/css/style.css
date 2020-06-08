@@ -1,0 +1,401 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+}
+/* Default Style */
+html {
+    scroll-padding-top: 97px;
+    scroll-behavior: smooth;
+}
+body {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(38deg, rgba(0,65,128,0.7) 47%, rgba(24,54,112,0.7) 100%), url(../images/banner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav > div > ul > li > a, h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #0E3A77!important;
+}
+nav > div > ul > li > a.active {
+    color: #AEBFE3!important;
+}
+.navbar-brand, h3 {
+    font-family: 'Kanit', sans-serif;
+    color: #0E3A77;
+    font-size: 2em;
+    font-weight: 200;
+}
+h6, p, .footer input::placeholder, .footer textarea::placeholder {
+    font-family: 'Manrope', sans-serif;
+    color: #0E3A77;
+}
+h6 {
+    font-weight: 600;
+}
+p {
+    font-weight: 300;
+}
+.navbar {
+    background-color: #FFFFFF!important;
+}
+.navbar-brand {
+    margin: 20px;
+    transition: 0.3s;
+}
+nav > div > ul > li {
+    padding: 0 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+nav > div > ul > li > a {
+    transition: 0.3s;
+}
+.navbar-brand:hover, nav > div > ul > li > a:hover {
+    color: #AEBFE3!important;
+}
+.banner {
+    width: 100%;
+    height: 700px;
+}
+.banner > div, .banner-profile-content {
+    height: 100%;
+}
+.banner > div > div {
+    width: 940px;
+    height: 470px;
+    background-color: white;
+}
+.banner > div > div > div > img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+.banner > div > div > div {
+    padding: 0;
+}
+.banner > div > div > div:nth-child(2) .d-flex {
+    padding: 10px 40px;    
+}
+.banner section {
+    margin: 5px 0;
+}
+.banner section p {
+    font-size: 0.9em;
+}
+.banner > div > div > div:nth-child(3) {
+    background-color: #0E3A77;
+}
+.banner > div > div > div:nth-child(3) > ul {
+    margin: 0;
+    padding: 15px 0;
+}
+.banner > div > div > div:nth-child(3) > ul > li > a {
+    color: white;
+    font-size: 1.2em;
+    margin: .5rem 1rem;
+    padding: 0;
+}
+/* Content */
+.content-1 {
+    width: 100%;
+    height: 400px;
+}
+.content-title {
+    padding: 30px 0;
+    background-color: white;
+    border-top: 1px solid #F1F1F1;
+    border-bottom: 1px solid #F1F1F1;
+}
+.content-title > div > div > div > h3 {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 400;
+    letter-spacing: 0.2em
+}
+.content-1 > div, .content-2 > div {
+    height: 100%;
+}
+.content-1 > div > div > div, .content-2 > div > div > div{
+    text-align: center;
+}
+.content-2 .row, .content-3 .row, .footer > div {
+    width: 1000px;
+}
+.content-2 > div > div:nth-child(odd) {
+    padding: 10px 50px 10px 0;
+}
+.content-2 > div > div:nth-child(even) {
+    padding: 10px 10px 10px 50px;
+}
+.content-2 > div > div:nth-child(odd) {
+    text-align: right;
+    border-right: 1px solid #F1F1F1;
+}
+.content-2 > div > div:nth-child(odd) > p {
+    letter-spacing: 0.1em;
+}
+.content-2 > div > div:nth-child(even) > p {
+    line-height: 1.5em;
+}
+.content-2 > div > div:nth-child(even) > h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.content-2 > div, .content-3 {
+    padding: 50px 20px;
+}
+/* Content-1 */
+.content-1 {
+    background-color: #F1F1F1;
+}
+.content-1 > div {
+    padding-top: 110px;
+}
+.content-1 > div > div {
+    width: 600px;
+}
+.content-1 h3 {
+    margin-bottom: 20px;
+}
+.content-1 p {
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+/* Content-2 */
+.content-2 {
+    background-color: white;
+}
+.content-2 h3 {
+    font-size: 1em;
+    font-weight: 400;
+}
+.content-2 p {
+    font-size: 0.9em;
+}
+/* Content-3 */
+.content-3 {
+    background-image: linear-gradient(38deg, rgba(0,65,128,0.7) 47%, rgba(24,54,112,0.7) 100%), url(../images/banner_2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+.content-3 > div > div > p {
+    text-align: center;
+}
+.content-3 > div > div:nth-child(odd) {
+    padding: 0 50px 0 30px;
+}
+.content-3 > div > div:nth-child(even) {
+    padding: 0 30px 0 50px;
+}
+.content-3 p {
+    color: white;
+    margin: 20px 0;
+    padding: 30px 0;
+    background-color: rgba(255,255,255,0.2);
+    font-weight: 600;
+}
+#experience {
+
+}
+/* Footer */
+.footer {
+    padding: 0 20px;
+    background-color: #F1F1F1;
+}
+.footer > div > div:nth-child(odd) {
+    padding: 50px 50px 50px 30px;
+    border-right: 1px solid white;
+}
+.footer > div > div:nth-child(even) {
+    padding: 50px 30px 50px 50px;
+}
+.footer > div > div > form > div {
+    padding: 0 15px;
+}
+.footer > div > div > form > div div {
+    padding: 0;
+}
+.footer > div > div > form > div > div:first-child {
+    padding-right: 15px;
+}
+.footer input, .footer textarea {
+    border: none;
+}
+.footer input::placeholder, .footer textarea::placeholder {
+    font-size: 0.8em;
+    color: #9E9E9E;
+}
+.footer textarea {
+    height: 150px;
+}
+.footer button {
+    padding: 10px 0;
+    background-color: #0E3A77;
+    color: white;
+    transition: 0.3s;
+}
+.footer button:hover {
+    background-color: #8187A9;
+    color: white;
+}
+.footer > div >div ~ div > div > div > section ~ section ~ section {
+    padding: 0 65px 55px 0;
+}
+.footer > div > div ~ div > div {
+    padding: 0 15px 0 0;
+} 
+.footer ul {
+    padding: 25px 0;
+    border-top: 1px solid #B0B0B0;
+}
+.footer ul li a {
+    margin: .5rem 1.5rem .5rem 0;
+    padding: 0;
+    color: black;
+}
+/* Responsive Screen */
+@media only screen and (max-width: 991px) {
+    #navbarNav {
+        justify-content: center!important;
+        text-align: center;
+    }
+    nav > div > ul > li {
+        padding: 5px 0;
+    }
+    .banner > div > div > div:nth-child(2) section {
+        text-align: left;
+    }
+    .banner > div > div > div:nth-child(2) .d-flex {
+        padding: 10px 20px;    
+    }
+    .banner {
+        height: 1000px;
+    }
+    .banner > div {
+        align-items: flex-start!important;
+        margin-top: 150px;
+        width: 540px;
+    }
+    .banner > div > div > div > div {
+        background-color: white;
+    }
+    .content-1 > div {
+        padding-top: 0;
+    }
+    .content-2 > div > div:nth-child(even) {
+        padding: 10px 30px 10px 50px;
+    }
+    .content-3 > div > div:nth-child(odd) {
+        padding: 0 45px;
+    }
+    .content-3 > div > div:nth-child(even) {
+        padding: 0 45px;
+    }
+    .footer > div > div > form > div > div:first-child {
+        padding: 0;
+    }
+    .footer > div > div ~ div > div > div > section ~ section ~ section {
+        padding: 0 65px 110px 0;
+    }            
+}
+@media only screen and (max-width: 767px) {
+    .content-2 > div > div:nth-child(odd) {
+        text-align: left;
+    }
+    .content-2 > div > div {
+        padding: 0 50px;
+    }
+    .content-3 p {
+        margin: 0;
+    }
+    .content-3 > div > div {
+        padding: 0 40px;
+    }
+    .content-2 > div > div:nth-child(n+1) {
+        padding: 0;
+    } 
+    .content-2 > div > div:nth-child(2) {
+        padding-bottom: 20px;
+    }      
+    .content-2 > div > div:nth-child(odd) {
+        border-right: none;
+    }
+    .content-2 > div {
+        padding: 20px 50px;
+    }
+    .content-3 > div > div:nth-child(odd) {
+        padding: 0 45px;
+    }
+    .content-3 > div > div:nth-child(even) {
+        padding: 0 45px;
+    }
+    .footer > div > div:nth-child(odd) {
+        padding: 50px 45px;
+        border: none;
+    }
+    .footer > div > div:nth-child(even) {
+        padding-top: 0;
+    }
+    .footer > div > div ~ div > div {
+        justify-content: center!important;
+        text-align: center;
+        padding: 0;
+    }
+    .footer > div > div ~ div > div > div > section ~ section ~ section {
+        padding: 0 0 25px 0;
+    }
+    .footer ul {
+        justify-content: center!important;
+    }
+    .footer ul li a {
+        margin: .5rem 1rem;
+    }
+    .footer > div > div:nth-child(even) {
+        padding: 0 50px;
+    }                     
+}
+@media only screen and (max-width: 575px) {
+    .banner {
+        height: 940px;
+    }
+    .banner > div {
+        margin-top: 95px;
+    }
+    .content-1 > div {
+        padding: 20px 40px;
+    }
+    .banner > div {
+        width: 100%;
+    }
+    .banner > div > div > div:nth-child(2) .d-flex {
+        padding: 10px 25px;    
+    }   
+}

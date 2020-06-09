@@ -64,6 +64,52 @@ p {
 .navbar {
     background-color: #FFFFFF!important;
 }
+.navbar button {
+    border: none;
+}
+/* Navbar menu button animation*/
+.burger {
+    cursor: pointer;
+    top: 0;
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in-out;
+    transform-origin: 50% 50%;
+}
+.burger span {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 5px 0;
+    background-color: #0E3A77;
+}
+.burger span:first-child, .burger span:nth-child(2), .burger span:last-child {
+    top: 0;
+    transform: rotate(0deg);
+    transition: 0.3s ease-in-out;
+}
+.burger.active {
+    position: relative;
+    transform: rotate(360deg);
+    transform-origin: 50% 50%;
+    transition: all 0.3s ease-in-out;
+}
+.burger.active span:first-child {
+    top: 8.3333333333px;
+    transform: rotate(45deg);
+    transition: 0.3s ease-in-out;
+}
+.burger.active span:nth-child(2) {
+    top: 1.3333333333px;
+    transform: rotate(-45deg);
+    transition: 0.3s ease-in-out;
+}
+.burger.active span:last-child {
+    top: -6.3157894737px;
+    transform: rotate(-45deg);
+    transition: 0.3s ease-in-out;
+}
+/* Nav bar brand*/
 .navbar-brand {
     margin: 20px;
     transition: 0.3s;

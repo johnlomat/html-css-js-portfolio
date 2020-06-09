@@ -314,14 +314,21 @@ nav > div > ul > li > a {
         padding: 10px 30px 10px 50px;
     }
     .content-3 > div > div:nth-child(odd) {
-        padding: 0 45px;
+        padding: 0 50px 0 45px;
     }
     .content-3 > div > div:nth-child(even) {
-        padding: 0 45px;
+        padding: 0 45px 0 50px;
     }
     .footer > div > div > form > div > div:first-child {
         padding: 0;
     }
+    .footer > div > div:nth-child(odd) {
+        padding: 50px 50px 50px 45px;
+        border-right: 1px solid white;
+    }
+    .footer > div > div:nth-child(even) {
+        padding: 50px 45px 50px 50px;
+    }       
     .footer > div > div ~ div > div > div > section ~ section ~ section {
         padding: 0 65px 110px 0;
     }            

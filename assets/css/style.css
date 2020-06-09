@@ -38,6 +38,13 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+img, a {
+	user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none
+}
 nav > div > ul > li > a, h4 {
     font-family: 'Raleway', sans-serif;
     color: #0E3A77!important;

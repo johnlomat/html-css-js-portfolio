@@ -191,6 +191,7 @@ nav > div > ul > li > a {
     border-bottom: 1px solid #F1F1F1;
 }
 .content-title > div > div > div > h3 {
+    margin: 0;
     text-transform: uppercase;
     font-size: 1.4em;
     font-weight: 400;
@@ -339,9 +340,16 @@ nav > div > ul > li > a {
 }
 /* Responsive Screen */
 @media only screen and (max-width: 991px) {
+    html {
+        scroll-padding-top: 57px;
+        scroll-behavior: smooth;
+    }
     #navbarNav {
         justify-content: center!important;
         text-align: center;
+    }
+    .navbar-brand {
+        margin: 0 20px;
     }
     nav > div > ul > li {
         padding: 5px 0;
@@ -357,7 +365,7 @@ nav > div > ul > li > a {
     }
     .banner > div {
         align-items: flex-start!important;
-        margin-top: 150px;
+        margin-top: 115px;
         width: 540px;
     }
     .banner > div > div > div > div {
@@ -450,7 +458,7 @@ nav > div > ul > li > a {
         height: 940px;
     }
     .banner > div {
-        margin-top: 95px;
+        margin-top: 55px;
     }
     .content-1 > div {
         padding: 20px 40px;

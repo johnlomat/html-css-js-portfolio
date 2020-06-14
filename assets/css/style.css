@@ -68,6 +68,12 @@ h6 {
 p {
     font-weight: 300;
 }
+.scroll-animations {
+    overflow-x: hidden;
+}
+.scroll-animations > div {
+    opacity: 0;
+}
 .navbar {
     background-color: #FFFFFF!important;
 }
@@ -455,7 +461,7 @@ nav > div > ul > li > a {
 }
 @media only screen and (max-width: 575px) {
     .banner {
-        height: 930px;
+        height: 940px;
     }
     .banner > div {
         margin-top: 55px;

@@ -123,7 +123,7 @@ p {
     transition: 0.3s ease-in-out;
 }
 .burger.active span:last-child {
-    top: -6.3157894737px;
+    top: -5.6333333333px;
     transform: rotate(-45deg);
     transition: 0.3s ease-in-out;
 }

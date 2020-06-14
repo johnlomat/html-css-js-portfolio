@@ -113,17 +113,17 @@ p {
     transition: all 0.3s ease-in-out;
 }
 .burger.active span:first-child {
-    top: 8.3333333333px;
+    top: 6.3333333333px;
     transform: rotate(45deg);
     transition: 0.3s ease-in-out;
 }
 .burger.active span:nth-child(2) {
-    top: 1.3333333333px;
+    top: -1.3333333333px;
     transform: rotate(-45deg);
     transition: 0.3s ease-in-out;
 }
 .burger.active span:last-child {
-    top: -5.6333333333px;
+    top: -7.6333333333px;
     transform: rotate(-45deg);
     transition: 0.3s ease-in-out;
 }

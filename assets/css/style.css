@@ -26,7 +26,7 @@ table {
 }
 /* Default Style */
 html {
-    scroll-padding-top: 97px;
+    scroll-padding-top: 92px;
     scroll-behavior: smooth;
 }
 body {
@@ -52,7 +52,7 @@ nav > div > ul > li > a, h4 {
 nav > div > ul > li > a.active {
     color: #AEBFE3!important;
 }
-.navbar-brand, h3 {
+.navbar-brand ~ span, h3 {
     font-family: 'Kanit', sans-serif;
     color: #0E3A77;
     font-size: 2em;
@@ -79,6 +79,8 @@ p {
 }
 .navbar button {
     border: none;
+	padding: 0 10px;
+	margin-right: 10px;
 }
 /* Navbar menu button animation*/
 .burger {
@@ -128,9 +130,10 @@ p {
     transition: 0.3s ease-in-out;
 }
 /* Nav bar brand*/
-.navbar-brand {
-    margin: 20px;
-    transition: 0.3s;
+.navbar-brand img {
+	width: 75px;
+	margin-left: 20px;
+	padding: 0;
 }
 nav > div > ul > li {
     padding: 0 20px;
@@ -140,7 +143,7 @@ nav > div > ul > li {
 nav > div > ul > li > a {
     transition: 0.3s;
 }
-.navbar-brand:hover, nav > div > ul > li > a:hover {
+nav > div > ul > li > a:hover {
     color: #AEBFE3!important;
 }
 .banner {
@@ -354,8 +357,11 @@ nav > div > ul > li > a {
         justify-content: center!important;
         text-align: center;
     }
-    .navbar-brand {
-        margin: 0 20px;
+	.navbar-brand {
+		margin-right: 10px;
+	}
+    .navbar-brand img{
+		width: 45px;
     }
     nav > div > ul > li {
         padding: 5px 0;
@@ -371,7 +377,7 @@ nav > div > ul > li > a {
     }
     .banner > div {
         align-items: flex-start!important;
-        margin-top: 115px;
+        margin-top: 125px;
         width: 540px;
     }
     .banner > div > div > div > div {
@@ -460,6 +466,9 @@ nav > div > ul > li > a {
     }                     
 }
 @media only screen and (max-width: 575px) {
+	.navbar-brand ~ span {
+		display: none;
+	}	
     .banner {
         height: 940px;
     }

@@ -353,7 +353,7 @@ nav > div > ul > li > a:hover {
 /* Responsive Screen */
 @media only screen and (max-width: 991px) {
     html {
-        scroll-padding-top: 57px;
+        scroll-padding-top: 65px;
         scroll-behavior: smooth;
     }
     #navbarNav {
@@ -362,6 +362,7 @@ nav > div > ul > li > a:hover {
     }
 	.navbar-brand {
 		margin-right: 10px;
+		height: 50px;
 	}
     .navbar-brand img{
 		width: 45px;

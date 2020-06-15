@@ -135,6 +135,9 @@ p {
 	margin-left: 20px;
 	padding: 0;
 }
+.navbar-brand {
+	height: 78px;
+}
 nav > div > ul > li {
     padding: 0 20px;
     font-size: 1em;

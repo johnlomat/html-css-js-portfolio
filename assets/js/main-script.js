@@ -30,4 +30,18 @@ $(document).ready(function(){
             }
         });
     });
+    
+    // AJAX Request
+    $('#contact-form').submit(function(e) {
+        e.preventDefault();
+        var url = 'https://formsubmit.io/send/b92ccc61-9ef7-45ef-b0c2-5560a26e7abf';
+        var data = $('#contact-form').serialize();
+    
+        $.ajax({
+          method: 'POST',
+          url: url,
+          data: data,
+          datatype: 'json'
+        });
+    });
 });

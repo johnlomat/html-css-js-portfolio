@@ -1,9 +1,9 @@
-$(document).ready(function(){
-    $('nav > div > ul > li > a').click(function(){
+$(document).ready(function() {
+    $('nav > div > ul > li > a').click(function() {
         $('#navbarNav').removeClass('show');
         $('.burger').removeClass('active');
     })
-    $('.burger').click(function(){
+    $('.burger').click(function() {
         $('.burger').toggleClass('active');
     })
 
@@ -38,9 +38,9 @@ $(document).ready(function(){
         var data = $('#contact-form').serialize();
     
         $.ajax({
-          method: 'POST',
-          url: url,
-          data: data,
+             method: 'POST',
+             url: url,
+             data: data,
           datatype: 'json'
         });
     });

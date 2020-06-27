@@ -38,10 +38,10 @@ $(document).ready(function() {
         var data = $('#contact-form').serialize();
     
         $.ajax({
-             method: 'POST',
-             url: url,
-             data: data,
-          datatype: 'json'
+            method: 'POST',
+            url: url,
+            data: data,
+            datatype: 'json'
         });
     });
 });

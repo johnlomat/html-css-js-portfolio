@@ -44,6 +44,6 @@ $(document).ready(function() {
             datatype: 'json'
         });
         $(this).get(0).reset();
-        $('#contact-form > .row').append('<p>Thanks!</p>');
+        $('#form-status').text('Thanks!');
     });
 });

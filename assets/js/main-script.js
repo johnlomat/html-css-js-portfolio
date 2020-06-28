@@ -32,5 +32,18 @@ $(document).ready(function() {
     });
     
     // AJAX Request
-
+    $('#contact-form').submit(function(e) {
+        e.preventDefault();
+        var url = 'https://usebasin.com/f/d8282983945a.json';
+        var data = $('#contact-form').serialize();
+    
+        $.ajax({
+            method: 'POST',
+            url: url,
+            data: data,
+            datatype: 'json'
+        });
+        $(this).get(0).reset();
+        $('#form-status').text('Thanks!');
+    });
 });

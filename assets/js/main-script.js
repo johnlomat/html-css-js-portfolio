@@ -34,16 +34,33 @@ $(document).ready(function() {
     // AJAX Request
     $('#contact-form').submit(function(e) {
         e.preventDefault();
+        var name = $('#name');
+        var email = $('#email');
+        var subject = $('#subject');
+        var message = $('#message');
         var url = 'https://usebasin.com/f/d8282983945a.json';
         var data = $('#contact-form').serialize();
     
-        $.ajax({
-            method: 'POST',
-            url: url,
-            data: data,
-            datatype: 'json'
-        });
-        $(this).get(0).reset();
-        $('#form-status').text('Thanks!');
+        if (name.val() == '' || email.val() == '' || subject.val() == '' || message.val() == '') {
+            $('#form-status').text("Please fill out all field");
+            $('#form-status').css('color','#F84545');
+        }else {
+            $.ajax({
+                method: 'POST',
+                url: url,
+                data: data,
+                datatype: 'json',
+                success: function(data) {
+                    $('#contact-form').get(0).reset();
+                    $('#contact-form button').hide();
+                    $('#form-status').text("Thanks! Your message has been sent");
+                    $('#form-status').css('color','#20C98B');
+                },
+                error: function(data) {
+                    $('#form-status').text('Error Sending Message');
+                    $('#form-status').css('color','#F84545');
+                }
+            })   
+        }
     });
 });

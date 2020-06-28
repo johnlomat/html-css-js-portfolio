@@ -245,19 +245,21 @@
                         <form id="contact-form">
                             <div class="row">
                                 <div class="form-group col-lg-6 col-xl-6">
-                                    <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                                    <input type="text" class="form-control" id="name" placeholder="Name" name="name" required>
                                 </div>
                                 <div class="form-group col-lg-6 col-xl-6">
-                                    <input type="email" class="form-control" id="email" placeholder="Email" name="email">
+                                    <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
                                 </div>
                                 <div class="form-group col-xl-12">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject" required>
                                 </div>
                                 <div class="form-group col-xl-12">
-                                    <textarea type="text" class="form-control" id="message" placeholder="Message" name="message"></textarea>
+                                    <textarea type="text" class="form-control" id="message" placeholder="Message" name="message" required></textarea>
                                 </div>
-                                <button type="submit" class="btn col-xl-12"> Submit</button> 
-				                <p id="form-status"></p>
+                                <button type="submit" class="btn col-xl-12"> Submit</button>
+                                <div class="d-flex justify-content-center">
+                                    <p id="form-status"></p>
+                                </div>               
                             </div>                                        
                         </form>
                     </div>

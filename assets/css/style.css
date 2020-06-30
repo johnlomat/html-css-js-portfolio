@@ -308,7 +308,7 @@ nav > div > ul > li > a:hover {
 }
 .overlay a {
     color: white;
-    font-size: 1em;
+    font-size: 0.8em;
     border: 2px solid white;
     background: none;
     position: absolute;
@@ -520,9 +520,6 @@ form > div > div:last-child {
     }
     .content-2b > div > div:nth-child(2) {
         padding-bottom: 20px;
-    }
-    .overlay a {
-        font-size: 0.9em;
     }
     .content-3 p {
         margin: 0;

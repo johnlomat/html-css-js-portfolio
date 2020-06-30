@@ -556,7 +556,10 @@ form > div > div:last-child {
     }                     
 }
 @media only screen and (max-width: 575px) {
-    .navbar-brand ~ span {
+   nav {
+        padding: 10px 0!important;
+	}
+   .navbar-brand ~ span {
 	    display: none;
     }	
     .banner {

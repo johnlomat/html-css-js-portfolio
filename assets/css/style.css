@@ -504,7 +504,7 @@ form > div > div:last-child {
         margin-bottom: 0;
     }
      .scroll-animations > div > div {
-        padding: 0;
+        padding: 0 10px;
     }    
     .content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
         text-align: left;

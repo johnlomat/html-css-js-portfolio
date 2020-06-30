@@ -584,7 +584,7 @@ form > div > div:last-child {
         width: 100%;
     }
     .overlay a {
-        font-size: 15px;
+        font-size: 12px;
     }
     .content-3 > div > div:nth-child(odd), .content-3 > div > div:nth-child(even) {
         padding: 0 30px;

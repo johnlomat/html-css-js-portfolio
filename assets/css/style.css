@@ -586,6 +586,9 @@ form > div > div:last-child {
     .content-2a .row, .content-2b .row, .content-3 .row, .footer > div {
         width: 100%;
     }
+    .content-2a > div > div:nth-last-child(n+1) > div > div:hover .overlay {
+        padding:0
+    }
     .content-3 > div > div:nth-child(odd), .content-3 > div > div:nth-child(even) {
         padding: 0 30px;
     }

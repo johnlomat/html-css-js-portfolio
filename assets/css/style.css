@@ -520,7 +520,10 @@ form > div > div:last-child {
     }
     .content-2b > div > div:nth-child(2) {
         padding-bottom: 20px;
-    }    
+    }
+    .overlay a {
+        font-size: 0.9em;
+    }
     .content-3 p {
         margin: 0;
     }
@@ -582,9 +585,6 @@ form > div > div:last-child {
     }
     .content-2a .row, .content-2b .row, .content-3 .row, .footer > div {
         width: 100%;
-    }
-    .overlay a {
-        font-size: 1em;
     }
     .content-3 > div > div:nth-child(odd), .content-3 > div > div:nth-child(even) {
         padding: 0 30px;

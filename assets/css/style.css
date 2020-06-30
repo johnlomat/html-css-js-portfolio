@@ -132,7 +132,6 @@ p {
 /* Nav bar brand*/
 .navbar-brand img {
 	width: 75px;
-	margin-left: 20px;
 	padding: 0;
 }
 .navbar-brand {
@@ -209,37 +208,40 @@ nav > div > ul > li > a:hover {
     font-weight: 400;
     letter-spacing: 0.2em
 }
-.content-1 > div, .content-2 > div {
+.content-1 > div, .content-2a > div, .content-2b > div {
     height: 100%;
 }
-.content-1 > div > div > div, .content-2 > div > div > div{
+.content-1 > div > div > div, .content-2b > div > div > div {
     text-align: center;
 }
-.content-2 .row, .content-3 .row, .footer > div {
+.content-2a .row, .content-2b .row, .content-3 .row, .footer > div {
     width: 1000px;
 }
-.content-2 > div > div:nth-child(odd) {
-    padding: 10px 50px 10px 0;
+.content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
+    padding: 10px 50px 10px 10px;
 }
-.content-2 > div > div:nth-child(even) {
+.content-2a > div > div:nth-child(odd) > div:nth-child(even), .content-2a > div > div:nth-child(even) > div:nth-child(odd), .content-2b > div > div:nth-child(even) {
     padding: 10px 10px 10px 50px;
 }
-.content-2 > div > div:nth-child(odd) {
+.content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
     text-align: right;
     border-right: 1px solid #F1F1F1;
 }
-.content-2 > div > div:nth-child(odd) > p {
+.content-2b > div > div:nth-child(odd) > p {
     letter-spacing: 0.1em;
 }
-.content-2 > div > div:nth-child(even) > p {
+.content-2a > div > div:nth-child(odd) > div:nth-child(even), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(even) > p {
     line-height: 1.5em;
 }
-.content-2 > div > div:nth-child(even) > h3 {
+.content-2a > div > div:nth-child(odd) > div:nth-child(odd) > h3, .content-2a > div > div:nth-child(even) > div:nth-child(odd) > h3, .content-2b > div > div:nth-child(even) > h3 {
     font-weight: 300;
     text-transform: uppercase;
 }
-.content-2 > div, .content-3 {
+.content-2a > div, .content-2b > div, .content-3 {
     padding: 50px 20px;
+}
+.content-2a > div > .row {
+    margin: 0;
 }
 /* Content-1 */
 .content-1 {
@@ -259,16 +261,35 @@ nav > div > ul > li > a:hover {
     line-height: 1.8;
 }
 /* Content-2 */
-.content-2 {
+.content-2a, .content-2b {
     background-color: white;
 }
-.content-2 h3 {
+.content-2a h3, .content-2b h3 {
     font-size: 1em;
     font-weight: 400;
 }
-.content-2 p {
+.content-2a p, .content-2b p {
     font-size: 0.9em;
     color: black;
+}
+.content-2a > div > div:nth-child(3n-1) > h3, .content-2a > div > div:nth-child(3n) > h3 {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.content-2a > div > div:nth-child(3n-2) > h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.content-2a > div > div:nth-child(3n-1) > p, .content-2a > div > div:nth-child(3n) > p {
+    line-height: 1.5em;
+}
+.content-2a img {
+    width: 100%;
+    margin: 10px 0;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 /* Content-3 */
 .content-3 {
@@ -397,7 +418,16 @@ form > div > div:last-child {
     .content-1 > div {
         padding-top: 0;
     }
-    .content-2 > div > div:nth-child(even) {
+    .content-2a .row {
+        width: 100%;
+    }
+    .content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even) {
+        padding: 10px 50px 10px 15px;
+    }
+    .content-2a > div > div:nth-child(odd) > div:nth-child(even), .content-2a > div > div:nth-child(even) > div:nth-child(odd) {
+        padding: 10px 15px 10px 50px;
+    }           
+    .content-2b > div > div:nth-child(even) {
         padding: 10px 30px 10px 50px;
     }
     .content-3 > div > div:nth-child(odd) {
@@ -421,30 +451,45 @@ form > div > div:last-child {
     }            
 }
 @media only screen and (max-width: 767px) {
-    .content-2 > div > div:nth-child(odd) {
+    .content-2a {
+        padding: 0;
+    }
+    .content-2a > div > div > div, .content-2a > div > div > div {
+        padding: 0!important;
+    }    
+    .content-2a > div > div > div, .content-2b > div > div:nth-child(n+1) {
+        padding: 0;
+    }
+    .content-2a > div > .row {
+        margin: 0 0 15px 0;
+    }
+    .content-2a > div > div:last-child p {
+        margin-bottom: 0;
+    }
+    .scroll-animations > div div {
+        padding: 0 10px;
+    }     
+    .content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
         text-align: left;
     }
-    .content-2 > div > div {
+    .content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
+        border-right: none;
+    }
+    .content-2a > div, .content-2b > div {
+        padding: 20px 50px;
+    }
+    .content-2b > div > div {
         padding: 0 50px;
     }
+    .content-2b > div > div:nth-child(2) {
+        padding-bottom: 20px;
+    }    
     .content-3 p {
         margin: 0;
     }
     .content-3 > div > div {
         padding: 0 40px;
-    }
-    .content-2 > div > div:nth-child(n+1) {
-        padding: 0;
-    } 
-    .content-2 > div > div:nth-child(2) {
-        padding-bottom: 20px;
     }      
-    .content-2 > div > div:nth-child(odd) {
-        border-right: none;
-    }
-    .content-2 > div {
-        padding: 20px 50px;
-    }
     .content-3 > div > div:nth-child(odd) {
         padding: 0 45px;
     }
@@ -486,13 +531,22 @@ form > div > div:last-child {
     .banner > div {
         margin-top: 55px;
     }
-    .content-1 > div {
-        padding: 20px 40px;
-    }
     .banner > div {
         width: 100%;
     }
     .banner > div > div > div:nth-child(2) .d-flex {
-        padding: 10px 25px;    
+        padding: 10px 15px;    
+    }
+    .content-1 > div {
+        padding: 20px 40px;
+    }
+    .content-2a > div, .content-2b > div {
+        padding: 20px 30px;
+    }
+    .content-3 {
+        padding: 50px 0;
+    }
+    .footer > div > div:nth-child(odd) {
+        padding: 50px 25px;
     }   
 }

@@ -7,6 +7,8 @@ $(document).ready(function() {
         $('.burger').toggleClass('active');
     })
 
+    $('.content-2a > div > div:nth-child(even)').addClass('flex-row-reverse');
+    
     // Check if element is scrolled into view
     function isScrolledIntoView(elem) {
         var docViewTop = $(window).scrollTop();
@@ -19,16 +21,36 @@ $(document).ready(function() {
     }
     // If element is scrolled into view, fade it in
     $(window).scroll(function() {
-        $('.scroll-animations > div:nth-child(odd)').each(function() {
+        $('.content-2a > div > div:nth-child(odd) > div:nth-child(odd)').each(function() {
             if (isScrolledIntoView(this) === true) {
                 $(this).addClass('fadeInLeft');
             }
         });
-        $('.scroll-animations > div:nth-child(even)').each(function() {
+        $('.content-2a > div > div:nth-child(odd) > div:nth-child(even)').each(function() {
             if (isScrolledIntoView(this) === true) {
                 $(this).addClass('fadeInRight');
             }
         });
+        $('.content-2a > div > div:nth-child(even) > div:nth-child(even)').each(function() {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass('fadeInLeft');
+            }
+        });
+        $('.content-2a > div > div:nth-child(even) > div:nth-child(odd)').each(function() {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass('fadeInRight');
+            }
+        });        
+        $('.content-2b > div > div:nth-child(odd)').each(function() {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass('fadeInLeft');
+            }
+        });
+        $('.content-2b > div > div:nth-child(even)').each(function() {
+            if (isScrolledIntoView(this) === true) {
+                $(this).addClass('fadeInRight');
+            }
+        });          
     });
     
     // AJAX Request

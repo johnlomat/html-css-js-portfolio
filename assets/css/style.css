@@ -304,6 +304,7 @@ nav > div > ul > li > a:hover {
 }
 .content-2a > div > div:nth-last-child(n+1) > div > div {
     position: relative;
+    margin: 15px 0;
 }
 .overlay a {
     color: white;

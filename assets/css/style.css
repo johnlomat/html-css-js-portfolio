@@ -1,25 +1,25 @@
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+    display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
-	content: none;
+    content: '';
+    content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 * {
     box-sizing: border-box;
@@ -39,11 +39,11 @@ body {
     background-repeat: no-repeat;
 }
 img, a {
-	user-select: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none
 }
 .overlay {
     width: 100%;
@@ -143,11 +143,11 @@ p {
 }
 /* Nav bar brand*/
 .navbar-brand img {
-	width: 75px;
-	padding: 0;
+    width: 75px;
+    padding: 0;
 }
 .navbar-brand {
-	height: 78px;
+    height: 78px;
 }
 nav > div > ul > li {
     padding: 0 20px;
@@ -425,10 +425,10 @@ form > div > div:last-child {
         justify-content: center!important;
         text-align: center;
     }
-	.navbar-brand {
-		margin-right: 10px;
-		height: 50px;
-	}
+    .navbar-brand {
+	margin-right: 10px;
+	height: 50px;
+    }
     .navbar-brand img{
 		width: 45px;
     }
@@ -503,9 +503,9 @@ form > div > div:last-child {
     .content-2a > div > div:last-child p {
         margin-bottom: 0;
     }
-    .scroll-animations > div div {
-        padding: 0 10px;
-    }     
+     .scroll-animations > div > div {
+        padding: 0;
+    }    
     .content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
         text-align: left;
     }
@@ -559,9 +559,9 @@ form > div > div:last-child {
     }                     
 }
 @media only screen and (max-width: 575px) {
-	.navbar-brand ~ span {
-		display: none;
-	}	
+    .navbar-brand ~ span {
+	display: none;
+    }	
     .banner {
         height: 940px;
     }
@@ -585,9 +585,6 @@ form > div > div:last-child {
     }
     .content-2a .row, .content-2b .row, .content-3 .row, .footer > div {
         width: 100%;
-    }
-    .content-2a > div > div:nth-last-child(n+1) > div > div:hover .overlay {
-        padding:0
     }
     .content-3 > div > div:nth-child(odd), .content-3 > div > div:nth-child(even) {
         padding: 0 30px;

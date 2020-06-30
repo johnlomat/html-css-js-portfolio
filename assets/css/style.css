@@ -426,11 +426,11 @@ form > div > div:last-child {
         text-align: center;
     }
     .navbar-brand {
-	margin-right: 10px;
-	height: 50px;
+	    margin-right: 10px;
+	    height: 50px;
     }
     .navbar-brand img{
-		width: 45px;
+	    width: 45px;
     }
     nav > div > ul > li {
         padding: 5px 0;
@@ -560,7 +560,7 @@ form > div > div:last-child {
 }
 @media only screen and (max-width: 575px) {
     .navbar-brand ~ span {
-	display: none;
+	    display: none;
     }	
     .banner {
         height: 940px;

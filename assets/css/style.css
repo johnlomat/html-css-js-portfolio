@@ -308,7 +308,7 @@ nav > div > ul > li > a:hover {
 }
 .overlay a {
     color: white;
-    font-size: 20px;
+    font-size: 1.5em;
     border: 2px solid white;
     background: none;
     position: absolute;

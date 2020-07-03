@@ -310,6 +310,7 @@ nav > div > ul > li > a:hover {
     color: white;
     font-size: 0.8em;
     border: 2px solid white;
+    border-radius: 5px;
     background: none;
     position: absolute;
     top: 50%;

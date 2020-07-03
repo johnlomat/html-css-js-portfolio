@@ -503,7 +503,7 @@ form > div > div:last-child {
     .content-2a > div > div:last-child p {
         margin-bottom: 0;
     }
-     .scroll-animations > div > div {
+    .scroll-animations > div > div {
         padding: 0 10px;
     }    
     .content-2a > div > div:nth-child(odd) > div:nth-child(odd), .content-2a > div > div:nth-child(even) > div:nth-child(even), .content-2b > div > div:nth-child(odd) {
@@ -577,6 +577,9 @@ form > div > div:last-child {
     .content-1 > div {
         padding: 20px 40px;
     }
+    .scroll-animations > div > div {
+        padding: 0;
+    }
     .content-2a, .content-2b, .content-3, .footer {
         padding: 0;
     }
@@ -585,6 +588,9 @@ form > div > div:last-child {
     }
     .content-2a .row, .content-2b .row, .content-3 .row, .footer > div {
         width: 100%;
+    }
+    .content-2a > div > div:nth-last-child(n+1) > div > div {
+        margin: 15px 10px;
     }
     .content-3 > div > div:nth-child(odd), .content-3 > div > div:nth-child(even) {
         padding: 0 30px;

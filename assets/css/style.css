@@ -488,6 +488,12 @@ form > div > div:last-child {
         padding: 0 65px 110px 0;
     }            
 }
+@media only screen and (min-width: 768px)
+and (max-width: 810px) {
+    .overlay a {
+        font-size: 0.8em;
+    }
+}
 @media only screen and (max-width: 767px) {
     .content-2a {
         padding: 0;
@@ -593,4 +599,14 @@ form > div > div:last-child {
     .footer > div > div:nth-child(odd) {
         padding: 50px 30px;
     }   
+}
+@media only screen and (max-width: 364px) {
+    .overlay a {
+        font-size: 0.8em;
+    }
+}
+@media only screen and (max-width: 328px) {
+    .overlay a {
+        font-size: 0.7em;
+    }
 }

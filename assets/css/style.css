@@ -187,7 +187,7 @@ nav > div > ul > li > a:hover {
     margin: 5px 0;
 }
 .banner section p {
-    font-size: 0.9em;
+    font-size: 1em;
 }
 .banner > div > div > div:nth-child(3) {
     background-color: #0E3A77;
@@ -277,11 +277,11 @@ nav > div > ul > li > a:hover {
     background-color: white;
 }
 .content-2a h3, .content-2b h3 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: 400;
 }
 .content-2a p, .content-2b p {
-    font-size: 0.9em;
+    font-size: 1em;
     color: black;
 }
 .content-2a > div > div:nth-child(3n-1) > h3, .content-2a > div > div:nth-child(3n) > h3 {

@@ -400,6 +400,7 @@ form > div > div:last-child {
 #form-status {
     margin: 10px 0;
     font-weight: 700;
+    text-align: center;
 }
 .footer > div >div ~ div > div > div > section ~ section ~ section {
     padding: 0 65px 55px 0;

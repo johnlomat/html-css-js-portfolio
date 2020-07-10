@@ -190,7 +190,7 @@ nav > div > ul > li > a:hover {
 .banner section {
     margin: 5px 0;
 }
-.banner section p {
+.banner section p, footer p {
     font-size: 1em;
     font-weight: 300;
 }
@@ -387,7 +387,7 @@ nav > div > ul > li > a:hover {
     border: none;
 }
 .footer input::placeholder, .footer textarea::placeholder {
-    font-size: 0.8em;
+    font-size: 0.9em;
     color: #9E9E9E;
 }
 .footer textarea {

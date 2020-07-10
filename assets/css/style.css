@@ -23,6 +23,8 @@ table {
 }
 * {
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 /* Default Style */
 html {
@@ -73,12 +75,13 @@ nav > div > ul > li > a.active {
 h6, p, .footer input::placeholder, .footer textarea::placeholder {
     font-family: 'Manrope', sans-serif;
     color: #0E3A77;
+    letter-spacing: 0.025em;
 }
 h6 {
     font-weight: 600;
 }
 p {
-    font-weight: 300;
+    font-weight: 400;
 }
 .scroll-animations {
     overflow-x: hidden;
@@ -153,6 +156,7 @@ nav > div > ul > li {
     padding: 0 20px;
     font-size: 1em;
     text-transform: uppercase;
+    letter-spacing: 0.035em;
 }
 nav > div > ul > li > a {
     transition: 0.3s;
@@ -188,6 +192,7 @@ nav > div > ul > li > a:hover {
 }
 .banner section p {
     font-size: 1em;
+    font-weight: 300;
 }
 .banner > div > div > div:nth-child(3) {
     background-color: #0E3A77;
@@ -246,7 +251,7 @@ nav > div > ul > li > a:hover {
     line-height: 1.5em;
 }
 .content-2a > div > div:nth-child(odd) > div:nth-child(odd) > h3, .content-2a > div > div:nth-child(even) > div:nth-child(odd) > h3, .content-2b > div > div:nth-child(even) > h3 {
-    font-weight: 300;
+    font-weight: 200;
     text-transform: uppercase;
 }
 .content-2a > div, .content-2b > div, .content-3 {
@@ -271,6 +276,7 @@ nav > div > ul > li > a:hover {
 .content-1 p {
     font-size: 1.1em;
     line-height: 1.8;
+    font-weight: 300;
 }
 /* Content-2 */
 .content-2a, .content-2b {
@@ -279,10 +285,11 @@ nav > div > ul > li > a:hover {
 .content-2a h3, .content-2b h3 {
     font-size: 1.1em;
     font-weight: 400;
+    letter-spacing: 0.035em;
 }
 .content-2a p, .content-2b p {
     font-size: 1em;
-    color: black;
+    color: #212121;
 }
 .content-2a > div > div:nth-child(3n-1) > h3, .content-2a > div > div:nth-child(3n) > h3 {
     font-size: 1em;
@@ -319,6 +326,8 @@ nav > div > ul > li > a:hover {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    letter-spacing: 0.035em;
+    white-space: nowrap;
     transition: 0.3s ease;
 }
 .overlay a:hover {
@@ -489,12 +498,6 @@ form > div > div:last-child {
         padding: 0 65px 110px 0;
     }            
 }
-@media only screen and (min-width: 768px)
-and (max-width: 810px) {
-    .overlay a {
-        font-size: 0.8em;
-    }
-}
 @media only screen and (max-width: 767px) {
     .content-2a {
         padding: 0;
@@ -600,14 +603,4 @@ and (max-width: 810px) {
     .footer > div > div:nth-child(odd) {
         padding: 50px 30px;
     }   
-}
-@media only screen and (max-width: 364px) {
-    .overlay a {
-        font-size: 0.8em;
-    }
-}
-@media only screen and (max-width: 328px) {
-    .overlay a {
-        font-size: 0.7em;
-    }
 }

@@ -578,7 +578,7 @@ and (min-width: 515px) {
         padding: 0;
     }
     .content-2a > div, .content-2b > div {
-        padding: 20px 30px;
+        padding: 40px 30px 20px 30px;
     }
     .content-2a .row, .content-2b .row, .content-3 .row, .footer > div {
         width: 100%;

@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $('.content-2a > div > div:nth-child(even)').addClass('flex-row-reverse');
     
-    // Check if element is scrolled into view
+    //  Check if element is scrolled into view
     function isScrolledIntoView(elem) {
         var docViewTop = $(window).scrollTop();
         var docViewBottom = docViewTop + $(window).height();
@@ -19,7 +19,7 @@ $(document).ready(function() {
 
         return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
     }
-    // If element is scrolled into view, fade it in
+    //  If element is scrolled into view, fade it in
     $(window).scroll(function() {
         $('.content-2a > div > div:nth-child(odd) > div:nth-child(odd)').each(function() {
             if (isScrolledIntoView(this) === true) {
@@ -31,29 +31,10 @@ $(document).ready(function() {
                 $(this).addClass('fadeInRight');
             }
         });
-        $('.content-2b > div > div:nth-child(odd) > div:nth-child(odd)').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInLeft');
-            }
-        });
-        $('.content-2b > div > div:nth-child(odd) > div:nth-child(even)').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInRight');
-            }
-        });
-        $('.content-2b > div > div:nth-child(even) > div:nth-child(even)').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInRight');
-            }
-        });
-        $('.content-2b > div > div:nth-child(even) > div:nth-child(odd)').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInLeft');
-            }
-        });
     });
  
-    // Media Queries
+    //  Media Queries
+    //  Scroll Animations Mobile Devices
     if ($(window).width() <= 767) {
         $(window).scroll(function() {
             $('.content-2a > div > div:nth-child(even) > div:nth-child(odd)').each(function() {
@@ -65,22 +46,66 @@ $(document).ready(function() {
                 if (isScrolledIntoView(this) === true) {
                     $(this).addClass('fadeInRight');
                 }
-            });          
-        });
-        $('.content-2b > div > div').addClass('flex-column-reverse'); 
-    }else if ($(window).width() >= 767) {
-        $(window).scroll(function() {
-            $('.content-2a > div > div:nth-child(even) > div:nth-child(even)').each(function() {
+            });
+            $('.content-2b > div > div:nth-child(odd) > div:nth-child(odd)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInRight');
+                }
+            });
+            $('.content-2b > div > div:nth-child(odd) > div:nth-child(even)').each(function() {
                 if (isScrolledIntoView(this) === true) {
                     $(this).addClass('fadeInLeft');
                 }
             });
+            $('.content-2b > div > div:nth-child(even) > div:nth-child(even)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInLeft');
+                }
+            });
+            $('.content-2b > div > div:nth-child(even) > div:nth-child(odd)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInRight');
+                }
+            });           
+        });
+    }else if ($(window).width() >= 767) {
+        $(window).scroll(function() {
             $('.content-2a > div > div:nth-child(even) > div:nth-child(odd)').each(function() {
                 if (isScrolledIntoView(this) === true) {
                     $(this).addClass('fadeInRight');
                 }
             });
+            $('.content-2a > div > div:nth-child(even) > div:nth-child(even)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInLeft');
+                }
+            });
+            $('.content-2b > div > div:nth-child(odd) > div:nth-child(odd)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInLeft');
+                }
+            });
+            $('.content-2b > div > div:nth-child(odd) > div:nth-child(even)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInRight');
+                }
+            });
+            $('.content-2b > div > div:nth-child(even) > div:nth-child(even)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInRight');
+                }
+            });
+            $('.content-2b > div > div:nth-child(even) > div:nth-child(odd)').each(function() {
+                if (isScrolledIntoView(this) === true) {
+                    $(this).addClass('fadeInLeft');
+                }
+            });
         });
+    }
+
+    if ($(window).width() <= 767) {  
+        $('.content-2b > div > div').addClass('flex-column-reverse');
+    }else if ($(window).width() >= 767) {
         $('.content-2b > div > div').removeClass('flex-column-reverse');
     }
 
@@ -92,7 +117,7 @@ $(document).ready(function() {
         }      
     });
 
-    // AJAX Request
+    //  AJAX Request
     $('#contact-form').submit(function(e) {
         e.preventDefault();
         var name = $('#name');

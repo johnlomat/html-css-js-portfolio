@@ -85,7 +85,7 @@ p {
     line-height: 1.5;
 }
 .scroll-animations {
-    overflow-x: hidden;
+    overflow: hidden;
 }
 .scroll-animations > div {
     opacity: 0;

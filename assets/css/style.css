@@ -347,12 +347,18 @@ nav > div > ul > li > a:hover {
 .content-3 > div > div:nth-child(even) {
     padding: 0 30px 0 50px;
 }
-.content-3 p {
-    color: white;
+.content-3 > div > div:nth-child(odd) > div, .content-3 > div > div:nth-child(even) > div {
     margin: 20px 0;
-    padding: 30px 0;
-    background-color: rgba(255,255,255,0.2);
+    padding: 20px 0;
+    background-color: rgba(255,255,255,0.2);    
+}
+.content-3 p {
+    margin: 0;
+    color: white;
     font-weight: 600;
+}
+.content-3 span {
+    color: #FFD203;
 }
 /* Footer */
 .footer {
@@ -403,7 +409,7 @@ form > div > div:last-child {
     font-weight: 700;
     text-align: center;
 }
-.footer > div >div ~ div > div > div > section ~ section ~ section {
+.footer > div > div ~ div > div > div > section ~ section ~ section {
     padding: 0 65px 55px 0;
 }
 .footer > div > div ~ div > div {
@@ -423,6 +429,9 @@ form > div > div:last-child {
     html {
         scroll-padding-top: 65px;
         scroll-behavior: smooth;
+    }
+    p {
+        font-weight: 300;
     }
     #navbarNav {
         justify-content: center!important;
@@ -483,9 +492,6 @@ form > div > div:last-child {
     }            
 }
 @media only screen and (max-width: 767px) {
-    p {
-        font-weight: 300;
-    }
     .content-2a, .content-2b {
         padding: 0;
     }
@@ -512,7 +518,7 @@ form > div > div:last-child {
     .content-2a > div, .content-2b > div {
         padding: 40px 50px 20px 50px;
     }
-    .content-3 p {
+    .content-3 > div > div:nth-child(odd) > div, .content-3 > div > div:nth-child(even) > div {
         margin: 0;
     }
     .content-3 > div > div {

@@ -152,6 +152,7 @@ p {
 }
 .navbar-brand {
     height: 78px;
+    margin-left: 20px;
 }
 nav > div > ul > li {
     padding: 0 20px;
@@ -331,6 +332,16 @@ nav > div > ul > li > a:hover {
     opacity: 1;
 }
 /* Content-3 */
+#skills {
+    background-color: #0E3A77;
+}
+#skills h3 {
+    color: white;
+}
+#contact {
+    background-color: #F1F1F1;
+    border-bottom: 1px solid white;
+}
 .content-3 {
     background-image: linear-gradient(38deg, rgba(0,65,128,0.7) 47%, rgba(24,54,112,0.7) 100%), url(../images/banner_2.jpg);
     background-attachment: fixed;
@@ -423,6 +434,16 @@ form > div > div:last-child {
     margin: .5rem 1.5rem .5rem 0;
     padding: 0;
     color: black;
+}
+footer > div:last-child {
+    padding: 25px 0;
+    border: none;
+    background-color: white;
+}
+footer > div:last-child p {
+    margin: 0;
+    color: black;
+    font-size: 0.9em;
 }
 /* Responsive Screen */
 @media only screen and (max-width: 991px) {

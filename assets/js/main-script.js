@@ -32,7 +32,9 @@ $(document).ready(function() {
             }
         });
     });
- 
+    //  Blurry Load Effect
+    $('.navbar-brand > img').blurryLoad();
+
     //  Media Queries
     //  Scroll Animations Mobile Devices
     if ($(window).width() <= 767) {

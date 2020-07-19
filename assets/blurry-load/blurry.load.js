@@ -5,9 +5,11 @@
         var imgLarge = new Image();
         
         imgLarge.src = $(this).attr('data-large');
-        imgLarge.onload = function () {
-            imageContainer.hide()
-            parentContainer.append(imgLarge);
-        };
+        $(window).bind("load", function() { 
+             var timeout = setTimeout(function() {
+                   imageContainer.hide();
+                   parentContainer.append(imgLarge);
+              }, 5000);
+        });
     };
 }(jQuery));

@@ -34,6 +34,7 @@ $(document).ready(function() {
     });
     //  Blurry Load Effect
     $('.navbar-brand > img').blurryLoad();
+    $('.banner img').blurryLoad();
     $('.content-2a > div > div:nth-child(odd) img').blurryLoad();
     $('.content-2a > div > div:nth-child(even) img').blurryLoad();
 

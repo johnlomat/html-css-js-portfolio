@@ -9,7 +9,7 @@
              var timeout = setTimeout(function() {
                    imageContainer.hide();
                    parentContainer.append(imgLarge);
-              }, 3000);
+              }, 1000);
         });
     };
 }(jQuery));

@@ -6,7 +6,7 @@
         
         imgLarge.src = $(this).attr('data-large');
         imgLarge.onload = function () {
-        	imageContainer.hide()
+        	imageContainer.fadeOut()
             parentContainer.append(imgLarge);
         };
     };

@@ -5,10 +5,10 @@
         var imgLarge = new Image();
         
         imgLarge.src = $(this).attr('data-large');
-        $(window).bind("load", function() { 
-             var timeout = setTimeout(function() {
-                   imageContainer.hide();
-                   parentContainer.append(imgLarge);
+        $(window).on("load", function() { 
+             setTimeout(function() {
+                 imageContainer.hide();
+                 parentContainer.append(imgLarge);
              }, 2500);
         });
     };

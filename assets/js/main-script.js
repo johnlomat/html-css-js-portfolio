@@ -32,11 +32,15 @@ $(document).ready(function() {
             }
         });
     });
+
     //  Blurry Load Effect
-    $('.navbar-brand > img').blurryLoad();
-    $('.banner img').blurryLoad();
-    $('.content-2a > div > div:nth-child(odd) img').blurryLoad();
-    $('.content-2a > div > div:nth-child(even) img').blurryLoad();
+    setTimeout(function () {
+        $('.lazy-load').each(function () {
+            var imageSmall = $(this);
+            var imgLarge = imageSmall.data('large');
+            $(imageSmall).attr('src', imgLarge);
+        });
+    }, 2500);
 
     //  Media Queries
     //  Scroll Animations Mobile Devices

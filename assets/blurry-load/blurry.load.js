@@ -5,6 +5,7 @@
         var imgLarge = new Image();
         
         imgLarge.src = $(this).attr('data-large');
+
         $(window).on("load", function() { 
              setTimeout(function() {
                  imageContainer.hide();

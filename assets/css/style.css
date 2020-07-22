@@ -181,7 +181,7 @@ nav > div > ul > li > a:hover {
 .banner > div > div > div > img {
     width: 100%;
     height: 470px;
-    object-fit: contain;
+    object-fit: cover;
 }
 .banner > div > div > div {
     padding: 0;
@@ -480,7 +480,7 @@ footer > div:last-child p {
     .banner > div {
         align-items: flex-start!important;
         margin-top: 125px;
-        width: 540px;
+        width: 470px;
     }
     .banner > div > div > div > div {
         background-color: white;
@@ -573,13 +573,13 @@ footer > div:last-child p {
         padding: 0 50px;
     }                     
 }
-@media only screen and (max-width: 575px)
-and (min-width: 515px) {
+@media only screen and (max-width: 470px)
+and (min-width: 410px) {
     .content-1 > div {
         margin-top: 38px;
     }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 470px) {
    nav {
         padding: 10px 0!important;
 	}
@@ -590,7 +590,7 @@ and (min-width: 515px) {
         height: 940px;
     }
     .banner > div {
-        margin-top: 55px;
+        margin-top: 70px;
     }
     .banner > div {
         width: 100%;

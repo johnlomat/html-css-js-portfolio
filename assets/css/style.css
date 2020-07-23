@@ -479,7 +479,7 @@ footer > div:last-child p {
     }
     .banner > div {
         align-items: flex-start!important;
-        margin-top: 125px;
+        margin-top: 105px;
         width: 470px;
     }
     .banner > div > div > div > div {
@@ -572,12 +572,6 @@ footer > div:last-child p {
     .footer > div > div:nth-child(even) {
         padding: 0 50px;
     }                     
-}
-@media only screen and (max-width: 470px)
-and (min-width: 410px) {
-    .content-1 > div {
-        margin-top: 38px;
-    }
 }
 @media only screen and (max-width: 470px) {
    nav {

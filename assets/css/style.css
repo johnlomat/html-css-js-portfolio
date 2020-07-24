@@ -95,8 +95,8 @@ p {
 }
 .navbar button {
     border: none;
-	padding: 0 10px;
-	margin-right: 10px;
+    padding: 0 10px;
+    margin-right: 10px;
 }
 /* Navbar menu button animation*/
 .burger {
@@ -197,7 +197,7 @@ nav > div > ul > li > a:hover {
     font-weight: 300;
 }
 .banner section img {
-	width: 100%;
+    width: 100%;
 }
 .banner > div > div > div:nth-child(3) {
     background-color: #0E3A77;

@@ -424,7 +424,7 @@ form > div > div:last-child {
     text-align: center;
 }
 .footer > div > div ~ div > div > div > section ~ section {
-    padding: 0 65px 95px 0;
+    padding: 0 65px 105px 0;
 }
 .footer > div > div ~ div > div {
     padding: 0 15px 0 0;
@@ -512,7 +512,7 @@ footer > div:last-child p {
         padding: 50px 45px 50px 50px;
     }       
     .footer > div > div ~ div > div > div > section ~ section {
-        padding: 0 65px 150px 0;
+        padding: 0 65px 160px 0;
     }            
 }
 @media only screen and (max-width: 767px) {

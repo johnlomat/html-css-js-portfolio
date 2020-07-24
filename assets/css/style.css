@@ -196,6 +196,9 @@ nav > div > ul > li > a:hover {
     font-size: 1em;
     font-weight: 300;
 }
+.banner section img {
+	width: 100%;
+}
 .banner > div > div > div:nth-child(3) {
     background-color: #0E3A77;
 }
@@ -508,7 +511,7 @@ footer > div:last-child p {
     .footer > div > div:nth-child(even) {
         padding: 50px 45px 50px 50px;
     }       
-    .footer > div > div ~ div > div > div > section ~ section ~ section {
+    .footer > div > div ~ div > div > div > section ~ section {
         padding: 0 65px 110px 0;
     }            
 }
@@ -560,7 +563,7 @@ footer > div:last-child p {
         text-align: center;
         padding: 0;
     }
-    .footer > div > div ~ div > div > div > section ~ section ~ section {
+    .footer > div > div ~ div > div > div > section ~ section {
         padding: 0 0 25px 0;
     }
     .footer ul {
@@ -592,7 +595,11 @@ footer > div:last-child p {
     .banner > div > div > div:nth-child(2) .d-flex {
         padding: 10px 15px;    
     }
+    .banner section img {
+        padding-top: 20px
+    }
     .content-1 > div {
+    	margin-top: 0;
         padding: 50px 40px;
     }
     .content-2a, .content-2b, .content-3, .footer {

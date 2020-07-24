@@ -95,8 +95,8 @@ p {
 }
 .navbar button {
     border: none;
-    padding: 0 10px;
-    margin-right: 10px;
+	padding: 0 10px;
+	margin-right: 10px;
 }
 /* Navbar menu button animation*/
 .burger {
@@ -197,7 +197,7 @@ nav > div > ul > li > a:hover {
     font-weight: 300;
 }
 .banner section img {
-    width: 100%;
+	width: 100%;
 }
 .banner > div > div > div:nth-child(3) {
     background-color: #0E3A77;
@@ -423,8 +423,8 @@ form > div > div:last-child {
     font-weight: 700;
     text-align: center;
 }
-.footer > div > div ~ div > div > div > section ~ section ~ section {
-    padding: 0 65px 55px 0;
+.footer > div > div ~ div > div > div > section ~ section {
+    padding: 0 65px 95px 0;
 }
 .footer > div > div ~ div > div {
     padding: 0 15px 0 0;
@@ -512,7 +512,7 @@ footer > div:last-child p {
         padding: 50px 45px 50px 50px;
     }       
     .footer > div > div ~ div > div > div > section ~ section {
-        padding: 0 65px 110px 0;
+        padding: 0 65px 150px 0;
     }            
 }
 @media only screen and (max-width: 767px) {

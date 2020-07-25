@@ -196,6 +196,9 @@ nav > div > ul > li > a:hover {
     font-size: 1em;
     font-weight: 300;
 }
+.banner section:last-child {
+    margin-top: 50px;
+}
 .banner section img {
 	width: 100%;
 }
@@ -485,6 +488,9 @@ footer > div:last-child p {
         margin-top: 105px;
         width: 470px;
     }
+    .banner section:last-child {
+        margin-top: 0;
+    }
     .banner > div > div > div > div {
         background-color: white;
     }
@@ -596,7 +602,7 @@ footer > div:last-child p {
         padding: 10px 15px;    
     }
     .banner section img {
-        padding-top: 20px
+        padding-top: 25px
     }
     .content-1 > div {
     	margin-top: 0;

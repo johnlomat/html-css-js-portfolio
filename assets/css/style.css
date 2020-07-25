@@ -180,7 +180,6 @@ nav > div > ul > li > a:hover {
 }
 .banner > div > div > div > img {
     width: 100%;
-    height: 470px;
     object-fit: cover;
 }
 .banner > div > div > div {
@@ -197,7 +196,7 @@ nav > div > ul > li > a:hover {
     font-weight: 300;
 }
 .banner section ~ section ~ div {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .banner section ~ section ~ div > img {
 	width: 100%;
@@ -228,9 +227,6 @@ nav > div > ul > li > a:hover {
     font-size: 1.4em;
     font-weight: 400;
     letter-spacing: 0.2em
-}
-.content-1 > div, .content-2a > div, .content-2b > div {
-    height: 100%;
 }
 .content-1 > div > div > div {
     text-align: center;
@@ -481,21 +477,25 @@ footer > div:last-child p {
         padding: 10px 20px;    
     }
     .banner {
-        height: 980px;
+        height: auto;
     }
     .banner > div {
         align-items: flex-start!important;
         margin-top: 105px;
+        margin-bottom: 40px;
         width: 470px;
     }
+    .banner > div > div {
+        height: auto;
+    }
     .banner section ~ section ~ div {
+        height: 216px;
         margin-top: 0;
     }
     .banner > div > div > div > div {
         background-color: white;
     }
     .content-1 > div {
-        margin-top: 60px;
         padding: 50px;
     }
     .content-2a .row, .content-2b .row {
@@ -582,30 +582,28 @@ footer > div:last-child p {
         padding: 0 50px;
     }                     
 }
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 500px) {
    nav {
         padding: 10px 0!important;
 	}
    .navbar-brand ~ span {
 	    display: none;
     }	
-    .banner {
-        height: 940px;
-    }
     .banner > div {
         margin-top: 70px;
-    }
-    .banner > div {
+        margin-bottom: 0;
         width: 100%;
     }
     .banner > div > div > div:nth-child(2) .d-flex {
         padding: 10px 15px;    
     }
+    .banner section ~ section ~ div {
+        height: auto;
+    }
     .banner section ~ section ~ div > img {
         padding-top: 25px
     }
     .content-1 > div {
-    	margin-top: 0;
         padding: 50px 40px;
     }
     .content-2a, .content-2b, .content-3, .footer {

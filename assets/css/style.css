@@ -189,17 +189,17 @@ nav > div > ul > li > a:hover {
 .banner > div > div > div:nth-child(2) .d-flex {
     padding: 10px 40px;    
 }
-.banner section {
+.banner section, .banner section ~ section ~ div {
     margin: 5px 0;
 }
 .banner section p, footer p {
     font-size: 1em;
     font-weight: 300;
 }
-.banner section:last-child {
+.banner section ~ section ~ div {
     margin-top: 50px;
 }
-.banner section img {
+.banner section ~ section ~ div > img {
 	width: 100%;
 }
 .banner > div > div > div:nth-child(3) {
@@ -488,7 +488,7 @@ footer > div:last-child p {
         margin-top: 105px;
         width: 470px;
     }
-    .banner section:last-child {
+    .banner section ~ section ~ div {
         margin-top: 0;
     }
     .banner > div > div > div > div {
@@ -601,7 +601,7 @@ footer > div:last-child p {
     .banner > div > div > div:nth-child(2) .d-flex {
         padding: 10px 15px;    
     }
-    .banner section img {
+    .banner section ~ section ~ div > img {
         padding-top: 25px
     }
     .content-1 > div {

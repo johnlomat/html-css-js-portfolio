@@ -2,5 +2,5 @@
 
 User-agent: *
 Disallow: /assets/blurry-load/images/
-Disallow: /assets/images/banner.jpg
-Disallow: /assets/images/banner_2.jpg
+Disallow: /assets/images/background/
+Disallow: /assets/logo/

@@ -1,0 +1,9 @@
+<svg id="Sqaure_1" data-name="Sqaure 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="25.52" viewBox="0 0 40 25.52">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e39a65"/>
+      <stop offset="1" stop-color="#e95f8d"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_217" data-name="Path 217" d="M20,25.52a8.02,8.02,0,0,1-4.27-1.24l-14.4-9.016a3.019,3.019,0,0,1,0-5.01l14.4-9.017a7.984,7.984,0,0,1,8.54,0l14.4,9.017a3.018,3.018,0,0,1,0,5.01L24.271,24.28A8.014,8.014,0,0,1,20,25.52ZM20,2.475a5.871,5.871,0,0,0-3.129.907L2.475,12.4a.435.435,0,0,0,0,.722l14.4,9.017h0a5.853,5.853,0,0,0,6.257,0l14.395-9.017a.435.435,0,0,0,0-.722l-14.4-9.016A5.875,5.875,0,0,0,20,2.475Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+</svg>

@@ -114,6 +114,12 @@ nav ul li a:focus {
     border: 4px solid #CD8A67;
     border-radius: 20px;
 }
+.lazy-load {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    filter: blur(1px);
+
+}
 .banner > div > div > div:nth-child(2) span {
     background-image: url(../images/background/laptop.svg);
     background-size: contain;

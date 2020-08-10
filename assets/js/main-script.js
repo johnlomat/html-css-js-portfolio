@@ -32,6 +32,7 @@ $(document).ready(function() {
             var imageSmall = $(this)
             var imgLarge = imageSmall.data('large')
             $(imageSmall).attr('src', imgLarge)
+            $(imageSmall).removeClass()
         })
     }, 2500)
 

@@ -26,16 +26,6 @@ $(document).ready(function() {
         });
     });
 
-    //  Blurry Load Effect
-    setTimeout(function () {
-        $('.lazy-load').each(function () {
-            var imageSmall = $(this)
-            var imgLarge = imageSmall.data('large')
-            $(imageSmall).attr('src', imgLarge)
-            $(imageSmall).removeClass()
-        })
-    }, 2500)
-
     //  Project Details
     $('.projects').each(function () {
         var projectDetail = $(this)
@@ -139,4 +129,15 @@ $(document).ready(function() {
             })   
         }
     })
+})
+
+$(window).on('load', function() {
+    //  Blurry Load Effect
+    $('.lazy-load').each(function () {
+         var imageSmall = $(this)
+         var imgLarge = imageSmall.data('large')
+         
+         imageSmall.attr('src', imgLarge)
+         imageSmall.removeClass()
+     })
 })

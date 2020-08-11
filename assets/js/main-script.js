@@ -26,6 +26,17 @@ $(document).ready(function() {
         });
     });
 
+    //  Blurry Load Effect
+    setTimeout(function () {
+        $('.lazy-load').each(function () {
+            var imageSmall = $(this)
+            var imgLarge = imageSmall.data('large')
+            
+            imageSmall.attr('src', imgLarge)
+            imageSmall.removeClass()
+        })
+    }, 2500)
+
     //  Project Details
     $('.projects').each(function () {
         var projectDetail = $(this)
@@ -41,8 +52,8 @@ $(document).ready(function() {
         var project = button.data('project')
         var description = button.data('description')
         var link = button.data('link')
-
         var modal = $(this)
+        
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
         modal.find('.modal-button').attr('href',link)
@@ -98,17 +109,19 @@ $(document).ready(function() {
         var message = $('#message')
         var url = 'https://usebasin.com/f/d8282983945a.json'
         var data = $('#contact-form').serialize()
+        var form = $('#contact-form')
+        var button = $('#contact-form button')
 
-        $('#contact-form button').attr('disabled',true)
-        $('#contact-form button').text('')
-        $('#contact-form button').append(
+        button.attr('disabled',true)
+        button.text('')
+        button.append(
             '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>Sending...'
         )
     
         if (name.val() == '' || email.val() == '' || subject.val() == '' || message.val() == '') {
             toastr.warning('Please fill out all field')
-            $('#contact-form button').removeAttr('disabled')
-            $('#contact-form button').text('Submit')
+            button.removeAttr('disabled')
+            button.text('Submit')
         }else {
             $.ajax({
                 method: 'POST',
@@ -116,28 +129,17 @@ $(document).ready(function() {
                 data: data,
                 datatype: 'json',
                 success: function(data) {
-                    $('#contact-form').get(0).reset()
+                    form.get(0).reset()
                     toastr.success('Thanks! Your message has been sent')
-                    $('#contact-form button').removeAttr('disabled')
-                    $('#contact-form button').text('Submit')
+                    button.removeAttr('disabled')
+                    button.text('Submit')
                 },
                 error: function(data) {   
                     toastr.error('Error sending message!')
-                    $('#contact-form button').removeAttr('disabled')
-                    $('#contact-form button').text('Submit')
+                    button.removeAttr('disabled')
+                    button.text('Submit')
                 }
             })   
         }
     })
-})
-
-$(window).on('load', function() {
-    //  Blurry Load Effect
-    $('.lazy-load').each(function () {
-         var imageSmall = $(this)
-         var imgLarge = imageSmall.data('large')
-         
-         imageSmall.attr('src', imgLarge)
-         imageSmall.removeClass()
-     })
 })

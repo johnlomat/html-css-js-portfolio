@@ -79,25 +79,25 @@ $(document).ready(function() {
     }
 
     //  Responsiveness
-    if ($(window).width() <= 559) {
+    if ($(window).outerWidth() <= 575) {
         $('.gallery').removeClass('row')
         $('.gallery').flickity({
             wrapAround: true
         })
-    }else if ($(window).width() >= 559) {
+    }else if ($(window).outerWidth() >= 575) {
         $('.gallery').addClass('row')
     }
 
     $(window).resize(function(){
-        if ($(window).width() <= 559) {  
+        if ($(window).outerWidth() <= 575) {
             $('.gallery').removeClass('row')
             $('.gallery').flickity({
                 wrapAround: true
             })
-        }else if ($(window).width() >= 559) {
+        }else if ($(window).outerWidth()>= 575) {
             $('.gallery').addClass('row')
             $('.gallery').flickity('destroy')
-        }      
+        }
     })
 
     //  AJAX Request

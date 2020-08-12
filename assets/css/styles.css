@@ -58,6 +58,7 @@ nav ul li a:focus {
     transform: rotate(0deg);
     transition: all 0.3s ease-in-out;
     transform-origin: 50% 50%;
+    padding: 0;
 }
 .burger:focus {
     -moz-outline: none;
@@ -481,7 +482,7 @@ nav ul li a:focus {
 /*  Extra small devices (portrait phones, 576px and below)  */
 @media (max-width: 575.98px) {
     .navbar {
-        padding: 10px 20px;
+        padding: 10px 15px;
     }
     .banner {
         border-radius: 0;
@@ -506,7 +507,10 @@ nav ul li a:focus {
         height: 250px;
     }
     #about {
-        margin: 20px 10px -100px 10px;
+        margin: 20px 15px -100px 15px;
+    }
+    #about > div {
+        padding: 0 10px;
     }
     #about h2 {
         font-size: 24px;
@@ -527,10 +531,10 @@ nav ul li a:focus {
         font-size: 18px;
     }
     #development > div > div > div:nth-child(1) {
-        padding: 0 10px 25px 10px;
+        padding: 0 15px 25px 15px;
     }
     #development > div > div > div:nth-child(2) {
-        padding: 25px 10px 0 10px;
+        padding: 25px 15px 0 15px;
     }
     #development > div > div > div:nth-child(n) > div {
         padding-top: 70px;
@@ -598,7 +602,7 @@ nav ul li a:focus {
         border-radius: 0;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
-        padding: 0 10px
+        padding: 0 15px
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
         margin-top: -100px;
@@ -781,10 +785,13 @@ nav ul li a:focus {
         padding-left: 15px;
     }
     #contact-form > div {
-        padding: 0 10px;
+        padding-right: 10px;
     }
     #contact > div > div:nth-child(2) > div:nth-child(1) {
         padding: 0;
+    }
+    #contact > div > div:nth-child(2) > div:nth-child(2) > div {
+        padding: 0 25px;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
         height: 172px;
@@ -829,6 +836,9 @@ nav ul li a:focus {
         width: 320px;
         height: 180px;
     }
+    #contact > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+        padding: 0 25px 0 0;
+    }
     #contact > div:nth-child(1) > div:nth-child(1) {
         margin: 0 50px
     }
@@ -845,10 +855,10 @@ nav ul li a:focus {
         padding-left: 15px;
     }
     #contact-form > div {
-        padding: 0 10px;
+        padding: 0;
     }
-    #contact > div > div:nth-child(2) {
-        margin: 0 20px;
+    #contact > div > div:nth-child(2) > div:nth-child(2) {
+        padding: 0 10px;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
         height: 172px;
@@ -905,6 +915,12 @@ nav ul li a:focus {
     #contact > div:nth-child(1) > div:nth-child(1) > div {
         padding: 30px 50px;
     }
+    #contact > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+        padding: 0 25px 0 0;
+    }
+    #contact > div > div:nth-child(2) > div:nth-child(2) {
+        padding: 0 10px;
+    }
     #contact-form > div > div:nth-child(1) {
         padding-right: 15px;
     }
@@ -912,10 +928,7 @@ nav ul li a:focus {
         padding-left: 15px;
     }
     #contact-form > div {
-        padding: 0 10px;
-    }
-    #contact > div > div:nth-child(2) {
-        margin: 0 20px;
+        padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
         height: 172px;

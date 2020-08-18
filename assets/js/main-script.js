@@ -52,11 +52,23 @@ $(document).ready(function() {
         var project = button.data('project')
         var description = button.data('description')
         var link = button.data('link')
+        var techStack1 = button.data('tech-1')
+        var techStack2 = button.data('tech-2')
+        var techStack3 = button.data('tech-3')
+        var techStack4 = button.data('tech-4')
+        var techStack5 = button.data('tech-5')
+        var techStack6 = button.data('tech-6')
         var modal = $(this)
         
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
         modal.find('.modal-button').attr('href',link)
+        modal.find('.tech-stack-1').attr('style',techStack1)
+        modal.find('.tech-stack-2').attr('style',techStack2)
+        modal.find('.tech-stack-3').attr('style',techStack3)
+        modal.find('.tech-stack-4').attr('style',techStack4)
+        modal.find('.tech-stack-5').attr('style',techStack5)
+        modal.find('.tech-stack-6').attr('style',techStack6)
     })
 
     //  toastr options

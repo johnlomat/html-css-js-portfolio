@@ -355,7 +355,7 @@ nav ul li a:focus {
 }
 .modal-body > div > div > div {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     padding: 0;
     -webkit-box-flex: 0;
     -ms-flex: 0 0 16.666667%;
@@ -956,7 +956,18 @@ nav ul li a:focus {
         border-bottom: 2px solid #CD8A67;
     }
 }
-@media (max-width: 450px) {
+@media (max-width: 490px) {
+    .modal-body > div > div > div {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .modal-body > div > div > div:nth-child(3) {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 340px) {
     .modal-body > div > div > div {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333333%;
@@ -964,6 +975,6 @@ nav ul li a:focus {
         max-width: 33.333333%;
     }
     .modal-body > div > div > div:nth-child(3) {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 }

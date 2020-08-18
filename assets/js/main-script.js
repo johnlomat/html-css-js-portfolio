@@ -58,17 +58,22 @@ $(document).ready(function() {
         var techStack4 = button.data('tech-4')
         var techStack5 = button.data('tech-5')
         var techStack6 = button.data('tech-6')
+        var array = [techStack1, techStack2, techStack3, techStack4, techStack5, techStack6]
         var modal = $(this)
         
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
-        modal.find('.modal-button').attr('href',link)
-        modal.find('.tech-stack-1').attr('style',techStack1)
-        modal.find('.tech-stack-2').attr('style',techStack2)
-        modal.find('.tech-stack-3').attr('style',techStack3)
-        modal.find('.tech-stack-4').attr('style',techStack4)
-        modal.find('.tech-stack-5').attr('style',techStack5)
-        modal.find('.tech-stack-6').attr('style',techStack6)
+        modal.find('.modal-button').attr('href',link) 
+        $.each(array, function(key, value) {
+            key = key + 1;
+            var techStack = $('.tech-stack' + '-' + key)
+
+            techStack.attr('style',value)
+
+            if (value == '') {
+                techStack.css('height','0')
+            }
+        })       
     })
 
     //  toastr options

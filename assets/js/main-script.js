@@ -27,8 +27,8 @@ $(document).ready(function() {
     });
 
     //  Blurry Load Effect
-    setTimeout(function () {
-        $('.lazy-load').each(function () {
+    setTimeout(function() {
+        $('.lazy-load').each(function() {
             var imageSmall = $(this)
             var imgLarge = imageSmall.data('large')
             
@@ -38,7 +38,7 @@ $(document).ready(function() {
     }, 2500)
 
     //  Project Details
-    $('.projects').each(function () {
+    $('.projects').each(function() {
         var projectDetail = $(this)
         var project = projectDetail.find('.project-title').text()
         var description = projectDetail.find('.project-text').text()
@@ -47,7 +47,7 @@ $(document).ready(function() {
         projectDetail.find('.detail--button').attr('data-description',description)
         
     })
-    $('#ProjectDetails').on('show.bs.modal', function (event) {
+    $('#ProjectDetails').on('show.bs.modal', function(event) {
         var button = $(event.relatedTarget)
         var project = button.data('project')
         var description = button.data('description')
@@ -65,7 +65,7 @@ $(document).ready(function() {
         modal.find('.modal-text').text(description)
         modal.find('.modal-button').attr('href',link) 
         $.each(array, function(key, value) {
-            key = key + 1;
+            key++;
             var techStack = $('.tech-stack' + '-' + key)
 
             techStack.attr('style',value)
@@ -105,13 +105,13 @@ $(document).ready(function() {
         $('.gallery').addClass('row')
     }
 
-    $(window).resize(function(){
+    $(window).resize(function() {
         if ($(window).outerWidth() <= 575) {
             $('.gallery').removeClass('row')
             $('.gallery').flickity({
                 wrapAround: true
             })
-        }else if ($(window).outerWidth()>= 575) {
+        }else if ($(window).outerWidth() >= 575) {
             $('.gallery').addClass('row')
             $('.gallery').flickity('destroy')
         }

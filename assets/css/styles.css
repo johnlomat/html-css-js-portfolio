@@ -963,9 +963,6 @@ nav ul li a:focus {
         flex: 0 0 25%;
         max-width: 25%;
     }
-    .modal-body > div > div > div:nth-child(3) {
-        margin-bottom: 10px;
-    }
 }
 @media (max-width: 340px) {
     .modal-body > div > div > div {
@@ -973,8 +970,5 @@ nav ul li a:focus {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
-    }
-    .modal-body > div > div > div:nth-child(3) {
-        margin-bottom: 10px;
     }
 }

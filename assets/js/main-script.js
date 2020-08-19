@@ -3,6 +3,7 @@ $(document).ready(function() {
         $('#navbarNav').removeClass('show');
         $('.burger').removeClass('active');
     })
+    
     $('.burger').click(function() {
         $('.burger').toggleClass('active');
     })
@@ -47,6 +48,7 @@ $(document).ready(function() {
         projectDetail.find('.detail--button').attr('data-description',description)
         
     })
+
     $('#ProjectDetails').on('show.bs.modal', function(event) {
         var button = $(event.relatedTarget)
         var project = button.data('project')
@@ -73,6 +75,44 @@ $(document).ready(function() {
             if (value == '') {
                 techStack.css('height','0')
             }
+
+            if ($(window).outerWidth() <= 490) {
+                if (key >= 5 && value != '') {
+                    techStack.css('margin-top','10px')
+                }
+            }
+            
+            if ($(window).outerWidth() <= 340) {
+                if (key >= 4 && value != '') {
+                    techStack.css('margin-top','10px')
+                }
+            }
+
+            $(window).resize(function() {
+                if ($(window).outerWidth() <= 490) {
+                    if (key >= 5 && value != '') {
+                        techStack.css('margin-top','10px')
+                    }else {
+                        techStack.css('margin-top','')
+                    }
+                }else if ($(window).outerWidth() >= 490) {
+                    if (key >= 5 && value != '') {
+                        techStack.css('margin-top','')
+                    }
+                }
+
+                if ($(window).outerWidth() <= 340) {
+                    if (key >= 4 && value != '') {
+                        techStack.css('margin-top','10px')
+                    }else {
+                        techStack.css('margin-top','')
+                    }
+                }else if ($(window).outerWidth() >= 490) {
+                    if (key >= 4 && value != '') {
+                        techStack.css('margin-top','')
+                    }                 
+                }
+            })
         })       
     })
 

@@ -43,34 +43,44 @@ $(document).ready(function() {
         var projectDetail = $(this)
         var project = projectDetail.find('.project-title').text()
         var description = projectDetail.find('.project-text').text()
-        
-        projectDetail.find('.detail--button').attr('data-project',project)
-        projectDetail.find('.detail--button').attr('data-description',description)
-        
+        var type = projectDetail.find('.project-type').text()
+        var scopeList = projectDetail.find('.scope-list').html().toString()
+               
+        projectDetail.find('.detail--button').attr('data-project', project)
+        projectDetail.find('.detail--button').attr('data-description', description)
+        projectDetail.find('.detail--button').attr('data-type', type)
+        projectDetail.find('.detail--button').attr('data-scope-list', scopeList)
     })
 
     $('#ProjectDetails').on('show.bs.modal', function(event) {
+        var modal = $(this)
         var button = $(event.relatedTarget)
         var project = button.data('project')
         var description = button.data('description')
         var link = button.data('link')
-        var techStack1 = button.data('tech-1')
-        var techStack2 = button.data('tech-2')
-        var techStack3 = button.data('tech-3')
-        var techStack4 = button.data('tech-4')
-        var techStack5 = button.data('tech-5')
-        var techStack6 = button.data('tech-6')
-        var array = [techStack1, techStack2, techStack3, techStack4, techStack5, techStack6]
-        var modal = $(this)
+        var type = button.data('type')
+        var scopeList = button.data('scope-list')
+        var techStack = [
+            button.data('tech-1'),
+            button.data('tech-2'),
+            button.data('tech-3'),
+            button.data('tech-4'),
+            button.data('tech-5'),
+            button.data('tech-6'),
+        ]
         
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
-        modal.find('.modal-button').attr('href',link) 
-        $.each(array, function(key, value) {
-            key++;
+        modal.find('.modal-type').text(type)
+        modal.find('.modal-button').attr('href',link)
+        modal.find('.modal-scope-list').text('')
+        modal.find('.modal-scope-list').append(scopeList)
+
+        $.each(techStack, function(key, value) {
+            key++
             var techStack = $('.tech-stack' + '-' + key)
 
-            techStack.attr('style',value)
+            techStack.attr('style', value)
 
             if (value == '') {
                 techStack.css('height','0')
@@ -113,7 +123,7 @@ $(document).ready(function() {
                     }                 
                 }
             })
-        })       
+        })
     })
 
     //  toastr options

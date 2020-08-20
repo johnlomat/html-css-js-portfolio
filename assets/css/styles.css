@@ -351,7 +351,9 @@ nav ul li a:focus {
 }
 #ProjectDetails h6 {
     font-family: 'Poppins',sans-serif;
-    font-weight: 600;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #4C2DB1;
 }
 .modal-body > div > div > div {
     display: flex;
@@ -370,6 +372,14 @@ nav ul li a:focus {
     background-position: center;
     background-repeat: no-repeat;
     background-origin: border-box;
+}
+.modal-scope-list {
+    padding-left: 10px;
+}
+.modal-body li::before {
+    content: '●';
+    color: #4C2DB1;
+    margin-right: 5px;
 }
 .modal-button {
     background: #4C2DB1;

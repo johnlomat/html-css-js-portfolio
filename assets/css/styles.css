@@ -373,6 +373,9 @@ nav ul li a:focus {
     background-repeat: no-repeat;
     background-origin: border-box;
 }
+.modal-type {
+    padding-left: 10px
+}
 .modal-scope-list {
     padding-left: 10px;
 }
@@ -394,6 +397,7 @@ nav ul li a:focus {
 }
 .modal-header {
     padding: 5px 20px;
+    align-items: center;
     background: #E1E1E1;
 }
 .modal-header .close {
@@ -512,6 +516,12 @@ nav ul li a:focus {
 /*  Responsiveness  */
 /*  Extra small devices (portrait phones, 576px and below)  */
 @media (max-width: 575.98px) {
+    p, li {
+        font-size: 14px;
+    }
+    h5 {
+        font-size: 1.1rem;
+    }
     .navbar {
         padding: 10px 15px;
     }
@@ -556,7 +566,6 @@ nav ul li a:focus {
     }
     #development p {
         text-align: center;
-        font-size: 14px;
     }
     #development > div > div > div:nth-child(n) > div > h4 {
         font-size: 18px;
@@ -625,6 +634,9 @@ nav ul li a:focus {
     #projects > div > div:nth-child(2) > div:nth-child(n) {
         margin: 0 15px 50px 15px;
         padding: 0;
+    }
+    #projects .overlay h5 {
+        font-size: 1.25rem;
     }
     #projects > div > div:nth-child(2) > div:last-child {
         margin: 0 15px;
@@ -831,9 +843,6 @@ nav ul li a:focus {
 }
 /*  Large devices (desktops, 992px and up)  */
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    p {
-        font-size: 15px;
-    }
     .banner > div > div {
         margin: 20px 0 0 0;
     }
@@ -898,9 +907,6 @@ nav ul li a:focus {
 }
 /*  Extra large devices (large desktops, 1200px and up)  */
 @media (min-width: 1200px) {
-    p {
-        font-size: 15px;
-    }
     .banner > div > div {
         margin: 20px 0 0 0;
     }

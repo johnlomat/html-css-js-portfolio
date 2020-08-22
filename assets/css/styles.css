@@ -1,10 +1,11 @@
 html {
-    scroll-padding-top: 92px;
+    font-size: 15px;
+    scroll-padding-top: 6.133rem;
     scroll-behavior: smooth;
 }
 body {
     font-family: 'Poppins',sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 400;
 }
 img, a {
@@ -29,27 +30,27 @@ h2, h4 {
 
 /*  Navbar  */
 .navbar {
-    padding: 10px 40px;
+    padding: .667rem 2.667rem;
     background: none;
 }
 nav img {
-    width: 40px;
+    width: 2.667rem;
 }
 nav ul li {
-    margin-left: 50px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    margin-left: 3.333rem;
+    border-bottom: .133rem solid rgba(255, 255, 255, 0);
 }
 nav ul li a {
     color: white!important;
-    font-size: 17px;
+    font-size: 1.133rem;
     text-transform: uppercase;
     padding: 0!important;
 }
 nav ul li:hover {
-    border-bottom: 2px solid #CD8A67;
+    border-bottom: .133rem solid #CD8A67;
 }
 nav ul li a:focus {
-    border-bottom: 2px solid #CD8A67;
+    border-bottom: .133rem solid #CD8A67;
 }
 /* Navbar menu button animation*/
 .burger {
@@ -68,12 +69,12 @@ nav ul li a:focus {
 .burger span {
     position: relative;
     display: block;
-    width: 30px;
-    height: 2px;
+    width: 2rem;
+    height: .133rem;
     background-color: white;
 }
 .burger > span:nth-child(2) {
-    margin: 10px 0;
+    margin: .667rem 0;
 }
 .burger span:first-child, .burger span:nth-child(2), .burger span:last-child {
     top: 0;
@@ -87,17 +88,17 @@ nav ul li a:focus {
     transition: all 0.3s ease-in-out;
 }
 .burger.active span:first-child {
-    top: 12.0333333333px;
+    top: .8022222222rem;
     transform: rotate(45deg);
     transition: 0.3s ease-in-out;
 }
 .burger.active span:nth-child(2) {
-    top: -0.1333333333px;
+    top: -.0088888886rem;
     transform: rotate(-45deg);
     transition: 0.3s ease-in-out;
 }
 .burger.active span:last-child {
-    top: -12.1333333333px;
+    top: -.8088888886rem;
     transform: rotate(-45deg);
     transition: 0.3s ease-in-out;
 }
@@ -110,11 +111,11 @@ nav ul li a:focus {
     background-size: contain;
     background-position-x: left;
     background-repeat: no-repeat;
-    border-radius: 0 0 100px 100px;
+    border-radius: 0 0 6.667rem 6.667rem;
 }
 .banner > div > div:nth-child(1) > div:nth-child(1) > div > img {
     width: 100%;
-    border-radius: 15px;
+    border-radius: 1rem;
     color: white;
 }
 .lazy-load {
@@ -137,13 +138,13 @@ nav ul li a:focus {
     line-height: 1.5;
 }
 #about {
-    -webkit-box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     background-color: white;
     width: 100%;
-    padding: 20px;
-    border-radius: 50px;
+    padding: 1.333rem;
+    border-radius: 3.333rem;
 }
 #about > div {
     height: 100%;
@@ -155,8 +156,8 @@ nav ul li a:focus {
 #about h2::before {
     display: inline-block;
     content: '';
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     background-image: url(../images/background/title-square.svg);
     background-size: contain;
     background-position: top;
@@ -165,8 +166,8 @@ nav ul li a:focus {
 #about h2::after {
     display: inline-block;
     content: '';
-    width: 30px;
-    height: 30px;
+    width: 2rem;
+    height: 2rem;
     background-image: url(../images/background/title-square.svg);
     background-size: contain;
     background-position: bottom;
@@ -177,51 +178,51 @@ nav ul li a:focus {
     color: #4C2DB1;
 }
 .spacer {
-    height: 100px;
+    height: 6.667rem;
 }
 #development {
-    padding: 50px 0;
+    padding: 3.333rem 0;
 }
 #development > div > div > div:nth-child(1n) > div {
     background-color: white;
-    padding: 20px 30px;
-    -webkit-box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    border-radius: 50px;
+    padding: 1.333rem 2rem;
+    -webkit-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    border-radius: 3.333rem;
 }
 #development > div > div > div:nth-child(1) h4::before {
     display: inline-block;
     content: '';
-    width: 60px;
-    height: 30px;
+    width: 4rem;
+    height: 2rem;
     background-image: url(../images/background/front-end.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: .333rem;
 }
 #development > div > div > div:nth-child(2) h4::before {
     display: inline-block;
     content: '';
-    width: 60px;
-    height: 30px;
+    width: 4rem;
+    height: 2rem;
     background-image: url(../images/background/back-end.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: .333rem;
 }
 #development > div > div > div:nth-child(1n) > div > h4 {
     text-align: center;
 }
 #technology-stack {
-    padding: 50px 0;
+    padding: 3.333rem 0;
 }
 #technology-stack > div > div:nth-child(1) {
-    padding-bottom: 50px;
+    padding-bottom: 3.333rem;
 }
 #technology-stack > div > div > div > h2 {
     color: #4C2DB1;
@@ -233,8 +234,8 @@ nav ul li a:focus {
 }
 #technology-stack > div > div:nth-child(2) > div:nth-child(1n) > span {
     display: block;
-    width: 100px;
-    height: 80px;
+    width: 6.667rem;
+    height: 5.333rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -280,19 +281,19 @@ nav ul li a:focus {
     background: #4C2DB1!important;
 }
 #projects {
-    padding: 50px 0 100px 0;
+    padding: 3.333rem 0 6.667rem 0;
 }
 #projects > div > div:nth-child(1) {
-    padding-bottom: 50px;
+    padding-bottom: 3.333rem;
 }
 #projects > div > div > div > h2 {
     color: #4C2DB1;
     text-transform: uppercase;
 }
 #projects > div > div:nth-child(2) > div:nth-child(n) {
-    -webkit-box-shadow: 0px 0px 50px 5px rgba(64,38,160,0.5);
-    -moz-box-shadow: 0px 0px 50px 5px rgba(64,38,160,0.5);
-    box-shadow: 0px 0px 50px 5px rgba(64,38,160,0.5);
+    -webkit-box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
+    -moz-box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
+    box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
 }
 #projects img {
     width: 100%;
@@ -325,15 +326,15 @@ nav ul li a:focus {
 .overlay button {
     color: white;
     font-size: 1em;
-    padding: 5px 10px;
-    border: 2px solid white;
-    border-radius: 5px;
+    padding: .333rem .667rem;
+    border: .133rem solid white;
+    border-radius: .333rem;
     background: none;
 }
 #projects .overlay button:hover {
     color: white;
     background: #4C2DB1;
-    border: 2px solid #4C2DB1;
+    border: .133rem solid #4C2DB1;
 }
 #projects > div > div:nth-child(2) > div:nth-child(n):hover .overlay {
     opacity: 1;
@@ -366,23 +367,23 @@ nav ul li a:focus {
 }
 .modal-body span {
     display: inline-block;
-    width: 60px;
-    height: 40px;
+    width: 4rem;
+    height: 2.667rem;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     background-origin: border-box;
 }
 .modal-type {
-    padding-left: 10px
+    padding-left: .667rem
 }
 .modal-scope-list {
-    padding-left: 10px;
+    padding-left: .667rem;
 }
 .modal-body li::before {
     content: '●';
     color: #4C2DB1;
-    margin-right: 5px;
+    margin-right: .333rem;
 }
 .modal-button {
     background: #4C2DB1;
@@ -393,15 +394,15 @@ nav ul li a:focus {
     color: white;
 }
 .modal-button:focus {
-    box-shadow: 0px 0px 10px 5px rgba(64,38,160,0.5);
+    box-shadow: 0 0 .667rem .333rem rgba(64,38,160,0.5);
 }
 .modal-header {
-    padding: 5px 20px;
+    padding: .333rem 1.333rem;
     align-items: center;
     background: #E1E1E1;
 }
 .modal-header .close {
-    margin: 0 -5px 0 0;
+    margin: 0 -.333rem 0 0;
     padding: 0;
     font-size: 1.9rem;
     font-weight: 300;
@@ -414,7 +415,7 @@ nav ul li a:focus {
 /*  Footer  */
 #contact {
     position: relative;
-    border-radius: 100px 100px 0 0;
+    border-radius: 6.667rem 6.667rem 0 0;
     background-image: url(../images/background/Background-image-2.svg), linear-gradient(0deg,rgba(8,4,80,1) 83%,rgba(76,45,177,1) 100%);
     background-size: contain;
     background-position-x: bottom;
@@ -425,50 +426,50 @@ nav ul li a:focus {
     text-transform: uppercase;
 }
 #contact > div:nth-child(1) > div:nth-child(1) > div {
-    -webkit-box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
-    box-shadow: 0px 4px 35px -11px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
+    box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     text-align: center;
     background-color: white;
-    border-radius: 50px;
+    border-radius: 3.333rem;
 }
 #contact > div:nth-child(1) > div > div > p {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.333rem;
     font-weight: bold;
 }
 #contact > div > div:nth-child(2) {
-    padding: 50px 0;
+    padding: 3.333rem 0;
 }
 #contact-form > div > div:last-child {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 1rem;
 }
 #contact-form textarea {
-    height: 200px;
+    height: 13.333rem;
 }
 #contact-form button {
-    border: 2px solid white;
-    border-radius: 50px;
+    border: .133rem solid white;
+    border-radius: 3.333rem;
     background: #080450;
-    padding: 10px;
-    font-size: 17px;
+    padding: .667rem;
+    font-size: 1.133rem;
     color: white;
     transition: 0.3 ease-in-out;
 }
 #contact-form button:hover {
     background: #4C2DB1;
-    border: 2px solid #4C2DB1;
+    border: .133rem solid #4C2DB1;
 }
 #contact-form button:focus {
-    box-shadow: 0px 0px 5px 5px rgba(64,38,160,0.8);
+    box-shadow: 0 0 .333rem .333rem rgba(64,38,160,0.8);
 }
 #contact-form button:disabled {
     cursor: not-allowed;
 }
 .spinner-border {
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: .333rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) {
     color: white;
@@ -478,23 +479,23 @@ nav ul li a:focus {
 }
 #contact > div:nth-child(2) > div > div {
     background: #080808;
-    padding: 30px 0;
+    padding: 2rem 0;
     text-align: center;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div > img {
-    width: 100px;
+    width: 6.667rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul {
-    margin: 20px 0 0 0;
+    margin: 1.333rem 0 0 0;
     padding: 0;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a {
     font-size: 1.4em;
     color: white;
-    padding: 0 5px;
+    padding: 0 .333rem;
     border-radius: 100%;
-    width: 35px;
-    height: 35px;
+    width: 2.333rem;
+    height: 2.333rem;
     text-align: center;
     background: rgba(255, 255, 255, 0.1);
 }
@@ -510,20 +511,20 @@ nav ul li a:focus {
 #contact > div:nth-child(2) > div > div > p {
     margin: 0;
     color: #858585;
-    font-size: 12px;
+    font-size: .8rem;
 }
 
 /*  Responsiveness  */
 /*  Extra small devices (portrait phones, 576px and below)  */
 @media (max-width: 575.98px) {
     p, li {
-        font-size: 14px;
+        font-size: .933rem;
     }
     h5 {
         font-size: 1.1rem;
     }
     .navbar {
-        padding: 10px 15px;
+        padding: .667rem 1rem;
     }
     .banner {
         border-radius: 0;
@@ -532,62 +533,62 @@ nav ul li a:focus {
         justify-content: center;
     }
     .banner > div > div > div:nth-child(1) {
-        width: 315px;
+        width: 21rem;
     }
     .banner > div > div:nth-child(1) > div:nth-child(1) > div {
         width: 100%;
-        height: 285px;  
-        border: 4px solid #CD8A67;
-        border-radius: 20px;
+        height: 19rem;  
+        border: .267rem solid #CD8A67;
+        border-radius: 1.333rem;
     }
     .banner > div > div > div:nth-child(1) > h1 {
         text-align: center;
-        font-size: 28px;
+        font-size: 1.867rem;
     }
     .banner > div > div > div:nth-child(2) span {
-        height: 250px;
+        height: 16.667rem;
     }
     #about {
-        margin: 20px 15px -100px 15px;
+        margin: 1.333rem 1rem -6.667rem 1rem;
     }
     #about > div {
-        padding: 0 10px;
+        padding: 0 .667rem;
     }
     #about h2 {
-        font-size: 24px;
+        font-size: 1.6rem;
     }
     #about h2::before {
-        width: 25px;
-        height: 25px;
+        width: 1.667rem;
+        height: 1.667rem;
     }
     #about h2::after {
-        width: 25px;
-        height: 25px;
+        width: 1.667rem;
+        height: 1.667rem;
     }
     #development p {
         text-align: center;
     }
     #development > div > div > div:nth-child(n) > div > h4 {
-        font-size: 18px;
+        font-size: 1.2rem;
     }
     #development > div > div > div:nth-child(1) {
-        padding: 0 15px 25px 15px;
+        padding: 0 1rem 1.667rem 1rem;
     }
     #development > div > div > div:nth-child(2) {
-        padding: 25px 15px 0 15px;
+        padding: 1.667rem 1rem 0 1rem;
     }
     #development > div > div > div:nth-child(n) > div {
-        padding-top: 70px;
+        padding-top: 4.667rem;
     }
     #development > div > div > div:nth-child(1) h4::before {
         position: absolute;
-        top: 45px;
+        top: 3rem;
         left: 50%;
         transform: translate(-50%,-50%);
     }
     #development > div > div > div:nth-child(2) h4::before {
         position: absolute;
-        top: 70px;
+        top: 4.667rem;
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -596,20 +597,20 @@ nav ul li a:focus {
     }
     #technology-stack > div > div > div > h2 {
         text-align: center;
-        font-size: 24px;
+        font-size: 1.6rem;
     }
     .gallery {
-        width: 320px;
-        top: 100px;
+        width: 21.333rem;
+        top: 6.667rem;
         left: 50%;
         transform: translate(-50%,-50%);
-        margin-bottom: 50px;
+        margin-bottom: 3.333rem;
     }
     .gallery-cell {
         display: flex;
         width: 66%;
-        height: 200px;
-        margin-right: 60px;
+        height: 13.333rem;
+        margin-right: 4rem;
         padding: 0;
     }
     .flickity-button {
@@ -617,68 +618,71 @@ nav ul li a:focus {
     }
     .gallery-cell > span {
         display: block;
-        width: 200px;
-        height: 200px;
+        width: 13.333rem;
+        height: 13.333rem;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         background-origin: border-box;
     }
     .flickity-page-dots {
-        bottom: -50px!important;
+        bottom: -3.333rem!important;
     }
     #projects > div > div > div > h2 {
         text-align: center;
-        font-size: 24px;
+        font-size: 1.6rem;
     }
     #projects > div > div:nth-child(2) > div:nth-child(n) {
-        margin: 0 15px 50px 15px;
+        margin: 0 1rem 3.333rem 1rem;
         padding: 0;
     }
     #projects .overlay h5 {
         font-size: 1.25rem;
     }
     #projects > div > div:nth-child(2) > div:last-child {
-        margin: 0 15px;
+        margin: 0 1rem;
     }
     #contact {
         border-radius: 0;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
-        padding: 0 15px
+        padding: 0 1rem
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        margin-top: -100px;
+        margin-top: -6.667rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        padding: 30px;
+        padding: 2rem;
+    }
+    #contact > div:nth-child(1) > div > div > p {
+        font-size: 1rem;
     }
     #contact > div > div > div > h2 {
         text-align: center;
-        font-size: 24px;
+        font-size: 1.6rem;
     }
     #contact > div > div > div > h4 {
-        font-size: 20px;
+        font-size: 1.333rem;
     }
     #contact > div > div > div > p {
-        font-size: 18px;
+        font-size: 1.2rem;
     }
     #contact-form ::placeholder {
-        font-size: 14px;
+        font-size: .933rem;
     }
     #contact-form .form-group {
         padding: 0;
     }
     #contact > div > div:nth-child(2) {
         margin: 0;
-        padding: 50px 0;
+        padding: 3.333rem 0;
     }
     #contact-form > div > div:last-child {
         padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 3.333rem;
         text-align: center;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section > h4:nth-child(2) {
@@ -687,65 +691,68 @@ nav ul li a:focus {
 }
 /*  Small devices (landscape phones, 576px and up)  */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .container {
+        max-width: 36rem;
+    }
     #navbarNav {
         display: none;
     }
     .navbar {
-        padding: 10px 20px;
+        padding: .667rem 1.333rem;
     }
     nav ul li a {
-        font-size: 15px;
+        font-size: 1rem;
     }
     .banner > div > div > div:nth-child(1) {
-        padding-top: 20px;
+        padding-top: 1.333rem;
     }
     .banner > div > div:nth-child(1) > div:nth-child(1) > div {
-        width: 208px;
-        height: 208px;  
-        border: 4px solid #CD8A67;
-        border-radius: 20px;
+        width: 13.867rem;
+        height: 13.867rem;  
+        border: .267rem solid #CD8A67;
+        border-radius: 1.333rem;
     }
     .banner > div > div > div:nth-child(2) span {
-        height: 250px;
+        height: 16.667rem;
     }
     .banner > div > div > div:nth-child(2) {
         padding: 0;
     }
     #about {
-        margin: 20px 10px -100px 10px;
+        margin: 1.333rem .667rem -6.667rem .667rem;
     }
     #development > div > div > div:nth-child(n) > div {
-        height: 185px;
+        height: 12.333rem;
     }
     #development > div > div > div:nth-child(1) {
-        padding: 0 10px 25px 10px;
+        padding: 0 .667rem 1.667rem .667rem;
     }
     #development > div > div > div:nth-child(2) {
-        padding: 25px 10px 0 10px;
+        padding: 1.667rem .667rem 0 .667rem;
     }
     #technology-stack > div > div:nth-child(2) > div:nth-child(4) > span {
-        margin-bottom: 50px
+        margin-bottom: 3.333rem
     }
     #technology-stack > div > div:nth-child(2) > div:nth-child(8) > span {
-        margin-bottom: 50px
+        margin-bottom: 3.333rem
     }
     #projects > div > div:nth-child(2) > div:nth-child(n) {
-        margin: 0 15px 50px 15px;
+        margin: 0 1rem 3.333rem 1rem;
         padding: 0;
-        width: 510px;
-        height: 286px;
+        width: 34rem;
+        height: 19.067rem;
     }
     #projects > div > div:nth-child(2) > div:last-child {
-        margin: 0 15px;
+        margin: 0 1rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
-        padding: 0 10px
+        padding: 0 .667rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        margin-top: -100px;
+        margin-top: -6.667rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        padding: 30px 50px;
+        padding: 2rem 3.333rem;
     }
     #contact-form .form-group {
         padding: 0;
@@ -754,222 +761,231 @@ nav ul li a:focus {
         padding: 0;
     }
     #contact > div > div:nth-child(2) {
-        padding: 50px 10px;
+        padding: 3.333rem .667rem;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 3.333rem;
         text-align: center;
     }
 }
 /*  Medium devices (tablets, 768px and up)  */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .container {
+        max-width: 48rem;
+    }
     p {
-        font-size: 15px;
+        font-size: 1rem;
     }
     .banner > div > div {
-        margin: 20px 0 0 0;
+        margin: 1.333rem 0 0 0;
     }
     .banner > div > div > div:nth-child(1) {
-        padding: 0 70px;
+        padding: 0 4.667rem;
     }
     .banner > div > div:nth-child(1) > div:nth-child(1) > div {
-        width: 248px;
-        height: 248px;  
-        border: 4px solid #CD8A67;
-        border-radius: 20px;
+        width: 16.533rem;
+        height: 16.533rem;  
+        border: .267rem solid #CD8A67;
+        border-radius: 1.333rem;
     }
     .banner > div > div > div:nth-child(2) span {
-        height: 350px;
+        height: 23.333rem;
     }
     #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
-        margin-bottom: 50px;
+        margin-bottom: 3.333rem;
     }
     #development > div > div > div:nth-child(n) > div {
-        height: 250px;
+        height: 16.667rem;
     }
     #development > div > div > div:nth-child(1) {
-        padding: 0 25px 0 0;
+        padding: 0 1.667rem 0 0;
     }
     #development > div > div > div:nth-child(2) {
-        padding: 0 0 0 25px;
+        padding: 0 0 0 1.667rem;
     }
     #development > div > div > div:nth-child(n) > div {
-        padding: 30px;
+        padding: 2rem;
     }
     #about {
-        margin: 0 50px -100px 50px;
+        margin: 0 3.333rem -6.667rem 3.333rem;
     }
     #about > div {
-        padding: 0 30px;
+        padding: 0 2rem;
     }
     #development > div > div > div:nth-child(n) > div > h4 {
-        font-size: 17px;
+        font-size: 1.133rem;
     }
     #projects > div > div:nth-child(2) > div:nth-child(n) {
-        margin: 0 15px;
+        margin: 0 1rem;
         padding: 0;
-        width: 240px;
-        height: 135px;
+        width: 16rem;
+        height: 9rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
-        margin: 0 50px
+        margin: 0 3.333rem
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        margin-top: -100px;
+        margin-top: -6.667rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        padding: 30px 50px;
+        padding: 2rem 3.333rem;
     }
     #contact-form > div > div:nth-child(1) {
-        padding-right: 15px;
+        padding-right: 1rem;
     }
     #contact-form > div > div:nth-child(2) {
-        padding-left: 15px;
+        padding-left: 1rem;
     }
     #contact-form > div {
-        padding-right: 10px;
+        padding-right: .667rem;
     }
     #contact > div > div:nth-child(2) > div:nth-child(1) {
         padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div {
-        padding: 0 25px;
+        padding: 0 1.667rem;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
-        height: 172px;
-        border-bottom: 2px solid #CD8A67;
+        height: 11.467rem;
+        border-bottom: .133rem solid #CD8A67;
     }
 }
 /*  Large devices (desktops, 992px and up)  */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .container {
+        max-width: 64rem;
+    }
     .banner > div > div {
-        margin: 20px 0 0 0;
+        margin: 1.333rem 0 0 0;
     }
     .banner > div > div > div:nth-child(1) {
-        padding: 0 100px;
+        padding: 0 6.667rem;
     }
     .banner > div > div:nth-child(1) > div:nth-child(1) > div {
-        width: 248px;
-        height: 248px;  
-        border: 4px solid #CD8A67;
-        border-radius: 20px;
+        width: 16.533rem;
+        height: 16.533rem;  
+        border: .267rem solid #CD8A67;
+        border-radius: 1.333rem;
     }
     .banner > div > div > div:nth-child(2) span {
-        height: 350px;
+        height: 23.333rem;
     }
     #about {
-        margin: 0 50px -100px 50px;
+        margin: 0 3.333rem -6.667rem 3.333rem;
     }
     #development > div > div > div:nth-child(1) {
-        padding: 0 25px 0 0;
+        padding: 0 1.667rem 0 0;
     }
     #development > div > div > div:nth-child(2) {
-        padding: 0 0 0 25px;
+        padding: 0 0 0 1.667rem;
     }
     #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
-        margin-bottom: 50px;
+        margin-bottom: 3.333rem;
     }
     #projects > div > div:nth-child(2) > div:nth-child(n) {
-        margin: 0 15px;
+        margin: 0 1rem;
         padding: 0;
-        width: 320px;
-        height: 180px;
+        width: 21.333rem;
+        height: 12rem;
     }
     #contact > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
-        padding: 0 25px 0 0;
+        padding: 0 1.667rem 0 0;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
-        margin: 0 50px
+        margin: 0 3.333rem
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        margin-top: -100px;
+        margin-top: -6.667rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        padding: 30px 50px;
+        padding: 2rem 3.333rem;
     }
     #contact-form > div > div:nth-child(1) {
-        padding-right: 15px;
+        padding-right: 1rem;
     }
     #contact-form > div > div:nth-child(2) {
-        padding-left: 15px;
+        padding-left: 1rem;
     }
     #contact-form > div {
         padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) {
-        padding: 0 10px;
+        padding: 0 .667rem;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
-        height: 172px;
-        border-bottom: 2px solid #CD8A67;
+        height: 11.467rem;
+        border-bottom: .133rem solid #CD8A67;
     }
 }
 /*  Extra large devices (large desktops, 1200px and up)  */
 @media (min-width: 1200px) {
+    .container {
+        max-width: 76rem;
+    }
     .banner > div > div {
-        margin: 20px 0 0 0;
+        margin: 1.333rem 0 0 0;
     }
     .banner > div > div > div:nth-child(1) {
-        padding: 0 100px;
+        padding: 0 6.667rem;
     }
     .banner > div > div:nth-child(1) > div:nth-child(1) > div {
-        width: 248px;
-        height: 248px;  
-        border: 4px solid #CD8A67;
-        border-radius: 20px;
+        width: 16.533rem;
+        height: 16.533rem;  
+        border: .267rem solid #CD8A67;
+        border-radius: 1.333rem;
     }
     .banner > div > div > div:nth-child(2) span {
-        height: 350px;
+        height: 23.333rem;
     }
     #about {
-        margin: 0 80px -100px 80px;
+        margin: 0 5.333rem -6.667rem 5.333rem;
     }
     #about > div {
-        padding: 0 50px;
+        padding: 0 3.333rem;
     }
     #development > div > div > div:nth-child(1) {
-        padding: 0 25px 0 0;
+        padding: 0 1.667rem 0 0;
     }
     #development > div > div > div:nth-child(2) {
-        padding: 0 0 0 25px;
+        padding: 0 0 0 1.667rem;
     }
     #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
-        margin-bottom: 50px;
+        margin-bottom: 3.333rem;
     }
     #projects > div > div:nth-child(2) > div:nth-child(n) {
-        margin: 0 15px;
+        margin: 0 1rem;
         padding: 0;
-        width: 380px;
-        height: 210px;
+        width: 25.333rem;
+        height: 14rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
-        margin: 0 80px
+        margin: 0 5.333rem
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        margin-top: -100px;
+        margin-top: -6.667rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) > div {
-        padding: 30px 50px;
+        padding: 2rem 3.333rem;
     }
     #contact > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
-        padding: 0 25px 0 0;
+        padding: 0 1.667rem 0 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) {
-        padding: 0 10px;
+        padding: 0 .667rem;
     }
     #contact-form > div > div:nth-child(1) {
-        padding-right: 15px;
+        padding-right: 1rem;
     }
     #contact-form > div > div:nth-child(2) {
-        padding-left: 15px;
+        padding-left: 1rem;
     }
     #contact-form > div {
         padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
-        height: 172px;
-        border-bottom: 2px solid #CD8A67;
+        height: 11.467rem;
+        border-bottom: .133rem solid #CD8A67;
     }
 }
 @media (max-width: 490px) {
@@ -980,7 +996,7 @@ nav ul li a:focus {
         max-width: 25%;
     }
 }
-@media (max-width: 340px) {
+@media (max-width: 330px) {
     .modal-body > div > div > div {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33.333333%;

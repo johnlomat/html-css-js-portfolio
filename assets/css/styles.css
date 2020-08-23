@@ -356,6 +356,9 @@ nav ul li a:focus {
     text-transform: uppercase;
     color: #4C2DB1;
 }
+.modal-dialog {
+    max-width: 33.333rem;
+}
 .modal-body > div > div > div {
     display: flex;
     justify-content: left;
@@ -443,7 +446,7 @@ nav ul li a:focus {
 }
 #contact-form > div > div:last-child {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 15px;
 }
 #contact-form textarea {
     height: 13.333rem;
@@ -490,7 +493,9 @@ nav ul li a:focus {
     padding: 0;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a {
-    font-size: 1.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     padding: 0 .333rem;
     border-radius: 100%;
@@ -500,13 +505,13 @@ nav ul li a:focus {
     background: rgba(255, 255, 255, 0.1);
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a > i {
-    vertical-align: middle;
+    font-size: 1.1rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li:last-child > a > img {
-    width: 1.1em;
+    width: 1.2rem;
 }
 #contact > div:nth-child(2) > div > div > p {
     margin: 0;
@@ -838,13 +843,16 @@ nav ul li a:focus {
         padding-left: 1rem;
     }
     #contact-form > div {
-        padding-right: .667rem;
-    }
-    #contact > div > div:nth-child(2) > div:nth-child(1) {
         padding: 0;
     }
-    #contact > div > div:nth-child(2) > div:nth-child(2) > div {
+    #contact > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
+        padding: 0 1.667rem 0 0;
+    }
+    #contact > div > div:nth-child(2) > div:nth-child(2) {
         padding: 0 1.667rem;
+    }
+    #contact > div > div:nth-child(2) > div:nth-child(2) > div {
+        padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
         height: 11.467rem;
@@ -911,7 +919,10 @@ nav ul li a:focus {
         padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) {
-        padding: 0 .667rem;
+        padding: 0 1.667rem;
+    }
+    #contact > div > div:nth-child(2) > div:nth-child(2) > div {
+        padding: 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
         height: 11.467rem;
@@ -972,7 +983,10 @@ nav ul li a:focus {
         padding: 0 1.667rem 0 0;
     }
     #contact > div > div:nth-child(2) > div:nth-child(2) {
-        padding: 0 .667rem;
+        padding: 0 1.667rem;
+    }
+    #contact > div > div:nth-child(2) > div:nth-child(2) > div {
+        padding: 0;
     }
     #contact-form > div > div:nth-child(1) {
         padding-right: 1rem;
@@ -986,6 +1000,12 @@ nav ul li a:focus {
     #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div {
         height: 11.467rem;
         border-bottom: .133rem solid #CD8A67;
+    }
+}
+/*  Extra extra large devices (extra large desktops, 1600px and up)  */
+@media (min-width: 1600px) {
+    html {
+        font-size: 19px;
     }
 }
 @media (max-width: 490px) {

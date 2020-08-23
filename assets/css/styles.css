@@ -505,7 +505,7 @@ nav ul li a:focus {
     background: rgba(255, 255, 255, 0.1);
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a > i {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a:hover {
     background: rgba(255, 255, 255, 0.3);

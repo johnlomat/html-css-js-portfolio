@@ -321,7 +321,7 @@ nav ul li a:focus {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
-    letter-spacing: 0.035em;
+    letter-spacing: .033rem;
 }
 .overlay button {
     color: white;
@@ -505,13 +505,13 @@ nav ul li a:focus {
     background: rgba(255, 255, 255, 0.1);
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a > i {
-    font-size: 1.2rem;
+    font-size: 1.267rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li > a:hover {
     background: rgba(255, 255, 255, 0.3);
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul > li:last-child > a > img {
-    width: 1.2rem;
+    width: 1.267rem;
 }
 #contact > div:nth-child(2) > div > div > p {
     margin: 0;

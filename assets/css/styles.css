@@ -1002,12 +1002,6 @@ nav ul li a:focus {
         border-bottom: .133rem solid #CD8A67;
     }
 }
-/*  Extra extra large devices (extra large desktops, 1600px and up)  */
-@media (min-width: 1600px) {
-    html {
-        font-size: 19px;
-    }
-}
 @media (max-width: 490px) {
     .modal-body > div > div > div {
         -webkit-box-flex: 0;
@@ -1022,5 +1016,20 @@ nav ul li a:focus {
         -ms-flex: 0 0 33.333333%;
         flex: 0 0 33.333333%;
         max-width: 33.333333%;
+    }
+}
+/*  Scale up extra extra large devices (extra extra large desktops, 1600px and up)  */
+@media (min-width: 1600px) {
+    html {
+        font-size: 19px;
+    }
+}
+/*  Scale down extra extra small devices (extra extra small devices, 320px and below)  */
+@media (max-width: 319.98px) {
+    html {
+        font-size: 10px;
+    }
+    .banner > div > div:nth-child(1) > div:nth-child(1) > div {
+        height: 18.067rem;
     }
 }

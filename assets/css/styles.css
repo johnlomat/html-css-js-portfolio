@@ -24,7 +24,7 @@ h1, h2, h4, h6 {
 h2, h4 {
     font-weight: 600;
 }
-.animated {
+.animate__animated {
     opacity: 0;
 }
 
@@ -309,7 +309,7 @@ nav ul li a:focus {
     right: 0;
     opacity: 0;
     background: rgba(0,0,0,0.7);
-    transition: 0.5s ease;
+    transition: 0.2s ease;
     z-index: 1;
 }
 #projects .overlay > div {

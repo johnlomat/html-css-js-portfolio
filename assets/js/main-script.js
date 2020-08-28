@@ -20,12 +20,26 @@ $(document).ready(function() {
     }
     //  If element is scrolled into view, fade it in
     $(window).scroll(function() {
-        $('.animated').each(function() {
-            if (isScrolledIntoView(this) === true) {
-                $(this).addClass('fadeInUp');
+        $('.animate__animated').each(function() {
+            if (isScrolledIntoView('#about') === true) {
+                $('#about').addClass('animate__fadeInUp');
+            }
+            if (isScrolledIntoView('#development .animate__animated') === true) {
+                $('#development .animate__animated').addClass('animate__fadeInUp');
+            }
+            if (isScrolledIntoView('#contact .animate__animated') === true) {
+                $('#contact .animate__animated').addClass('animate__fadeInUp');
             }
         });
     });
+
+    $('#projects > div > div:nth-child(2) > div:nth-child(n)').hover(function() {
+        $('.projects h5').addClass('animate__fadeInDown')
+        $('.projects button').addClass('animate__fadeInUp')
+    }, function() {
+        $('.projects h5').removeClass('animate__fadeInDown')
+        $('.projects button').removeClass('animate__fadeInUp')
+    })
 
     //  Blurry Load Effect
     setTimeout(function() {

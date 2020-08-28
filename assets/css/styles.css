@@ -309,7 +309,7 @@ nav ul li a:focus {
     right: 0;
     opacity: 0;
     background: rgba(0,0,0,0.7);
-    transition: 0.2s ease;
+    transition: 0.4s ease;
     z-index: 1;
 }
 #projects .overlay > div {

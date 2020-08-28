@@ -5,7 +5,7 @@ $(document).ready(function() {
     })
     
     $('.burger').click(function() {
-        $('.burger').toggleClass('active');
+        $(this).toggleClass('active');
     })
 
     //  Check if element is scrolled into view
@@ -36,12 +36,12 @@ $(document).ready(function() {
         });
     });
 
-    $('#projects > div > div:nth-child(2) > div:nth-child(n)').hover(function() {
-        $('.projects h5').addClass('animate__fadeInDown')
-        $('.projects button').addClass('animate__fadeInUp')
+    $('.projects').each(function() {}).hover(function() {
+        $(this).find('h5').addClass('animate__fadeInDown')
+        $(this).find('button').addClass('animate__fadeInUp')
     }, function() {
-        $('.projects h5').removeClass('animate__fadeInDown')
-        $('.projects button').removeClass('animate__fadeInUp')
+        $(this).find('h5').removeClass('animate__fadeInDown')
+        $(this).find('button').removeClass('animate__fadeInUp')
     })
 
     //  Blurry Load Effect

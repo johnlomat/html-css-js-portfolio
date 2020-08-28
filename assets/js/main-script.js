@@ -24,9 +24,12 @@ $(document).ready(function() {
             if (isScrolledIntoView('#about') === true) {
                 $('#about').addClass('animate__fadeInUp');
             }
-            if (isScrolledIntoView('#development .animate__animated') === true) {
-                $('#development .animate__animated').addClass('animate__fadeInUp');
+            if (isScrolledIntoView('#development .animate__animated:nth-child(1)') === true) {
+                $('#development .animate__animated:nth-child(1)').addClass('animate__fadeInUp');
             }
+            if (isScrolledIntoView('#development .animate__animated:nth-child(2)') === true) {
+                $('#development .animate__animated:nth-child(2)').addClass('animate__fadeInUp');
+            }            
             if (isScrolledIntoView('#contact .animate__animated') === true) {
                 $('#contact .animate__animated').addClass('animate__fadeInUp');
             }

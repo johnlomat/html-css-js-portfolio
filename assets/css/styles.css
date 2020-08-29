@@ -333,6 +333,7 @@ nav ul li a:focus {
 }
 .overlay button:hover {
     background: #4C2DB1;
+    border: .133rem solid #4C2DB1;
 }
 #projects .overlay h5 {
     color: white;

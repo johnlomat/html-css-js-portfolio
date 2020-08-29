@@ -331,6 +331,9 @@ nav ul li a:focus {
 #projects > div > div:nth-child(2) > div:nth-child(n):hover .overlay {
     opacity: 1;
 }
+.overlay button:hover {
+    background: #4C2DB1;
+}
 #projects .overlay h5 {
     color: white;
     text-transform: uppercase;

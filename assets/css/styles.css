@@ -46,9 +46,6 @@ nav ul li a {
     text-transform: uppercase;
     padding: 0!important;
 }
-nav ul li:hover {
-    border-bottom: .133rem solid #CD8A67;
-}
 nav ul li a:focus {
     border-bottom: .133rem solid #CD8A67;
 }
@@ -331,11 +328,6 @@ nav ul li a:focus {
     border-radius: .333rem;
     background: none;
 }
-#projects .overlay button:hover {
-    color: white;
-    background: #4C2DB1;
-    border: .133rem solid #4C2DB1;
-}
 #projects > div > div:nth-child(2) > div:nth-child(n):hover .overlay {
     opacity: 1;
 }
@@ -519,6 +511,13 @@ nav ul li a:focus {
     font-size: .8rem;
 }
 
+/*  No hover effect on mobile  */
+@media not all and (pointer: coarse) {
+    nav ul li:hover {
+        border-bottom: .133rem solid #CD8A67;
+    }
+}
+
 /*  Responsiveness  */
 /*  Extra small devices (portrait phones, 576px and below)  */
 @media (max-width: 575.98px) {
@@ -529,7 +528,23 @@ nav ul li a:focus {
         font-size: 1.1rem;
     }
     .navbar {
-        padding: .667rem 1rem;
+        padding: .667rem 0;
+    }
+    #navbarNav {
+        background: #080450;
+    }
+    .navbar-nav {
+        padding: 1rem 1rem 1rem 0;
+        text-align: right;
+    }
+    .navbar-brand {
+        padding: .3125rem 1rem;
+    }
+    nav ul li {
+        margin: 0;
+    }
+    .burger {
+        margin-right: 1rem;
     }
     .banner {
         border-radius: 0;

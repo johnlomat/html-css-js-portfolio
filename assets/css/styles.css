@@ -387,6 +387,7 @@ nav ul li a:focus {
 .modal-button {
     background: #4C2DB1;
     color: white;
+    transition: 0.3s ease-in-out;
 }
 .modal-button:hover {
     background: #080450;
@@ -454,7 +455,7 @@ nav ul li a:focus {
     padding: .667rem;
     font-size: 1.133rem;
     color: white;
-    transition: 0.3 ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 #contact-form button:hover {
     background: #4C2DB1;

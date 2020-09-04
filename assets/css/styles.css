@@ -411,6 +411,10 @@ nav ul li a:focus {
     border-top: none;
     padding-top: 0;
 }
+/*  bug: temporary fix in bootstrap modal  */
+.show {
+    display: flex!important;
+}
 
 /*  Footer  */
 #contact {

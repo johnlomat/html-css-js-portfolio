@@ -110,7 +110,7 @@ $(document).ready(function() {
                 }
             }
             
-            if ($(window).outerWidth() <= 340) {
+            if ($(window).outerWidth() <= 330) {
                 if (key >= 4 && value != '') {
                     techStack.css('margin-top','10px')
                 }
@@ -129,7 +129,7 @@ $(document).ready(function() {
                     }
                 }
 
-                if ($(window).outerWidth() <= 340) {
+                if ($(window).outerWidth() <= 330) {
                     if (key >= 4 && value != '') {
                         techStack.css('margin-top','10px')
                     }else {

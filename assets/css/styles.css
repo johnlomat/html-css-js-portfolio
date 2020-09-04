@@ -411,10 +411,6 @@ nav ul li a:focus {
     border-top: none;
     padding-top: 0;
 }
-/*  bug: temporary fix in bootstrap modal  */
-.show {
-    display: flex!important;
-}
 
 /*  Footer  */
 #contact {
@@ -670,6 +666,9 @@ nav ul li a:focus {
     }
     #projects > div > div:nth-child(2) > div:last-child {
         margin: 0 1rem;
+    }
+    .modal-dialog {
+        max-width: 100%;
     }
     #contact {
         border-radius: 0;

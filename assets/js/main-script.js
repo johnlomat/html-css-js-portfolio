@@ -62,11 +62,12 @@ $(document).ready(function() {
         var description = projectDetail.find('.project-text').text()
         var type = projectDetail.find('.project-type').text()
         var scopeList = projectDetail.find('.scope-list').html().toString()
-               
-        projectDetail.find('.detail--button').attr('data-project', project)
-        projectDetail.find('.detail--button').attr('data-description', description)
-        projectDetail.find('.detail--button').attr('data-type', type)
-        projectDetail.find('.detail--button').attr('data-scope-list', scopeList)
+        var button = $('.detail--button')
+
+        projectDetail.find(button).attr('data-project', project)
+        projectDetail.find(button).attr('data-description', description)
+        projectDetail.find(button).attr('data-type', type)
+        projectDetail.find(button).attr('data-scope-list', scopeList)
     })
 
     $('#ProjectDetails').on('show.bs.modal', function(event) {
@@ -163,25 +164,29 @@ $(document).ready(function() {
     }
 
     //  Responsiveness
-    if ($(window).outerWidth() <= 575) {
-        $('.gallery').removeClass('row')
-        $('.gallery').flickity({
-            wrapAround: true
-        })
-    }else if ($(window).outerWidth() >= 575) {
-        $('.gallery').addClass('row')
-    }
+    $(document).ready(function() {
+        var gallery = $('.gallery')
 
-    $(window).resize(function() {
-        if ($(window).outerWidth() <= 575) {
-            $('.gallery').removeClass('row')
-            $('.gallery').flickity({
+        if ($(window).outerWidth() <= 575) {   
+            gallery.removeClass('row')
+            gallery.flickity({
                 wrapAround: true
             })
-        }else if ($(window).outerWidth() >= 575) {
-            $('.gallery').addClass('row')
-            $('.gallery').flickity('destroy')
+        }else if ($(window).outerWidth() >= 575) {   
+            gallery.addClass('row')
         }
+    
+        $(window).resize(function() {  
+            if ($(window).outerWidth() <= 575) {
+                gallery.removeClass('row')
+                gallery.flickity({
+                    wrapAround: true
+                })
+            }else if ($(window).outerWidth() >= 575) {
+                gallery.addClass('row')
+                gallery.flickity('destroy')
+            }
+        })
     })
 
     //  AJAX Request

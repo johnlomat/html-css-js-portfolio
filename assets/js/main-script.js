@@ -75,7 +75,8 @@ $(document).ready(function() {
         var button = $(event.relatedTarget)
         var project = button.data('project')
         var description = button.data('description')
-        var link = button.data('link')
+        var link_1 = button.data('link-1')
+        var link_2 = button.data('link-2')
         var type = button.data('type')
         var scopeList = button.data('scope-list')
         var techStack = [
@@ -90,7 +91,8 @@ $(document).ready(function() {
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
         modal.find('.modal-type').text(type)
-        modal.find('.modal-button').attr('href',link)
+        modal.find('.modal-footer a:first-child').attr('href',link_1)
+        modal.find('.modal-button').attr('href',link_2)
         modal.find('.modal-scope-list').text('')
         modal.find('.modal-scope-list').append(scopeList)
 

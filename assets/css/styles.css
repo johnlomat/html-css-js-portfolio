@@ -384,6 +384,14 @@ nav ul li a:focus {
     color: #4C2DB1;
     margin-right: .333rem;
 }
+.modal-footer a:first-child {
+    color: #4C2DB1;
+    transition: 0.3s ease-in-out;
+}
+.modal-footer a:first-child:hover {
+    color: #4C2DB1;
+    background: rgba(64,38,160,0.2);
+}
 .modal-button {
     background: #4C2DB1;
     color: white;

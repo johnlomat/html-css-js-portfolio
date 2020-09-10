@@ -87,6 +87,14 @@ $(document).ready(function() {
             button.data('tech-5'),
             button.data('tech-6'),
         ]
+        var techStackTitle = [
+            button.data('title-1'),
+            button.data('title-2'),
+            button.data('title-3'),
+            button.data('title-4'),
+            button.data('title-5'),
+            button.data('title-6'),
+        ]
         
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
@@ -143,6 +151,13 @@ $(document).ready(function() {
                     }                 
                 }
             })
+        })
+
+        $.each(techStackTitle, function(key, value) {
+            key++
+            var techStackTitle = $('.tech-stack' + '-' + key)
+
+            techStackTitle.attr('title', value)
         })
     })
 

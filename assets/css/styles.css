@@ -288,6 +288,10 @@ nav ul li a:focus {
     text-transform: uppercase;
 }
 #projects > div > div:nth-child(2) > div:nth-child(n) {
+    padding: 0;
+}
+.project-thumbnail--container {
+    position: relative;
     -webkit-box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
     -moz-box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
     box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
@@ -314,6 +318,7 @@ nav ul li a:focus {
     width: 100%;
     top: 50%;
     left: 50%;
+    padding: 0 .333rem;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -328,7 +333,7 @@ nav ul li a:focus {
     border-radius: .333rem;
     background: none;
 }
-#projects > div > div:nth-child(2) > div:nth-child(n):hover .overlay {
+.project-thumbnail--container:hover .overlay {
     opacity: 1;
 }
 .overlay button:hover {
@@ -668,15 +673,12 @@ nav ul li a:focus {
         text-align: center;
         font-size: 1.6rem;
     }
-    #projects > div > div:nth-child(2) > div:nth-child(n) {
+    .project-thumbnail--container {
         margin: 0 1rem 3.333rem 1rem;
         padding: 0;
     }
     #projects .overlay h5 {
         font-size: 1.25rem;
-    }
-    #projects > div > div:nth-child(2) > div:last-child {
-        margin: 0 1rem;
     }
     .modal-dialog {
         max-width: 100%;
@@ -775,14 +777,9 @@ nav ul li a:focus {
     #technology-stack > div > div:nth-child(2) > div:nth-child(8) > span {
         margin-bottom: 3.333rem
     }
-    #projects > div > div:nth-child(2) > div:nth-child(n) {
+    .project-thumbnail--container {
         margin: 0 1rem 3.333rem 1rem;
         padding: 0;
-        width: 34rem;
-        height: 19.067rem;
-    }
-    #projects > div > div:nth-child(2) > div:last-child {
-        margin: 0 1rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
         padding: 0 .667rem;
@@ -855,11 +852,11 @@ nav ul li a:focus {
     #development > div > div > div:nth-child(n) > div > h4 {
         font-size: 1.133rem;
     }
-    #projects > div > div:nth-child(2) > div:nth-child(n) {
+    .project-thumbnail--container {
         margin: 0 1rem;
         padding: 0;
-        width: 16rem;
-        height: 9rem;
+        width: 14rem;
+        height: 7.867rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
         margin: 0 3.333rem
@@ -925,11 +922,11 @@ nav ul li a:focus {
     #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
         margin-bottom: 3.333rem;
     }
-    #projects > div > div:nth-child(2) > div:nth-child(n) {
+    .project-thumbnail--container {
         margin: 0 1rem;
         padding: 0;
-        width: 21.333rem;
-        height: 12rem;
+        width: 19.333rem;
+        height: 10.867rem;
     }
     #contact > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) {
         padding: 0 1.667rem 0 0;
@@ -998,11 +995,11 @@ nav ul li a:focus {
     #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
         margin-bottom: 3.333rem;
     }
-    #projects > div > div:nth-child(2) > div:nth-child(n) {
+    .project-thumbnail--container {
         margin: 0 1rem;
         padding: 0;
-        width: 25.333rem;
-        height: 14rem;
+        width: 23.333rem;
+        height: 11.2rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
         margin: 0 5.333rem

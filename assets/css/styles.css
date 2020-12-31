@@ -279,7 +279,7 @@ nav ul li a:focus {
     background: #4C2DB1!important;
 }
 #projects {
-    padding: 3.333rem 0 6.667rem 0;
+    padding: 3.333rem 0 4.667rem 0;
 }
 #projects > div > div:nth-child(1) {
     padding-bottom: 3.333rem;
@@ -1063,5 +1063,11 @@ nav ul li a:focus {
     }
     .banner > div > div:nth-child(1) > div:nth-child(1) > div {
         height: 18.067rem;
+    }
+}
+/*  Custom Media Queries  */
+@media (min-width: 768px) {
+    #projects > div > div:nth-child(2) > div:nth-child(n) {
+        margin-bottom: 2rem;
     }
 }

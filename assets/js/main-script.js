@@ -191,6 +191,8 @@ $(document).ready(function() {
             })
         }else if ($(window).outerWidth() >= 575) {   
             gallery.addClass('row')
+            gallery.flickity()
+            gallery.flickity('destroy')
         }
     
         $(window).resize(function() {  
@@ -201,6 +203,7 @@ $(document).ready(function() {
                 })
             }else if ($(window).outerWidth() >= 575) {
                 gallery.addClass('row')
+                gallery.flickity()
                 gallery.flickity('destroy')
             }
         })

@@ -15,6 +15,10 @@ img, a {
     -moz-user-select: none;
     -ms-user-select: none;
 }
+img {
+    width: 100%;
+    height: auto;
+}
 ol, ul {
     list-style: none;
 }
@@ -33,9 +37,10 @@ h2, h4 {
     padding: .667rem 2.667rem;
     background: none;
 }
-nav img {
+.navbar-brand {
     width: 2.667rem;
     height: 2.4rem;
+    padding: 0;
 }
 nav ul li {
     margin-left: 3.333rem;
@@ -112,7 +117,6 @@ nav ul li a:focus {
     border-radius: 0 0 6.667rem 6.667rem;
 }
 .banner > div > div:nth-child(1) > div:nth-child(1) > div > img {
-    width: 100%;
     border-radius: 1rem;
     color: white;
 }
@@ -296,10 +300,6 @@ nav ul li a:focus {
     -webkit-box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
     -moz-box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
     box-shadow: 0 0 3.333rem .333rem rgba(64,38,160,0.5);
-}
-#projects img {
-    width: 100%;
-    height: 100%;
 }
 .overlay {
     width: 100%;
@@ -499,8 +499,9 @@ nav ul li a:focus {
     padding: 2rem 0;
     text-align: center;
 }
-#contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div > img {
+#contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ div > .image-placeholder {
     width: 6.667rem;
+    height: 6rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) > div > div > section ~ section ~ ul {
     margin: 1.333rem 0 0 0;

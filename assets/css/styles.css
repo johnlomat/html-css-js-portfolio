@@ -562,6 +562,8 @@ nav ul li a:focus {
     }
     .navbar-brand {
         margin-left: 1rem;
+        margin-top: .75rem;
+        margin-bottom: .75rem;
     }
     nav ul li {
         margin: 0;

@@ -766,9 +766,6 @@ nav ul li a:focus {
     #about {
         margin: 1.333rem .667rem -6.667rem .667rem;
     }
-    #development > div > div > div:nth-child(n) > div {
-        height: 12.333rem;
-    }
     #development > div > div > div:nth-child(1) {
         padding: 0 .667rem 1.667rem .667rem;
     }
@@ -834,9 +831,6 @@ nav ul li a:focus {
     }
     #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
         margin-bottom: 3.333rem;
-    }
-    #development > div > div > div:nth-child(n) > div {
-        height: 16.667rem;
     }
     #development > div > div > div:nth-child(1) {
         padding: 0 1.667rem 0 0;

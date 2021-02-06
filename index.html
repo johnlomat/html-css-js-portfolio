@@ -113,7 +113,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                             <div>
-                                <img loading="eager" src="assets/images/john-lomat-picture.jpg" width="240" height="240" alt="John Lomat Profile" />
+                                <img class="lazy" src="assets/blurry-load/images/Optimized-john-lomat-picture.jpg" data-src="assets/images/john-lomat-picture.jpg" alt="John Lomat Profile" width="240" height="240" />
                             </div>      
                             <h1>
                                 John Lomat<br>
@@ -270,7 +270,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img class="lazy-load" src="assets/blurry-load/images/Optimized-Talent-Trust.jpg" width="350" height="206" data-large="assets/images/project-screenshots/Talent-Trust.jpg" alt="Talent Trust Portfolio Thumbnail" />
+                                <img class="lazy" src="assets/blurry-load/images/Optimized-Talent-Trust.jpg" data-src="assets/images/project-screenshots/Talent-Trust.jpg" alt="Talent Trust Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4">
@@ -315,7 +315,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img class="lazy-load" src="assets/blurry-load/images/Optimized-CreativeCampus.jpg" width="350" height="206" data-large="assets/images/project-screenshots/CreativeCampus.jpg" alt="Creative Campus Portfolio Thumbnail" />
+                                <img class="lazy" src="assets/blurry-load/images/Optimized-CreativeCampus.jpg" data-src="assets/images/project-screenshots/CreativeCampus.jpg" alt="Creative Campus Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4">
@@ -363,7 +363,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img class="lazy-load" src="assets/blurry-load/images/Optimized-Pamilya-Store.jpg" width="350" height="206" data-large="assets/images/project-screenshots/Pamilya-Store.jpg" alt="Pamilya Store Portfolio Thumbnail" />
+                                <img class="lazy" src="assets/blurry-load/images/Optimized-Pamilya-Store.jpg" data-src="assets/images/project-screenshots/Pamilya-Store.jpg" alt="Pamilya Store Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4">
@@ -408,7 +408,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img class="lazy-load" src="assets/blurry-load/images/Optimized-LAPEI-Travel-Tours-Services.jpg" width="350" height="206" data-large="assets/images/project-screenshots/LAPEI-Travel-Tour-Services.jpg" alt="LAPEI - Travel & Tour Services Portfolio Thumbnail" />
+                                <img class="lazy" src="assets/blurry-load/images/Optimized-LAPEI-Travel-Tours-Services.jpg" data-src="assets/images/project-screenshots/LAPEI-Travel-Tour-Services.jpg" alt="LAPEI - Travel & Tour Services Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
                         <div class="col-xl-4 col-lg-4 col-md-4">
@@ -456,7 +456,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <img class="lazy-load" src="assets/blurry-load/images/Optimized-Artesyn-Model-View.jpg" width="350" height="206" data-large="assets/images/project-screenshots/Artesyn-Model-View.jpg" alt="Artesyn Embedded Power Portfolio Thumbnail" />
+                                <img class="lazy" src="assets/blurry-load/images/Optimized-Artesyn-Model-View.jpg" data-src="assets/images/project-screenshots/Artesyn-Model-View.jpg" alt="Artesyn Embedded Power Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
                     </div>
@@ -606,6 +606,11 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.1/flickity.pkgd.min.js"></script>
         <!-- Toastr JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+        <!-- Lazyload Vanilla JS -->
+        <script src="assets/libs/vanilla-lazyload/dist/lazyload.min.js"></script>
+        <script>
+            var lazyLoadInstance = new LazyLoad({});
+        </script>
 
     </body>
 </html>

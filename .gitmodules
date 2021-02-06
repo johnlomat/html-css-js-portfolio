@@ -1,6 +1,3 @@
-[submodule "assets/libs/assets/libs"]
-	path = assets/libs/assets/libs
-	url = https://github.com/verlok/vanilla-lazyload.git
 [submodule "assets/libs/vanilla-lazyload"]
 	path = assets/libs/vanilla-lazyload
 	url = https://github.com/verlok/vanilla-lazyload.git

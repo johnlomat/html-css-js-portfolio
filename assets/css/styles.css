@@ -19,6 +19,15 @@ img {
     width: 100%;
     height: auto;
 }
+img:not([src]) {
+    visibility: hidden;
+}
+/* Fixes Firefox anomaly during image load */
+@-moz-document url-prefix() {
+    img:-moz-loading {
+      visibility: hidden;
+    }
+}
 ol, ul {
     list-style: none;
 }
@@ -119,11 +128,6 @@ nav ul li a:focus {
 .banner > div > div:nth-child(1) > div:nth-child(1) > div > img {
     border-radius: 1rem;
     color: white;
-}
-.lazy-load {
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    filter: blur(3px);
 }
 .banner > div > div > div:nth-child(2) span {
     background-image: url(../images/background/laptop.svg);

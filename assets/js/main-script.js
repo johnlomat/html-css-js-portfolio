@@ -176,7 +176,7 @@ jQuery(document).ready(function($) {
         if ($(window).outerWidth() <= 575) {   
             gallery.removeClass('row')
             gallery.flickity({
-                wrapAround: true
+                groupCells: 2
             })
         }else if ($(window).outerWidth() >= 575) {   
             gallery.addClass('row')
@@ -188,7 +188,7 @@ jQuery(document).ready(function($) {
             if ($(window).outerWidth() <= 575) {
                 gallery.removeClass('row')
                 gallery.flickity({
-                    wrapAround: true
+                    groupCells: 2
                 })
             }else if ($(window).outerWidth() >= 575) {
                 gallery.addClass('row')

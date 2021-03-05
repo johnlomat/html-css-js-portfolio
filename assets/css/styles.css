@@ -266,21 +266,39 @@ nav ul li a:focus {
     background-image: url(../logo/bootstrap.svg);
 }
 .gallery-cell-7 > span {
-    background-image: url(../logo/jquery.svg);
+    background-image: url(../logo/tailwind-css.svg);
 }
 .gallery-cell-8 > span {
-    background-image: url(../logo/wordpress.svg);
+    background-image: url(../logo/jquery.svg);
 }
 .gallery-cell-9 > span {
-    background-image: url(../logo/google-analytics.svg);
+    background-image: url(../logo/wordpress.svg);
 }
 .gallery-cell-10 > span {
-    background-image: url(../logo/adobe-photoshop.svg);
+    background-image: url(../logo/woocommerce-seeklogo.com.svg);
 }
 .gallery-cell-11 > span {
-    background-image: url(../logo/adobe-xd.svg);
+    background-image: url(../logo/Divi-logo.svg);
 }
 .gallery-cell-12 > span {
+    background-image: url(../logo/elementor.svg);
+}
+.gallery-cell-13 > span {
+    background-image: url(../logo/laravel.svg);
+}
+.gallery-cell-14 > span {
+    background-image: url(../logo/cpanel.svg);
+}
+.gallery-cell-15 > span {
+    background-image: url(../logo/google-analytics.svg);
+}
+.gallery-cell-16 > span {
+    background-image: url(../logo/adobe-photoshop.svg);
+}
+.gallery-cell-17 > span {
+    background-image: url(../logo/adobe-xd.svg);
+}
+.gallery-cell-18 > span {
     background-image: url(../logo/adobe-illustrator.svg);
 }
 .flickity-page-dots .dot {
@@ -464,7 +482,7 @@ nav ul li a:focus {
 }
 #contact-form > div > div:last-child {
     width: 100%;
-    padding: 0 15px;
+    padding: 0 1rem;
 }
 #contact-form textarea {
     height: 13.333rem;
@@ -649,26 +667,24 @@ nav ul li a:focus {
         font-size: 1.6rem;
     }
     .gallery {
-        width: 21.333rem;
-        top: 6.667rem;
-        left: 50%;
-        transform: translate(-50%,-50%);
+        width: 100%;
+        max-width: 25.333rem;
+        margin-right: auto;
+        margin-left: auto;
         margin-bottom: 3.333rem;
     }
     .gallery-cell {
         display: flex;
-        width: 66%;
-        height: 13.333rem;
-        margin-right: 4rem;
-        padding: 0;
+        justify-content: center;
+        width: 50%;
     }
     .flickity-button {
         display: none;
     }
     .gallery-cell > span {
         display: block;
-        width: 13.333rem;
-        height: 13.333rem;
+        width: 6.667rem;
+        height: 6.667rem;
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -776,10 +792,10 @@ nav ul li a:focus {
     #development > div > div > div:nth-child(2) {
         padding: 1.667rem .667rem 0 .667rem;
     }
-    #technology-stack > div > div:nth-child(2) > div:nth-child(4) > span {
-        margin-bottom: 3.333rem
-    }
-    #technology-stack > div > div:nth-child(2) > div:nth-child(8) > span {
+    #technology-stack > div > div:nth-child(2) > div:nth-child(4) > span,
+    #technology-stack > div > div:nth-child(2) > div:nth-child(8) > span,
+    #technology-stack > div > div:nth-child(2) > div:nth-child(12) > span,
+    #technology-stack > div > div:nth-child(2) > div:nth-child(16) > span {
         margin-bottom: 3.333rem
     }
     .project-thumbnail--container {
@@ -833,7 +849,8 @@ nav ul li a:focus {
     .banner > div > div > div:nth-child(2) span {
         height: 23.333rem;
     }
-    #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
+    #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span,
+    #technology-stack > div > div:nth-child(2) > div:nth-child(12) > span {
         margin-bottom: 3.333rem;
     }
     #development > div > div > div:nth-child(1) {
@@ -921,7 +938,8 @@ nav ul li a:focus {
     #development > div > div > div:nth-child(2) {
         padding: 0 0 0 1.667rem;
     }
-    #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
+    #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span,
+    #technology-stack > div > div:nth-child(2) > div:nth-child(12) > span {
         margin-bottom: 3.333rem;
     }
     .project-thumbnail--container {
@@ -994,7 +1012,8 @@ nav ul li a:focus {
     #development > div > div > div:nth-child(2) {
         padding: 0 0 0 1.667rem;
     }
-    #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span {
+    #technology-stack > div > div:nth-child(2) > div:nth-child(6) > span,
+    #technology-stack > div > div:nth-child(2) > div:nth-child(12) > span {
         margin-bottom: 3.333rem;
     }
     .project-thumbnail--container {

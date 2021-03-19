@@ -45,7 +45,7 @@ jQuery(document).ready(function($) {
     })
 
     //  Project Details
-    $('.projects').each('retrieve',function() {
+    $('.projects').each(function() {
         var projectDetail = $(this)
         var project = projectDetail.find('.project-title').text()
         var description = projectDetail.find('.project-text').text()
@@ -211,7 +211,7 @@ jQuery(document).ready(function($) {
     })
 
     $('.infinite-scroll--button').click(function() {
-        $('.projects').each('retrieve',function() {})
+        $('.projects').trigger('each')
     })
 
     //  AJAX Request

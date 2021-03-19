@@ -214,7 +214,11 @@ jQuery(document).ready(function($) {
         debug: true,
     })
 
-    $('.infinite-scroll--button').click(fillProjectsData)
+    $('.infinite-scroll--button').click(function() {
+        setTimeout(function() {
+        	fillProjectsData()
+        },500); 
+    })
 
     //  AJAX Request
     $('#contact-form').submit(function(e) {

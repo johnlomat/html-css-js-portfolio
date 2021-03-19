@@ -215,11 +215,9 @@ jQuery(document).ready(function($) {
     })
 
     $('infinite-scroll--section').on('DOMSubtreeModified', function() {
-        // setTimeout(function() {
-        // 	fillProjectsData()
-        // },500);
-        
-        fillProjectsData()
+        setTimeout(function() {
+        	fillProjectsData()
+        },100);
     })
 
     //  AJAX Request

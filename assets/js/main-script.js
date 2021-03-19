@@ -211,7 +211,9 @@ jQuery(document).ready(function($) {
     })
 
     $('.infinite-scroll--button').click(function() {
-        $('.projects').trigger('each')
+        setTimeout(function() {
+            $('.projects').trigger('each')
+        }, 100)
     })
 
     //  AJAX Request

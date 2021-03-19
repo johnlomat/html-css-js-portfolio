@@ -215,9 +215,13 @@ jQuery(document).ready(function($) {
     })
 
     $('.infinite-scroll--button').click(function() {
-        setTimeout(function() {
-        	fillProjectsData()
-        },500); 
+        // setTimeout(function() {
+        // 	fillProjectsData()
+        // },500);
+        
+        $(document).ready(function() {
+            fillProjectsData()
+        })
     })
 
     //  AJAX Request

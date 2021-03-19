@@ -203,10 +203,10 @@ jQuery(document).ready(function($) {
         // options
         path: '.pagination__next',
         append: '.portfolio',
-        history: false,
         hideNav: '.pagination',
         button: '.infinite-scroll--button',
         loadOnScroll: false,
+        history: false,
         debug: true,
     })
 

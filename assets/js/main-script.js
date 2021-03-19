@@ -214,7 +214,7 @@ jQuery(document).ready(function($) {
         debug: true,
     })
 
-    $('.infinite-scroll--button').on('click', function() {
+    $('infinite-scroll--section').on('DOMSubtreeModified', function() {
         // setTimeout(function() {
         // 	fillProjectsData()
         // },500);

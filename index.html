@@ -239,14 +239,14 @@
             </div>
 
             <div id="projects">
-                <div class="container">
+                <div class="container infinite-scroll--section">
                     <div class="row">
                         <div class="col-xl-12 d-flex justify-content-center">
                             <h2>Projects</h2>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="col-xl-4 col-lg-4 col-md-4 portfolio">
                             <div class="project-thumbnail--container">
                                 <div class="projects overlay">
                                     <div>
@@ -291,7 +291,7 @@
                                 <img class="lazy" src="assets/blurry-load/images/Optimized-Vincent-Watch.jpg" data-src="assets/images/project-screenshots/Vincent-Watch.jpg" alt="Vincent Watch Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="col-xl-4 col-lg-4 col-md-4 portfolio">
                             <div class="project-thumbnail--container">
                                 <div class="projects overlay">
                                     <div>
@@ -336,7 +336,7 @@
                                 <img class="lazy" src="assets/blurry-load/images/Optimized-Talent-Trust.jpg" data-src="assets/images/project-screenshots/Talent-Trust.jpg" alt="Talent Trust Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="col-xl-4 col-lg-4 col-md-4 portfolio">
                             <div class="project-thumbnail--container">
                                 <div class="projects overlay">
                                     <div>
@@ -381,7 +381,7 @@
                                 <img class="lazy" src="assets/blurry-load/images/Optimized-CreativeCampus.jpg" data-src="assets/images/project-screenshots/CreativeCampus.jpg" alt="Creative Campus Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="col-xl-4 col-lg-4 col-md-4 portfolio">
                             <div class="project-thumbnail--container">
                                 <div class="projects overlay">
                                     <div>
@@ -428,7 +428,7 @@
                                 <img class="lazy" src="assets/blurry-load/images/Optimized-Pamilya-Store.jpg" data-src="assets/images/project-screenshots/Pamilya-Store.jpg" alt="Pamilya Store Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="col-xl-4 col-lg-4 col-md-4 portfolio">
                             <div class="project-thumbnail--container">
                                 <div class="projects overlay">
                                     <div>
@@ -473,7 +473,7 @@
                                 <img class="lazy" src="assets/blurry-load/images/Optimized-LAPEI-Travel-Tours-Services.jpg" data-src="assets/images/project-screenshots/LAPEI-Travel-Tour-Services.jpg" alt="LAPEI - Travel & Tour Services Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-4">
+                        <div class="col-xl-4 col-lg-4 col-md-4 portfolio">
                             <div class="project-thumbnail--container">
                                 <div class="projects overlay">
                                     <div>
@@ -521,7 +521,20 @@
                                 <img class="lazy" src="assets/blurry-load/images/Optimized-Artesyn-Model-View.jpg" data-src="assets/images/project-screenshots/Artesyn-Model-View.jpg" alt="Artesyn Embedded Power Portfolio Thumbnail" width="350" height="206" />
                             </div>
                         </div>
+
+                        <!-- pagination has path -->
+                        <p class="pagination">
+                            <a class="pagination__next" href="page2.html"></a>
+                        </p>
+
                     </div>
+
+                    <div class="row">
+                        <div class="col-12 d-flex justify-content-center">
+                            <button class="infinite-scroll--button modal-button btn">Load more</button>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -658,7 +671,7 @@
         </main>
 
         <!-- Main Script -->
-        <script defer src="assets/js/main-script.min.js"></script>
+        <script defer src="assets/js/main-script.js"></script>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -670,6 +683,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
         <!-- Lazyload Vanilla JS -->
         <script src="assets/libs/vanilla-lazyload/dist/lazyload.min.js"></script>
+        <!-- Inifinite Scroll JS -->
+        <script src="assets/libs/infinite-scroll/4.0.1/infinite-scroll.pkgd.min.js"></script>
         <script>
             var lazyLoadInstance = new LazyLoad({});
         </script>

@@ -198,6 +198,17 @@ jQuery(document).ready(function($) {
         })
     })
 
+    // Infinite Scroll Initialization
+    $('.infinite-scroll--section').infiniteScroll({
+        // options
+        path: '.pagination__next',
+        append: '.portfolio',
+        history: false,
+        hideNav: '.pagination',
+        button: '.infinite-scroll--button',
+        loadOnScroll: false,
+    })
+
     //  AJAX Request
     $('#contact-form').submit(function(e) {
         e.preventDefault()

@@ -36,28 +36,32 @@ jQuery(document).ready(function($) {
         });
     });
 
-    $('.projects').each(function() {}).hover(function() {
-        $(this).find('h5').addClass('animate__fadeInDown')
-        $(this).find('button').addClass('animate__fadeInUp')
-    }, function() {
-        $(this).find('h5').removeClass('animate__fadeInDown')
-        $(this).find('button').removeClass('animate__fadeInUp')
-    })
+    function fillProjectsData() {
+        $('.projects').each(function() {}).hover(function() {
+            $(this).find('h5').addClass('animate__fadeInDown')
+            $(this).find('button').addClass('animate__fadeInUp')
+        }, function() {
+            $(this).find('h5').removeClass('animate__fadeInDown')
+            $(this).find('button').removeClass('animate__fadeInUp')
+        })
+    
+        //  Project Details
+        $('.projects').each(function() {
+            var projectDetail = $(this)
+            var project = projectDetail.find('.project-title').text()
+            var description = projectDetail.find('.project-text').text()
+            var type = projectDetail.find('.project-type').text()
+            var scopeList = projectDetail.find('.scope-list').html().toString()
+            var button = $('.detail--button')
+    
+            projectDetail.find(button).attr('data-project', project)
+            projectDetail.find(button).attr('data-description', description)
+            projectDetail.find(button).attr('data-type', type)
+            projectDetail.find(button).attr('data-scope-list', scopeList)
+        })
+    }
 
-    //  Project Details
-    $('.projects').each(function() {
-        var projectDetail = $(this)
-        var project = projectDetail.find('.project-title').text()
-        var description = projectDetail.find('.project-text').text()
-        var type = projectDetail.find('.project-type').text()
-        var scopeList = projectDetail.find('.scope-list').html().toString()
-        var button = $('.detail--button')
-
-        projectDetail.find(button).attr('data-project', project)
-        projectDetail.find(button).attr('data-description', description)
-        projectDetail.find(button).attr('data-type', type)
-        projectDetail.find(button).attr('data-scope-list', scopeList)
-    })
+    fillProjectsData()
 
     $('#ProjectDetails').on('show.bs.modal', function(event) {
         var modal = $(this)
@@ -211,9 +215,7 @@ jQuery(document).ready(function($) {
     })
 
     $('.infinite-scroll--button').click(function() {
-        setTimeout(function() {
-            $('.projects').trigger('each')
-        }, 100)
+        fillProjectsData()
     })
 
     //  AJAX Request

@@ -207,6 +207,7 @@ jQuery(document).ready(function($) {
         hideNav: '.pagination',
         button: '.infinite-scroll--button',
         loadOnScroll: false,
+        debug: true,
     })
 
     //  AJAX Request

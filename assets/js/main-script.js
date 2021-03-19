@@ -216,6 +216,7 @@ jQuery(document).ready(function($) {
 
     $('.infinite-scroll--section').on('DOMSubtreeModified', function() {
         fillProjectsData()
+        lazyLoadInstance.update()
     })
 
     //  AJAX Request

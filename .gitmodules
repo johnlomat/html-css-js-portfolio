@@ -10,3 +10,6 @@
 [submodule "assets/libs/animate.css"]
 	path = assets/libs/animate.css
 	url = https://github.com/animate-css/animate.css.git
+[submodule "assets/libs/infinite-scroll"]
+	path = assets/libs/infinite-scroll
+	url = https://github.com/metafizzy/infinite-scroll.git

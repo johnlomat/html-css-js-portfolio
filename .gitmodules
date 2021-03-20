@@ -1,3 +1,6 @@
 [submodule "assets/libs/vanilla-lazyload"]
 	path = assets/libs/vanilla-lazyload
 	url = https://github.com/verlok/vanilla-lazyload.git
+[submodule "assets/libs/flickity"]
+	path = assets/libs/flickity
+	url = https://github.com/metafizzy/flickity.git

@@ -371,6 +371,9 @@ nav ul li a:focus {
 #projects .detail {
     display: none;
 }
+#projects .infinite-scroll--button {
+    margin-bottom: 2rem;
+}
 .modal-title {
     color: #4C2DB1;
 }
@@ -701,6 +704,9 @@ nav ul li a:focus {
         margin: 0 1rem 3.333rem 1rem;
         padding: 0;
     }
+    .portfolio:last-child .project-thumbnail--container {
+        margin-bottom: 2rem;
+    }
     #projects .overlay h5 {
         font-size: 1.25rem;
     }
@@ -801,6 +807,9 @@ nav ul li a:focus {
     .project-thumbnail--container {
         margin: 0 1rem 3.333rem 1rem;
         padding: 0;
+    }
+    .portfolio:last-child .project-thumbnail--container {
+        margin-bottom: 2rem;
     }
     #contact > div:nth-child(1) > div:nth-child(1) {
         padding: 0 .667rem;

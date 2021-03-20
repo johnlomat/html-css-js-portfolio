@@ -7,3 +7,6 @@
 [submodule "assets/libs/toastr"]
 	path = assets/libs/toastr
 	url = https://github.com/CodeSeven/toastr.git
+[submodule "assets/libs/animate.css"]
+	path = assets/libs/animate.css
+	url = https://github.com/animate-css/animate.css.git

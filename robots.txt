@@ -4,3 +4,5 @@ User-agent: *
 Disallow: /assets/blurry-load/images/
 Disallow: /assets/images/background/
 Disallow: /assets/logo/
+Disallow: .gitmodules
+Disallow: et

@@ -211,7 +211,6 @@ jQuery(document).ready(function($) {
         button: '.infinite-scroll--button',
         loadOnScroll: false,
         history: false,
-        debug: true,
     })
 
     $('.infinite-scroll--section').on('DOMSubtreeModified', function() {

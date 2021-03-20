@@ -4,3 +4,6 @@
 [submodule "assets/libs/flickity"]
 	path = assets/libs/flickity
 	url = https://github.com/metafizzy/flickity.git
+[submodule "assets/libs/toastr"]
+	path = assets/libs/toastr
+	url = https://github.com/CodeSeven/toastr.git

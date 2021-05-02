@@ -61,9 +61,6 @@ nav ul li a {
     text-transform: uppercase;
     padding: 0!important;
 }
-nav ul li a:focus {
-    border-bottom: .133rem solid #CD8A67;
-}
 /* Navbar menu button animation*/
 .burger {
     cursor: pointer;
@@ -561,8 +558,20 @@ nav ul li a:focus {
 
 /*  No hover effect on mobile  */
 @media not all and (pointer: coarse) {
-    nav ul li:hover {
-        border-bottom: .133rem solid #CD8A67;
+    #navbarNav .navbar-nav .nav-item .nav-link {
+        position: relative;
+    }
+    #navbarNav .navbar-nav .nav-item .nav-link::before {
+        content: '';
+        width: 0%;
+        height: 2px;
+        position: absolute;
+        bottom: 0;
+        background: #cd8a67;
+        transition: width .3s;
+    }
+    #navbarNav .navbar-nav .nav-item .nav-link:hover::before {
+        width: 100%;
     }
 }
 

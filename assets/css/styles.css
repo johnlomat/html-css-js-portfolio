@@ -80,7 +80,7 @@ nav ul li a {
     display: block;
     width: 2rem;
     height: .133rem;
-    background-color: white;
+    background-color: #FFF;
 }
 .burger > span:nth-child(2) {
     margin: .667rem 0;
@@ -124,7 +124,7 @@ nav ul li a {
 }
 .banner > div > div:nth-child(1) > div:nth-child(1) > div > img {
     border-radius: 1rem;
-    color: white;
+    color: #FFF;
 }
 .banner > div > div > div:nth-child(2) span {
     background-image: url(../images/background/laptop.svg);
@@ -136,7 +136,7 @@ nav ul li a {
 }
 .banner > div > div > div:nth-child(1) > h1 {
     margin: 0;
-    color: white;
+    color: #FFF;
     white-space: nowrap;
     line-height: 1.5;
 }
@@ -144,7 +144,7 @@ nav ul li a {
     -webkit-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     -moz-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
-    background-color: white;
+    background-color: #FFF;
     width: 100%;
     padding: 1.333rem;
     border-radius: 3.333rem;
@@ -187,7 +187,7 @@ nav ul li a {
     padding: 3.333rem 0;
 }
 #development > div > div > div:nth-child(1n) > div {
-    background-color: white;
+    background-color: #FFF;
     padding: 1.333rem 2rem;
     -webkit-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     -moz-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
@@ -346,7 +346,7 @@ nav ul li a {
     letter-spacing: .033rem;
 }
 .overlay button {
-    color: white;
+    color: #FFF;
     font-size: 1em;
     padding: .333rem .667rem;
     border: .133rem solid white;
@@ -361,7 +361,7 @@ nav ul li a {
     border: .133rem solid #4C2DB1;
 }
 #projects .overlay h5 {
-    color: white;
+    color: #FFF;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -415,22 +415,26 @@ nav ul li a {
 .modal-footer a:first-child {
     color: #4C2DB1;
     transition: 0.3s ease-in-out;
+    border: 2px solid #4C2DB1;
 }
 .modal-footer a:first-child:hover {
-    color: #4C2DB1;
-    background: rgba(64,38,160,0.2);
+    color: #FFF;
+    background: #080450;
+    border: 2px solid #080450;
 }
 .modal-footer a:first-child:focus {
     box-shadow: 0 0 .667rem .333rem rgba(64,38,160,0.5);
 }
 .modal-button {
     background: #4C2DB1;
-    color: white;
+    color: #FFF;
     transition: 0.3s ease-in-out;
+    border: 2px solid #4C2DB1;
 }
 .modal-button:hover {
+    color: #FFF;
     background: #080450;
-    color: white;
+    border: 2px solid #080450;
 }
 .modal-button:focus {
     box-shadow: 0 0 .667rem .333rem rgba(64,38,160,0.5);
@@ -469,7 +473,7 @@ nav ul li a {
     -moz-box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     box-shadow: 0 .267rem 2.333rem -.733rem rgba(0,0,0,0.75);
     text-align: center;
-    background-color: white;
+    background-color: #FFF;
     border-radius: 3.333rem;
 }
 #contact > div:nth-child(1) > div > div > p {
@@ -493,7 +497,7 @@ nav ul li a {
     background: #080450;
     padding: .667rem;
     font-size: 1.133rem;
-    color: white;
+    color: #FFF;
     transition: 0.3s ease-in-out;
 }
 #contact-form button:hover {
@@ -511,7 +515,7 @@ nav ul li a {
     margin-right: .333rem;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) {
-    color: white;
+    color: #FFF;
 }
 #contact > div > div:nth-child(2) > div:nth-child(2) p{
     font-family: 'Red Rose',sans-serif;
@@ -533,7 +537,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #FFF;
     padding: 0 .333rem;
     border-radius: 100%;
     width: 2.333rem;

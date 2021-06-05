@@ -415,12 +415,12 @@ nav ul li a {
 .modal-footer a:first-child {
     color: #4C2DB1;
     transition: 0.3s ease-in-out;
-    border: 2px solid #4C2DB1;
+    border: .133rem solid #4C2DB1;
 }
 .modal-footer a:first-child:hover {
     color: #FFF;
     background: #080450;
-    border: 2px solid #080450;
+    border: .133rem solid #080450;
 }
 .modal-footer a:first-child:focus {
     box-shadow: 0 0 .667rem .333rem rgba(64,38,160,0.5);
@@ -429,12 +429,12 @@ nav ul li a {
     background: #4C2DB1;
     color: #FFF;
     transition: 0.3s ease-in-out;
-    border: 2px solid #4C2DB1;
+    border: .133rem solid #4C2DB1;
 }
 .modal-button:hover {
     color: #FFF;
     background: #080450;
-    border: 2px solid #080450;
+    border: .133rem solid #080450;
 }
 .modal-button:focus {
     box-shadow: 0 0 .667rem .333rem rgba(64,38,160,0.5);
@@ -568,7 +568,7 @@ nav ul li a {
     #navbarNav .navbar-nav .nav-item .nav-link::before {
         content: '';
         width: 0%;
-        height: 2px;
+        height: .133rem;
         position: absolute;
         bottom: 0;
         background: #cd8a67;

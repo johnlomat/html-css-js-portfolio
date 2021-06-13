@@ -479,7 +479,7 @@ nav ul li a {
 #contact > div:nth-child(1) > div > div > p {
     margin: 0;
     font-size: 1.333rem;
-    font-weight: bold;
+    font-weight: 700;
 }
 #contact > div > div:nth-child(2) {
     padding: 3.333rem 0;

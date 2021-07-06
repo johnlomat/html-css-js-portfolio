@@ -562,21 +562,7 @@ nav ul li a {
 
 /*  No hover effect on mobile  */
 @media not all and (pointer: coarse) {
-    #navbarNav .navbar-nav .nav-item .nav-link {
-        position: relative;
-    }
-    #navbarNav .navbar-nav .nav-item .nav-link::before {
-        content: '';
-        width: 0%;
-        height: .133rem;
-        position: absolute;
-        bottom: 0;
-        background: #cd8a67;
-        transition: width .3s;
-    }
-    #navbarNav .navbar-nav .nav-item .nav-link:hover::before {
-        width: 100%;
-    }
+    
 }
 
 /*  Responsiveness  */
@@ -1111,5 +1097,24 @@ nav ul li a {
 @media (min-width: 768px) {
     #projects > div > div:nth-child(2) > div:nth-child(n) {
         margin-bottom: 2rem;
+    }
+}
+
+@media (min-width: 981px) {
+    #navbarNav .navbar-nav .nav-item .nav-link {
+        position: relative;
+    }
+    #navbarNav .navbar-nav .nav-item .nav-link::before {
+        display: block;
+        content: '';
+        width: 0%;
+        height: .133rem;
+        position: absolute;
+        bottom: 0;
+        background: #cd8a67;
+        transition: width .3s;
+    }
+    #navbarNav .navbar-nav .nav-item .nav-link:hover::before {
+        width: 100%;
     }
 }

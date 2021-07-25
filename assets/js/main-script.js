@@ -68,40 +68,31 @@ jQuery(document).ready(function($) {
         var button = $(event.relatedTarget)
         var project = button.data('project')
         var description = button.data('description')
-        var link_1 = button.data('link-1')
-        var link_2 = button.data('link-2')
+        var screenshotLink = button.data('modal-content').screenshotLink
+        var demoLink = button.data('modal-content').demoLink
         var type = button.data('type')
         var scopeList = button.data('scope-list')
-        var techStack = [
-            button.data('tech-1'),
-            button.data('tech-2'),
-            button.data('tech-3'),
-            button.data('tech-4'),
-            button.data('tech-5'),
-            button.data('tech-6'),
-        ]
-        var techStackTitle = [
-            button.data('title-1'),
-            button.data('title-2'),
-            button.data('title-3'),
-            button.data('title-4'),
-            button.data('title-5'),
-            button.data('title-6'),
-        ]
+        var techStack = button.data('modal-content').techStack
+        var techStackTitle = button.data('modal-content').techStack
         
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
         modal.find('.modal-type').text(type)
-        modal.find('.modal-footer a:first-child').attr('href',link_1)
-        modal.find('.modal-button').attr('href',link_2)
+        modal.find('.modal-footer a:first-child').attr('href', screenshotLink)
+        modal.find('.modal-button').attr('href', demoLink)
         modal.find('.modal-scope-list').text('')
         modal.find('.modal-scope-list').append(scopeList)
 
+        $('.modal-body .tech-stack-wrapper').text('')
+
         $.each(techStack, function(key, value) {
             key++
+
+            $('.modal-body .tech-stack-wrapper').append('<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2"><span class="tech-stack-' + key + '"></span></div>')
+
             var techStack = $('.tech-stack' + '-' + key)
 
-            techStack.attr('style', value)
+            techStack.attr('style', value.logo)
 
             if (value == '') {
                 techStack.css('height','0')
@@ -148,9 +139,10 @@ jQuery(document).ready(function($) {
 
         $.each(techStackTitle, function(key, value) {
             key++
+
             var techStackTitle = $('.tech-stack' + '-' + key)
 
-            techStackTitle.attr('title', value)
+            techStackTitle.attr('title', value.title)
         })
     })
 

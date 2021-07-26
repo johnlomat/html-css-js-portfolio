@@ -1,40 +1,39 @@
 jQuery(document).ready(function($) {
     $('nav > div > ul > li > a').click(function() {
-        $('#navbarNav').removeClass('show');
-        $('.burger').removeClass('active');
+        $('#navbarNav').removeClass('show')
+        $('.burger').removeClass('active')
     })
     
     $('.burger').click(function() {
-        $(this).toggleClass('active');
+        $(this).toggleClass('active')
     })
 
     //  Check if element is scrolled into view
     function isScrolledIntoView(elem) {
-        var docViewTop = $(window).scrollTop();
-        var docViewBottom = docViewTop + $(window).height();
+        var docViewTop = $(window).scrollTop(),
+            docViewBottom = docViewTop + $(window).height(),
+            elemTop = $(elem).offset().top,
+            elemBottom = elemTop + $(elem).height()
 
-        var elemTop = $(elem).offset().top;
-        var elemBottom = elemTop + $(elem).height();
-
-        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop))
     }
     //  If element is scrolled into view, fade it in
     $(window).scroll(function() {
         $('.animate__animated').each(function() {
             if (isScrolledIntoView('#about') === true) {
-                $('#about').addClass('animate__fadeInUp');
+                $('#about').addClass('animate__fadeInUp')
             }
             if (isScrolledIntoView('#development .animate__animated:nth-child(1)') === true) {
-                $('#development .animate__animated:nth-child(1)').addClass('animate__fadeInUp');
+                $('#development .animate__animated:nth-child(1)').addClass('animate__fadeInUp')
             }
             if (isScrolledIntoView('#development .animate__animated:nth-child(2)') === true) {
-                $('#development .animate__animated:nth-child(2)').addClass('animate__fadeInUp');
+                $('#development .animate__animated:nth-child(2)').addClass('animate__fadeInUp')
             }            
             if (isScrolledIntoView('#contact .animate__animated') === true) {
-                $('#contact .animate__animated').addClass('animate__fadeInUp');
+                $('#contact .animate__animated').addClass('animate__fadeInUp')
             }
-        });
-    });
+        })
+    })
 
     function fillProjectsData() {
         $('.projects').each(function() {}).hover(function() {
@@ -47,12 +46,12 @@ jQuery(document).ready(function($) {
     
         //  Project Details
         $('.projects').each(function() {
-            var projectDetail = $(this)
-            var project = projectDetail.find('.project-title').text()
-            var description = projectDetail.find('.project-text').text()
-            var type = projectDetail.find('.project-type').text()
-            var scopeList = projectDetail.find('.scope-list').html().toString()
-            var button = $('.detail--button')
+            let projectDetail = $(this),
+                project = projectDetail.find('.project-title').text(),
+                description = projectDetail.find('.project-text').text(),
+                type = projectDetail.find('.project-type').text(),
+                scopeList = projectDetail.find('.scope-list').html().toString(),
+                button = $('.detail--button')
     
             projectDetail.find(button).attr('data-project', project)
             projectDetail.find(button).attr('data-description', description)
@@ -64,16 +63,16 @@ jQuery(document).ready(function($) {
     fillProjectsData()
 
     $('#ProjectDetails').on('show.bs.modal', function(event) {
-        var modal = $(this)
-        var button = $(event.relatedTarget)
-        var project = button.data('project')
-        var description = button.data('description')
-        var screenshotLink = button.data('modal-content').screenshotLink
-        var demoLink = button.data('modal-content').demoLink
-        var type = button.data('type')
-        var scopeList = button.data('scope-list')
-        var techStack = button.data('modal-content').techStack
-        var techStackTitle = button.data('modal-content').techStack
+        let modal = $(this),
+            button = $(event.relatedTarget),
+            project = button.data('project'),
+            description = button.data('description'),
+            screenshotLink = button.data('modal-content').screenshotLink,
+            demoLink = button.data('modal-content').demoLink,
+            type = button.data('type'),
+            scopeList = button.data('scope-list'),
+            techStack = button.data('modal-content').techStack,
+            techStackTitle = button.data('modal-content').techStack
         
         modal.find('.modal-title').text(project)
         modal.find('.modal-text').text(description)
@@ -90,7 +89,7 @@ jQuery(document).ready(function($) {
 
             $('.modal-body .tech-stack-wrapper').append('<div class="col-xl-2 col-lg-2 col-md-2 col-sm-2"><span class="tech-stack-' + key + '"></span></div>')
 
-            var techStack = $('.tech-stack' + '-' + key)
+            let techStack = $('.tech-stack' + '-' + key)
 
             techStack.attr('style', value.logo)
 
@@ -140,7 +139,7 @@ jQuery(document).ready(function($) {
         $.each(techStackTitle, function(key, value) {
             key++
 
-            var techStackTitle = $('.tech-stack' + '-' + key)
+            let techStackTitle = $('.tech-stack' + '-' + key)
 
             techStackTitle.attr('title', value.title)
         })
@@ -167,7 +166,7 @@ jQuery(document).ready(function($) {
 
     //  Responsiveness
     $(document).ready(function() {
-        var gallery = $('.gallery')
+        let gallery = $('.gallery')
 
         if ($(window).outerWidth() <= 575) {   
             gallery.removeClass('row')
@@ -213,14 +212,14 @@ jQuery(document).ready(function($) {
     //  AJAX Request
     $('#contact-form').submit(function(e) {
         e.preventDefault()
-        var name = $('#name')
-        var email = $('#email')
-        var subject = $('#subject')
-        var message = $('#message')
-        var url = 'https://usebasin.com/f/d8282983945a.json'
-        var data = $('#contact-form').serialize()
-        var form = $('#contact-form')
-        var button = $('#contact-form button')
+        let name = $('#name'),
+            email = $('#email'),
+            subject = $('#subject'),
+            message = $('#message'),
+            url = 'https://usebasin.com/f/d8282983945a.json',
+            data = $('#contact-form').serialize(),
+            form = $('#contact-form'),
+            button = $('#contact-form button')
 
         button.attr('disabled',true)
         button.text('')

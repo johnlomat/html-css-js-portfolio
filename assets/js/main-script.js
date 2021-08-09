@@ -210,8 +210,6 @@ jQuery(document).ready(function($) {
             '3',
         ];
 
-        console.log ( nextPages[ this.loadCount ] )
-
         return '/projects/page/' + nextPages[ this.loadCount ] + '.html';   
     }
 

@@ -454,6 +454,9 @@ nav ul li a {
     border-top: none;
     padding-top: 0;
 }
+.page-load-status {
+    display: none;
+}
 
 /*  Footer  */
 #contact {

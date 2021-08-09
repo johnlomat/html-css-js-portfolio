@@ -365,9 +365,6 @@ nav ul li a {
     text-transform: uppercase;
     font-weight: 300;
 }
-#projects .detail {
-    display: none;
-}
 #projects .infinite-scroll--button {
     margin-bottom: 2rem;
 }
@@ -453,9 +450,6 @@ nav ul li a {
 .modal-footer {
     border-top: none;
     padding-top: 0;
-}
-.page-load-status {
-    display: none;
 }
 
 /*  Footer  */

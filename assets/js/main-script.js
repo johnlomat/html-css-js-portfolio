@@ -200,17 +200,20 @@ jQuery(document).ready(function($) {
         append: '.portfolio',
         button: '.infinite-scroll--button',
         status: '.page-load-status',
+        scrollThreshold: false,
         loadOnScroll: false,
         history: false,
     })
 
     function loadMoreProjects () {
-        let nextPages = [
+        const nextPages = [
             '2',
             '3',
         ];
 
-        return '/projects/page/' + nextPages[ this.loadCount ] + '.html';   
+        let slug = nextPages[ this.loadCount ];
+
+        if ( slug ) return '/projects/page/' + nextPages[ this.loadCount ] + '.html';   
     }
 
     $('.infinite-scroll--section').on('DOMSubtreeModified', function() {

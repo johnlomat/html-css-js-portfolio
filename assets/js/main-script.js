@@ -199,6 +199,7 @@ jQuery(document).ready(function($) {
         path: loadMoreProjects,
         append: '.portfolio',
         button: '.infinite-scroll--button',
+        status: '.page-load-status',
         loadOnScroll: false,
         history: false,
     })

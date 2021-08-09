@@ -196,13 +196,20 @@ jQuery(document).ready(function($) {
     // Infinite Scroll Initialization
     $('.infinite-scroll--section').infiniteScroll({
         // options
-        path: '.pagination__next',
+        path: loadMoreProjects,
         append: '.portfolio',
-        hideNav: '.pagination',
         button: '.infinite-scroll--button',
         loadOnScroll: false,
         history: false,
     })
+
+    function loadMoreProjects () {
+        let pageNumber = 3;
+
+        for ( var i = 1; i < pageNumber; i++) {
+            return `/projects/page/${ i }.html`;
+        }
+    }
 
     $('.infinite-scroll--section').on('DOMSubtreeModified', function() {
         fillProjectsData()

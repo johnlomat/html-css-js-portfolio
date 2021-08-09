@@ -204,11 +204,12 @@ jQuery(document).ready(function($) {
     })
 
     function loadMoreProjects () {
-        let pageNumber = 3;
+        let nextPages = [
+            '2',
+            '3',
+        ];
 
-        for ( var i = 1; i < pageNumber; i++) {
-            return `/projects/page/${ i }.html`;
-        }
+        return '/projects/page/' + nextPages[ this.loadCount ] + 1 + '.html';
     }
 
     $('.infinite-scroll--section').on('DOMSubtreeModified', function() {

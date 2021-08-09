@@ -209,7 +209,9 @@ jQuery(document).ready(function($) {
             '3',
         ];
 
-        return '/projects/page/' + nextPages[ this.loadCount ] + 1 + '.html';
+        console.log ( nextPages[ this.loadCount ] )
+
+        return '/projects/page/' + nextPages[ this.loadCount ] + '.html';   
     }
 
     $('.infinite-scroll--section').on('DOMSubtreeModified', function() {

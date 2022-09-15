@@ -209,6 +209,7 @@ jQuery(document).ready(function($) {
         const nextPages = [
             '2',
             '3',
+            '4',
         ];
 
         let slug = nextPages[ this.loadCount ];

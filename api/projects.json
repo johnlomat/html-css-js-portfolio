@@ -1,0 +1,504 @@
+[
+  {
+    "title": "Grand Seiko Online Store",
+    "description": "The brand celebrates the Japanese spirituality of time that is deeply inspired by nature and her seasons and brought to life by Takumi, the dedicated seekers of mastery.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Setup payment gateway.</li><li>Develop mockup design pages in Divi page builder.</li><li>Form integration with ninja form.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Grand-Seiko-Online-Store-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Grand-Seiko-Online-Store.jpg",
+      "alt_text": "Grand Seiko Online Store Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1KaKLNy6wLulkLImDLgdrXNfp5b0TA_3w",
+      "demo_link": "https://grandseikoboutiqueapac.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Retrospective Media",
+    "description": "When it comes to design, you'll notice we stick to a minimal style (less is more, right?), but we're always up for a challenge. Our specialties include ad design, email design, decks, landing pages, social media graphics, and web assets, but if you need something that's not on that list, just ask! We've had the pleasure of working with some pretty cool companies, from SAAS startups to e-commerce stores, and even a few Fortune 500s. So, whether you're looking for a designer to refresh your website or to make your marketing materials stand out, we're here to help.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Elementor page builder.</li><li>Mobile optimization</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Retrospective-Media-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Retrospective-Media.jpg",
+      "alt_text": "Retrospective Media Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1aC3Vysez-QcyELZBJVhlvrni-vTvpjmj",
+      "demo_link": "https://retrospectivemedia.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+      ]
+    }
+  },
+  {
+    "title": "Apple Crider",
+    "description": "Apple Crider is an entrepreneur, talent manager, and online creator. He is best known for his YouTube content that provides small businesses and entrepreneurs with tools to grow and scale.",
+    "type": "Personal website",
+    "scope_list_html": "<li>Develop mockup design pages in Elementor page builder.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Apple-Crider-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Apple-Crider.jpg",
+      "alt_text": "Apple Crider Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=13LZOHzYJP8rOOiHq7DBEob5t8F6sO23I",
+      "demo_link": "https://applecrider.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+      ]
+    }
+  },
+  {
+    "title": "The Spa Shop",
+    "description": "At The Spa Shop, we are committed to provide quality spa products, equipment and accessories for your customers to indulge in. Whether you are an individual, company or organisation looking for body scrubs, beauty devices, or even towels, we have it all under one roof.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Setup payment gateway.</li><li>Develop mockup design pages in Divi page builder.</li><li>Form integration with ninja form.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/The-Spa-Shop-Optimized.jpg",
+      "full": "assets/images/project-screenshots/The-Spa-Shop.jpg",
+      "alt_text": "The Spa Shop Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1bmkBfmflCZ7-9DCQZ976LL_qnn_bzHTt",
+      "demo_link": "https://spashopasia.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Crypto Conference LA",
+    "description": "Crypto Conference LA encompasses everything from Crypto, NFT's, Web3, the Metaverse and more! Connect with a multitude of investors that will elevate what you already know about the ever growing crypto ecosystem.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Visual Composer page builder.</li><li>Form integration with SendGrid.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Crypto-Conference-LA-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Crypto-Conference-LA.jpg",
+      "alt_text": "Crypto Conference LA Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/drive/folders/1c4HThk7tn1R15qi4_DWdqsFLETj6S9Uv?usp=sharing",
+      "demo_link": "https://www.cryptoconference.la/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Visual-Composer-logo.svg)", "title": "Visual Composer" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/javascript.svg)", "title": "JavaScript" }
+      ]
+    }
+  },
+  {
+    "title": "Creators Agency",
+    "description": "Creators Agency is a talent management agency for digital creators. We help influencers scale their businesses and connect with relevant brands. We help companies reach their target audiences and improve brand awareness.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Elementor page builder.</li><li>Mobile optimization.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Creators-Agency-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Creators-Agency.jpg",
+      "alt_text": "Creators Agency Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=154DNGB4w3CUFVLRYkG0ASJcRmasWxaUl",
+      "demo_link": "https://creatorsagency.co/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+      ]
+    }
+  },
+  {
+    "title": "GoFresh",
+    "description": "Get fresh food without leaving your house. All fresh food is handpicked quality groceries that we all love.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Develop mockup design pages in Divi page builder.</li><li>Setup payment gateway.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/GoFresh-Optimized.jpg",
+      "full": "assets/images/project-screenshots/GoFresh.jpg",
+      "alt_text": "GoFresh Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1EYCCvA39Gj9RlPmIha-krBifOrAXFxMA",
+      "demo_link": "https://gofresh.my/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Hung Cheong Jewellery & Watch",
+    "description": "Buy some luxury watch like Rolex and Tudor. The monumental partnership between Hung Cheong Jewellery & Watch and Rolex Malaysia began in 1946, when the first Rolex concept store opened in Electra House. The store offered customers iconic Rolex timepieces epitomizing timeless elegance and prestige.",
+    "type": "Catalogue website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Develop mockup design pages in Divi page builder.</li><li>Use the ACF plugin on the category and product page template.</li><li>Form integration with ninja form.</li><li>Setup WPML translation.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Hung-Cheong-Jewellery-Watch-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Hung-Cheong-Jewellery-Watch.jpg",
+      "alt_text": "Hung Cheong Jewellery & Watch Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1Oko1yQWGxd07IGQFDgYUrGpUJw-fe7G6",
+      "demo_link": "https://hungcheong.com.my/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Kirk Paige Collections",
+    "description": "Shop stylish tees, hats, and hoodies today. An inspirational and motivational clothing line that bring happiness through fashion apparel. Shop limited edition tees, hats, hoodies and more today. All products are unisex.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup Storefront theme and WooCommerce platform.</li><li>Develop mockup design pages in Elementor page builder.</li><li>Customized WooCommerce pages with custom CSS.</li><li>Custom hooks for WooCommerce.</li><li>Setup payment gateway.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Kirk-Paige-Collections-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Kirk-Paige-Collections.jpg",
+      "alt_text": "Kirk Paige Collections Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1-hcn2RsbMvUAwkrq4ZWiOHPlx7JP1vLs",
+      "demo_link": "https://kirkpaigecollections.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+      ]
+    }
+  },
+  {
+    "title": "Pumpcan",
+    "description": "Canada's first bakery devoted solely to the handcrafted production of innovative pumpkin artisanal goods using Canadian or local ingredients where possible.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Develop mockup design pages in Divi page builder.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Pumpcan-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Pumpcan.jpg",
+      "alt_text": "Pumpcan Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1ra4ZEfZbxwY9fXyZgcny875BpzBXp3tj",
+      "demo_link": "https://pumpcan.ca/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Astro NJOI",
+    "description": "Over 100 channels including award-winning movies, endless local and international dramas and an unbeatable line-up of world-class sports on demand. Top this with a high-speed broadband service you can rely on.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Divi page builder.</li><li>Smart Slider banner.</li><li>Form integration with ninja form.</li><li>Elements animation.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Astro-NJOI-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Astro-NJOI.jpg",
+      "alt_text": "Astro NJOI Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1XaFlItz1eekY47nlKLdqIBXy2HNedZSx",
+      "demo_link": "https://register-astro-online.com/register-njoi/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Watatime",
+    "description": "Watatime is uniquely positioned as Malaysia's leading authorized retailer of luxury watches from the world’s most respected and sought-after brands. The company offers a fully bespoke service to luxury watch enthusiasts and collectors.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Develop mockup design pages in Divi page builder.</li><li>Use the ACF plugin on the category and product page template.</li><li>Form integration with ninja form.</li><li>Setup payment gateway.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Watatime-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Watatime.jpg",
+      "alt_text": "Watatime Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1UzCAyzNVtOtrZSQXnKbRcP1BNOWdwGlP",
+      "demo_link": "https://watatime.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Astro Broadband",
+    "description": "Over 100 channels including award-winning movies, endless local and international dramas and an unbeatable line-up of world-class sports on demand. Top this with a high-speed broadband service you can rely on.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Divi page builder.</li><li>Smart Slider banner.</li><li>Form integration with ninja form.</li><li>Elements animation.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Astro-Broadband-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Astro-Broadband.jpg",
+      "alt_text": "Astro Broadband Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1OzXuu5XipXn39lI9YVImgkPuhfi4DS_k",
+      "demo_link": "https://register-astro-online.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "MASCO Co-working Space",
+    "description": "An exciting, vibrant and creative working space, with great value memberships to help your business grow and thrive. Whether you need a workspace, office, meeting room, function room, event hall or photo studio, we have you covered.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Divi page builder.</li><li>Smart Slider to showcase the halls and rooms.</li><li>Form integration with ninja form.</li><li>Elements animation.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/MASCO-Optimized.jpg",
+      "full": "assets/images/project-screenshots/MASCO.jpg",
+      "alt_text": "MASCO Co-working Space Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1Zx8-I1lHar76DFqIUN8rJDtcFoZIwVn7",
+      "demo_link": "https://masco.my/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Woo Hing Brothers",
+    "description": "Dive into the world of Rolex at Woo Hing Brothers Penang, where exquisite watchmaking meets Old World charm at our iconic Campbell Street boutique. At Woo Hing Brothers, we believe that nothing beats experiencing first-hand the meticulous details, the comfort and simply the feel of a Rolex.",
+    "type": "Catalogue website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Develop mockup design pages in Divi page builder.</li><li>Use the ACF plugin on the category and product page template.</li><li>Form integration with ninja form.</li><li>Setup WPML translation.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Woo-Hing-Brothers-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Woo-Hing-Brothers.jpg",
+      "alt_text": "Woo Hing Brothers Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1_r5PZjKB_ZCMf7thN1nYNy4vyHSpTxca",
+      "demo_link": "https://woohingwatches.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Active Swim",
+    "description": "Effective Swimming Classes For Beginners In Malaysia. Private and Group swimming classes in Penang island and Kuala Lumpur (KL) & Petaling Jaya (PJ) area.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Divi page builder.</li><li>Setup subscription payment gateway.</li><li>Form integration with ninja form.</li><li>Elements animation.</li><li>Optimize page speed.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Active-Swim-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Active-Swim.jpg",
+      "alt_text": "Active Swim Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1mwNSUC1lQQyxDL5CgtK3Do6MzCIYuS1d",
+      "demo_link": "https://www.swimmingschool.com.my/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Vincent Watch",
+    "description": "Vincent Watch is proud of be part of the worldwide network of Official Tudor Retailers, appointed to retail and maintain Tudor watches. With the necessary skills, technical know-how and special, proprietary equipment, we guarantee the serviceability and authenticity of each and every component of your Tudor timepiece. Browse the extensive and exciting Tudor collection, or contact us to book an appointment with our dedicated staff, who can help you make the choice that will last a lifetime.",
+    "type": "Catalogue website",
+    "scope_list_html": "<li>Setup WooCommerce platform.</li><li>Develop mockup design pages in Divi page builder.</li><li>Use the ACF plugin on the category and product page template.</li><li>Form integration with ninja form.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Vincent-Watch-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Vincent-Watch.jpg",
+      "alt_text": "Vincent Watch Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1EEm434QPWfSxSUet2-qtE1voZBEn_2aW",
+      "demo_link": "https://tudor.vincentwatch.com.sg/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Talent Trust",
+    "description": "Insurance for Missionaries, and much more. Extra care & support for your physical, mental & financial wellbeing. Help your Ministry to Thrive.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Divi page builder.</li><li>Setup payment gateway.</li><li>Form integration with ninja form.</li><li>Elements animation.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Talent-Trust-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Talent-Trust.jpg",
+      "alt_text": "Talent Trust Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1qKepYxivBCTv-Pq56TarZnU5kgn6Ge-R",
+      "demo_link": "https://www.talent-trust.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Creative Campus",
+    "description": "A branding and graphic design service sharing ideas with startups and big companies to transform ideas and values into quality communication graphics and brand assets.",
+    "type": "Business website",
+    "scope_list_html": "<li>Develop mockup design pages in Divi page builder.</li><li>Setup subscription payment gateway.</li><li>Form integration with ninja form.</li><li>Elements animation.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Creative-Campus-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Creative-Campus.jpg",
+      "alt_text": "Creative Campus Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1inIeGD4ky0JQj_RGk1v581Nf0yuO3Y9G",
+      "demo_link": "https://www.creativecampus.com.my/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+      ]
+    }
+  },
+  {
+    "title": "Pamilya Store",
+    "description": "A local online grocery store where customers can order products online and ship them to their homes.",
+    "type": "eCommerce website",
+    "scope_list_html": "<li>Setup Storefront theme and WooCommerce platform.</li><li>Develop homepage using the Elementor page builder.</li><li>Customized WooCommerce pages with custom CSS.</li><li>Customized checkout fields.</li><li>Setup payment gateway.</li><li>Optimize page speed with LiteSpeed Cache.</li><li>Responsive design.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Pamilya-Store-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Pamilya-Store.jpg",
+      "alt_text": "Pamilya Store Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=13iWN3sZxYbE3-OlRxLJfOWtTZyfVnXiu",
+      "demo_link": "https://pamilyastore.ph/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
+        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/litespeed.svg)", "title": "LiteSpeed" }
+      ]
+    }
+  },
+  {
+    "title": "LAPEI Travel & Tour Services",
+    "description": "A van rental vacation services landing page.",
+    "type": "Brochure website",
+    "scope_list_html": "<li>Customized theme in WordPress.</li><li>Elementor page builder.</li><li>AJAX form.</li><li>Responsive design.</li><li>Deployed in 000webhost free hosting plan.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/LAPEI-Travel-Tours-Services-Optimized.jpg",
+      "full": "assets/images/project-screenshots/LAPEI-Travel-Tour-Services.jpg",
+      "alt_text": "LAPEI - Travel & Tour Services Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1U2QpAL9NekAPBnMu9utiGOeMiqPokInH",
+      "demo_link": "https://lapeitravel.000webhostapp.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
+        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/000webhost_logo.svg)", "title": "000webhost" }
+      ]
+    }
+  },
+  {
+    "title": "Artesyn Embedded Power",
+    "description": "Develop a PHP web-based system that will record the detection of model product defects in AOI Machine.",
+    "type": "Web Application",
+    "scope_list_html": "<li>Login system for individual user.</li><li>Add a model product for subjected detection data with timestamp.</li><li>Upload individual photos for model product.</li><li>User can delete model product including their defect data.</li><li>Using AJAX to create a monthly defect data.</li><li>Member information view list.</li><li>Responsive design.</li><li>Deployed in Heroku cloud-platform free hosting plan.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Artesyn-Model-View-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Artesyn-Model-View.jpg",
+      "alt_text": "Artesyn Embedded Power Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=14sCGv1MsJv5SiYlgWWvB8l0OzNrKtBKV",
+      "demo_link": "http://aoimonthlydefects.herokuapp.com/",
+      "techStack": [
+        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
+        { "logo": "background-image:url(assets/logo/google-mdl-logo-1.svg)", "title": "Google Material Design Lite" },
+        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
+        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
+        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
+        { "logo": "background-image:url(assets/logo/heroku.svg)", "title": "Heroku" }
+      ]
+    }
+  }
+]

@@ -82,10 +82,22 @@ jQuery(document).ready(function ($) {
     modal.find(".modal-title").text(project);
     modal.find(".modal-text").text(description);
     modal.find(".modal-type").text(type);
-    modal.find(".modal-footer a:first-child").attr("href", screenshotLink);
-    modal.find(".modal-button").attr("href", demoLink);
     modal.find(".modal-scope-list").text("");
     modal.find(".modal-scope-list").append(scopeList);
+
+    if (screenshotLink) {
+      modal.find(".modal-footer a:first-child").attr("href", screenshotLink);
+      modal.find(".modal-footer a:first-child").show();
+    } else {
+      modal.find(".modal-footer a:first-child").hide();
+    }
+
+    if (demoLink) {
+      modal.find(".modal-button").attr("href", demoLink);
+      modal.find(".modal-button").show();
+    } else {
+      modal.find(".modal-button").hide();
+    }
 
     $(".modal-body .tech-stack-wrapper").text("");
 

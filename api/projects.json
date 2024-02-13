@@ -1,5 +1,153 @@
 [
   {
+    "title": "Wawasan Open University",
+    "description": "Wawasan Open University (WOU) approached us with the goal of revamping their existing website to enhance user experience, streamline content management, and improve overall performance. As a premier institution of higher learning in Malaysia, WOU required a modern, user-friendly website that reflects its academic excellence and commitment to accessible education.",
+    "type": "School website",
+    "scope_list_html": "<li><strong>Divi Page Builder Integration</strong>: Leveraged the powerful Divi page builder to create visually stunning and customizable pages effortlessly, empowering content managers to design and edit content with ease.</li><li><strong>Ninja Forms Integration</strong>: Seamlessly integrated Ninja Forms to facilitate user interaction and lead generation, allowing visitors to submit inquiries, applications, and feedback directly through intuitive andcustomizable forms.</li><li><strong>Custom Post Types and Taxonomies</strong>: Utilizing Divi Engine, we created custom post types such as Courses, Programs, and Events, along with corresponding taxonomies for efficient content organization.</li><li><strong>Filtered Posts with Divi Engine</strong>: Implemented Divi Engine's functionality to create filtered post grids, enabling users to easily sort and find relevant content based on categories, tags, or customtaxonomies.</li><li><strong>Dynamic Page Creation with Divi Engine and ACF</strong>: Utilized the dynamic page creation feature of Divi Engine in conjunction with Advanced Custom Fields (ACF) to generate dynamic pages programmatically,automating the creation and management of content-rich pages such as faculty profiles, course listings, and event schedules.</li><li><strong>Advanced Custom Fields Integration</strong>: Integrated Advanced Custom Fields to empower content managers with the ability to add custom meta-data fields to various content types, enabling granular control overcontent presentation.</li><li><strong>Responsive Design</strong>: Ensured the website is fully responsive across all devices, providing an optimal viewing experience for users on desktops, tablets, and smartphones.</li><li><strong>Improved Performance</strong>: Implemented optimization techniques such as image compression, lazy loading, and caching to enhance website speed and performance.</li><li><strong>Enhanced User Experience</strong>: Redesigned the website’s navigation structure and user interface to improve accessibility and streamline user journeys.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Wawasan-Open-University-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Wawasan-Open-University.jpg",
+      "alt_text": "Wawasan Open University Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1D2fjPgL4BgG08X1yE1rpXHAgdPhBvEWA",
+      "demo_link": "https://www.wou.edu.my/",
+      "techStack": [
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Experior",
+    "description": "The Experior Semiconductor Test Engineering Portfolio Website is a collaborative effort between Experior and myself to develop a visually appealing and informative platform showcasing Experior's expertise in semiconductor testing. Utilizing WordPress as the Content Management System (CMS) and the Divi theme builder, this project aims to highlight Experior's capabilities and achievements in the semiconductor industry.",
+    "type": "Business website",
+    "scope_list_html": "<li><strong>Custom Divi Layouts</strong>: Leveraging the flexibility of Divi's drag-and-drop builder, I designed custom layouts tailored to Menicon's branding guidelines, ensuring a cohesive and visually appealing website.</li><li><strong>Responsive Design</strong>: With a focus on mobile optimization, I implemented responsive design principles to ensure seamless functionality and visual consistency across all devices, optimizing user experience and accessibility.</li><li><strong>Dynamic Job Listings with CPT UI</strong>: Using CPT UI, I created custom post types for job listings, allowing Menicon's HR team to effortlessly manage and update job openings directly from the WordPress dashboard. This dynamic functionality enhances the website's scalability and maintenance efficiency.</li><li><strong>Interactive Application Forms</strong>: Integrating Ninja form builder plugin, I developed user-friendly application forms with advanced customization options, streamlining the application process and capturing essential candidate information accurately.</li><li><strong>Visual Content Optimization</strong>: Employing image optimization techniques and lazy loading functionality, I ensured fast loading times and minimized page load impact, enhancing overall performance and user engagement.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Experior-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Experior.jpg",
+      "alt_text": "Experior Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "",
+      "demo_link": "https://experior.my/",
+      "techStack": [
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Menicon",
+    "description": "The Menicon Job Listing Website, crafted with WordPress, the Divi theme builder, and Custom Post Type UI (CPT UI), represents a collaborative endeavor between myself and Menicon Co., Ltd. to create an efficient and visually engaging platform for showcasing career opportunities and simplifying the recruitment process.",
+    "type": "Job listing website",
+    "scope_list_html": "<li><strong>Custom Divi Layouts</strong>: Leveraging the flexibility of Divi's drag-and-drop builder, I designed custom layouts tailored to Menicon's branding guidelines, ensuring a cohesive and visually appealing website.</li><li><strong>Responsive Design</strong>: With a focus on mobile optimization, I implemented responsive design principles to ensure seamless functionality and visual consistency across all devices, optimizing user experience and accessibility.</li><li><strong>Dynamic Job Listings with CPT UI</strong>: Using CPT UI, I created custom post types for job listings, allowing Menicon's HR team to effortlessly manage and update job openings directly from the WordPress dashboard. This dynamic functionality enhances the website's scalability and maintenance efficiency.</li><li><strong>Interactive Application Forms</strong>: Integrating Ninja form builder plugin, I developed user-friendly application forms with advanced customization options, streamlining the application process and capturing essential candidate information accurately.</li><li><strong>Visual Content Optimization</strong>: Employing image optimization techniques and lazy loading functionality, I ensured fast loading times and minimized page load impact, enhancing overall performance and user engagement.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/Menicon-Optimized.jpg",
+      "full": "assets/images/project-screenshots/Menicon.jpg",
+      "alt_text": "Menicon Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1ZcDZ0Qn_abMQ-gKdDBPrwEdvUWsXosvq",
+      "demo_link": "https://www.menicon.my/",
+      "techStack": [
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
+      ]
+    }
+  },
+  {
+    "title": "GS9 Club Indonesia",
+    "description": "Grand Seiko has launched the Indonesia Chapter of GS9 Club! Originally exclusive to Japan, the GS9 Club is a membership organization for Grand Seiko owners who have purchased from a Indonesia-based Boutique, Salon, or Mastershop as of March 24th 2017. Special events, gifts, and articles will be accessible to qualified members.",
+    "type": "Blog website",
+    "scope_list_html": "<li><strong>Custom Divi Layouts</strong>: Leveraging the flexibility of Divi's drag-and-drop builder, I designed custom layouts tailored to Grand Seiko Indonesia's branding guidelines, ensuring a cohesive and visually appealing website.</li><li><strong>Responsive Design</strong>: With a focus on mobile optimization, I implemented responsive design principles to ensure seamless functionality and visual consistency across all devices, optimizing user experience and accessibility.</li><li><strong>Dynamic Blog Posts</strong>: Utilizing WordPress's built-in post types, I created dynamic blog posts that allow Grand Seiko Indonesia's team to effortlessly publish and manage content directly from the WordPress dashboard. This ensures flexibility and ease of content management without the need for additional plugins.</li><li><strong>Visual Content Optimization</strong>: Employing image optimization techniques and lazy loading functionality, I ensured fast loading times and minimized page load impact, optimizing overall performance and enhancing user engagement.</li>",
+    "image": {
+      "optimized": "assets/blurry-load/images/GS9-club-indonesia-Optimized.jpg",
+      "full": "assets/images/project-screenshots/GS9-club-indonesia.jpg",
+      "alt_text": "GS9 Club Indonesia Portfolio Thumbnail"
+    },
+    "modal_content": {
+      "screenshot_link": "https://drive.google.com/folderview?id=1JvoZlz1YHOwoBICJUfDkNTAuZXJ1OYec",
+      "demo_link": "https://www.grandseikogs9club.id/",
+      "techStack": [
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
+      ]
+    }
+  },
+  {
     "title": "Grand Seiko Online Store",
     "description": "The brand celebrates the Japanese spirituality of time that is deeply inspired by nature and her seasons and brought to life by Takumi, the dedicated seekers of mastery.",
     "type": "eCommerce website",
@@ -13,12 +161,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1KaKLNy6wLulkLImDLgdrXNfp5b0TA_3w",
       "demo_link": "https://grandseikoboutiqueapac.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -36,11 +202,26 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1aC3Vysez-QcyELZBJVhlvrni-vTvpjmj",
       "demo_link": "https://retrospectivemedia.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/elementor.svg)",
+          "title": "Elementor"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        }
       ]
     }
   },
@@ -58,11 +239,26 @@
       "screenshot_link": "https://drive.google.com/folderview?id=13LZOHzYJP8rOOiHq7DBEob5t8F6sO23I",
       "demo_link": "https://applecrider.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/elementor.svg)",
+          "title": "Elementor"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        }
       ]
     }
   },
@@ -80,12 +276,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1bmkBfmflCZ7-9DCQZ976LL_qnn_bzHTt",
       "demo_link": "https://spashopasia.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -101,14 +315,32 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/drive/folders/1c4HThk7tn1R15qi4_DWdqsFLETj6S9Uv?usp=sharing",
-      "demo_link": "https://www.cryptoconference.la/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Visual-Composer-logo.svg)", "title": "Visual Composer" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/javascript.svg)", "title": "JavaScript" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Visual-Composer-logo.svg)",
+          "title": "Visual Composer"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/javascript.svg)",
+          "title": "JavaScript"
+        }
       ]
     }
   },
@@ -126,11 +358,26 @@
       "screenshot_link": "https://drive.google.com/folderview?id=154DNGB4w3CUFVLRYkG0ASJcRmasWxaUl",
       "demo_link": "https://creatorsagency.co/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/elementor.svg)",
+          "title": "Elementor"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        }
       ]
     }
   },
@@ -148,12 +395,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1EYCCvA39Gj9RlPmIha-krBifOrAXFxMA",
       "demo_link": "https://gofresh.my/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -171,12 +436,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1Oko1yQWGxd07IGQFDgYUrGpUJw-fe7G6",
       "demo_link": "https://hungcheong.com.my/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -192,14 +475,32 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/folderview?id=1-hcn2RsbMvUAwkrq4ZWiOHPlx7JP1vLs",
-      "demo_link": "https://kirkpaigecollections.com/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/elementor.svg)",
+          "title": "Elementor"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        }
       ]
     }
   },
@@ -217,12 +518,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1ra4ZEfZbxwY9fXyZgcny875BpzBXp3tj",
       "demo_link": "https://pumpcan.ca/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -238,14 +557,32 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/folderview?id=1XaFlItz1eekY47nlKLdqIBXy2HNedZSx",
-      "demo_link": "https://register-astro-online.com/register-njoi/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -263,12 +600,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1UzCAyzNVtOtrZSQXnKbRcP1BNOWdwGlP",
       "demo_link": "https://watatime.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -284,14 +639,32 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/folderview?id=1OzXuu5XipXn39lI9YVImgkPuhfi4DS_k",
-      "demo_link": "https://register-astro-online.com/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -309,12 +682,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1Zx8-I1lHar76DFqIUN8rJDtcFoZIwVn7",
       "demo_link": "https://masco.my/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -332,12 +723,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1_r5PZjKB_ZCMf7thN1nYNy4vyHSpTxca",
       "demo_link": "https://woohingwatches.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -355,12 +764,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1mwNSUC1lQQyxDL5CgtK3Do6MzCIYuS1d",
       "demo_link": "https://www.swimmingschool.com.my/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -378,12 +805,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1EEm434QPWfSxSUet2-qtE1voZBEn_2aW",
       "demo_link": "https://tudor.vincentwatch.com.sg/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -401,12 +846,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1qKepYxivBCTv-Pq56TarZnU5kgn6Ge-R",
       "demo_link": "https://www.talent-trust.com/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -424,12 +887,30 @@
       "screenshot_link": "https://drive.google.com/folderview?id=1inIeGD4ky0JQj_RGk1v581Nf0yuO3Y9G",
       "demo_link": "https://www.creativecampus.com.my/",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/Divi-logo.svg)", "title": "Divi" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/Divi-logo.svg)",
+          "title": "Divi"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        }
       ]
     }
   },
@@ -445,14 +926,32 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/folderview?id=13iWN3sZxYbE3-OlRxLJfOWtTZyfVnXiu",
-      "demo_link": "https://pamilyastore.ph/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)", "title": "WooCommerce" },
-        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/litespeed.svg)", "title": "LiteSpeed" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/woocommerce-seeklogo.com.svg)",
+          "title": "WooCommerce"
+        },
+        {
+          "logo": "background-image:url(assets/logo/elementor.svg)",
+          "title": "Elementor"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/litespeed.svg)",
+          "title": "LiteSpeed"
+        }
       ]
     }
   },
@@ -468,13 +967,28 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/folderview?id=1U2QpAL9NekAPBnMu9utiGOeMiqPokInH",
-      "demo_link": "https://lapeitravel.000webhostapp.com/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/wordpress.svg)", "title": "WordPress" },
-        { "logo": "background-image:url(assets/logo/elementor.svg)", "title": "Elementor" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/000webhost_logo.svg)", "title": "000webhost" }
+        {
+          "logo": "background-image:url(assets/logo/wordpress.svg)",
+          "title": "WordPress"
+        },
+        {
+          "logo": "background-image:url(assets/logo/elementor.svg)",
+          "title": "Elementor"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/000webhost_logo.svg)",
+          "title": "000webhost"
+        }
       ]
     }
   },
@@ -490,14 +1004,32 @@
     },
     "modal_content": {
       "screenshot_link": "https://drive.google.com/folderview?id=14sCGv1MsJv5SiYlgWWvB8l0OzNrKtBKV",
-      "demo_link": "http://aoimonthlydefects.herokuapp.com/",
+      "demo_link": "",
       "techStack": [
-        { "logo": "background-image:url(assets/logo/css3.svg)", "title": "CSS3" },
-        { "logo": "background-image:url(assets/logo/google-mdl-logo-1.svg)", "title": "Google Material Design Lite" },
-        { "logo": "background-image:url(assets/logo/jquery.svg)", "title": "jQuery" },
-        { "logo": "background-image:url(assets/logo/php.svg)", "title": "PHP" },
-        { "logo": "background-image:url(assets/logo/MySQL.svg)", "title": "MySQL" },
-        { "logo": "background-image:url(assets/logo/heroku.svg)", "title": "Heroku" }
+        {
+          "logo": "background-image:url(assets/logo/css3.svg)",
+          "title": "CSS3"
+        },
+        {
+          "logo": "background-image:url(assets/logo/google-mdl-logo-1.svg)",
+          "title": "Google Material Design Lite"
+        },
+        {
+          "logo": "background-image:url(assets/logo/jquery.svg)",
+          "title": "jQuery"
+        },
+        {
+          "logo": "background-image:url(assets/logo/php.svg)",
+          "title": "PHP"
+        },
+        {
+          "logo": "background-image:url(assets/logo/MySQL.svg)",
+          "title": "MySQL"
+        },
+        {
+          "logo": "background-image:url(assets/logo/heroku.svg)",
+          "title": "Heroku"
+        }
       ]
     }
   }

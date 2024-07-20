@@ -20,4 +20,4 @@ To clone a repository with submodules, follow these steps:
 3. Use the following command to clone the repository along with its submodules:
    
    ```bash
-   git clone --recurse-submodules https://github.com/johnlomat/johnlomat.github.io.git
+   git clone --recurse-submodules https://github.com/johnlomat/html-css-js-portfolio.git
